@@ -22,6 +22,32 @@ sudo apt upgrade
 
 https://tttap.tistory.com/130
 
+# apt search & install & remove
+
+```
+sudo apt search elastic
+
+sudo apt install elastic
+
+
+```
+
+https://codingdog.tistory.com/entry/%EC%9A%B0%EB%B6%84%ED%88%AC-apt-search-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%ED%8C%A8%ED%82%A4%EC%A7%80%EB%A5%BC-%EC%B0%BE%EC%95%84%EB%B4%85%EC%8B%9C%EB%8B%A4
+
+# remove & purge 차이
+
+```
+$ sudo apt remove <패키지명>
+
+패키지를 삭제한다. 하지만 설정파일은 남겨둔다.
+
+$ sudo apt purge <패키지명>
+
+패키지를 삭제한다. 설정파일도 함께 삭제한다.
+
+```
+https://gintrie.tistory.com/23
+
 # Command Line Crash Course | freeCodeCamp.org
 
 - https://www.youtube.com/watch?v=yz7nYlnXLfE 
