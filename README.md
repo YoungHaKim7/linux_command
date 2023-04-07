@@ -166,3 +166,37 @@ test_main % mv ../test/src/test01 src test_main % cp ../test/src/main.rs src tes
 
 cp 폴더 강제로 만들기 좋네 ㅎㅎ❤️ -
 https://economiceco.tistory.com/m/15199
+
+
+# clear화면 깨끗이 하기
+
+```
+cd g
+디렉토리명 첫 글짜만 누르고 탭 누르면 폴더명 자동 완성됨 대박 편함
+ls
+Dos의 dir
+
+ls -l
+
+ls ls -f
+ls -l ls -a ls -R ls ..
+ls 
+```
+
+명령어 한글로 자세히 보기
+http://www.ktword.co.kr/test/view/view.php?m_temp1=6054
+
+
+# sudo
+
+root권한으로 파일 설치 할 때 씀
+윈도우의 Admin계정 권한으로 이해!!!
+
+
+
+# 리눅스 용량확인
+```
+df -h
+```
+
+https://velog.io/@devmin/%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%8B%A4%EB%A5%B8-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%A1%9C-%EA%B2%BD%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0
