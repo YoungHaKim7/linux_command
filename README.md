@@ -1,3 +1,27 @@
+# sudo apt 많이 쓰는거 정리
+
+- 설치 가능한 패키지 리스트를 최신화
+```
+sudo apt update
+```
+
+- 현재 리스트 불러오기
+```
+sudo apt list
+```
+
+- 현재 설치된 리스트 중에서 업그레이드가 필요한 목록
+```
+sudo apt list --upgradable
+```
+
+- 설치가 필요한 리스트를 확인했다면 upgrade명령어를 통해 실제 업데이트를 가능
+```
+sudo apt upgrade
+```
+
+https://tttap.tistory.com/130
+
 # Command Line Crash Course | freeCodeCamp.org
 
 - https://www.youtube.com/watch?v=yz7nYlnXLfE 
