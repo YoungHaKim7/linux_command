@@ -1,3 +1,7 @@
+# 윈도우 관련 & 리눅스 겹치는 내용 shell
+
+https://github.com/YoungHaKim7/Shell_Script
+
 # sudo apt 많이 쓰는거 정리
 
 - 설치 가능한 패키지 리스트를 최신화
@@ -66,7 +70,7 @@ https://ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
 
 
 
-#  WondowsOS 실행 창에서 (단축키 win+R)
+#  WindowsOS 실행 창에서 (단축키 win+R)
 
 ```
 //윈도우 터미널
