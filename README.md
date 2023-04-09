@@ -1,3 +1,9 @@
+# Linux Version 체크
+
+```
+lsb_release -a
+```
+
 # 윈도우 관련 & 리눅스 겹치는 내용 shell
 
 https://github.com/YoungHaKim7/Shell_Script
