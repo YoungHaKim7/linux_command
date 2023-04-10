@@ -4,6 +4,8 @@ https://lldb.llvm.org/
 
 # Getting the Source Code and Building LLVM
 
+- https://clang.llvm.org/get_started.html
+
 Check out LLVM (including subprojects like Clang):
 
 https://llvm.org/docs/GettingStarted.html#stand-alone-builds
