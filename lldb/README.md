@@ -93,3 +93,11 @@ sudo ./llvm.sh all
 ```
 
 - https://apt.llvm.org/building-pkgs.php
+
+# llvm command tutorial
+
+https://lldb.llvm.org/use/tutorial.html
+
+# codelldb
+
+https://github.com/vadimcn/codelldb/blob/master/MANUAL.md
