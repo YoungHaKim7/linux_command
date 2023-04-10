@@ -36,7 +36,7 @@ https://tttap.tistory.com/130
   libfwupdplugin1 libxmlb1) 불필요한게 있다고 체크된거 자동으로 삭제하기
 
 ```
-'sudo apt autoremove'
+sudo apt autoremove
 ```
 
 # apt search & install & remove
