@@ -279,6 +279,12 @@ Last updated Wednesday, Jan 8, 2020 Linux and Unix mv command tutorial with exam
 
 shapeshed.com
 
+# 터미널에서 모든 프로세스 kill
+
+- 우선 터미널을 열고 모든 프로세스를 kill 해줍니다.
+
+$ sudo killall apt apt-get
+
 # 관련 eBook책 유료$
 
 eBook)리눅스 입문자를 위한 명령어 사전 : 우분투, 데비안, CentOS, 페도라 대응 [ PDF ] -
