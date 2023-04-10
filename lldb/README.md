@@ -28,3 +28,5 @@ sudo ./llvm.sh <version number> all
 # or
 sudo ./llvm.sh all
 ```
+
+- https://apt.llvm.org/building-pkgs.php
