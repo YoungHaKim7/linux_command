@@ -1,5 +1,9 @@
 # LLDB macOS install
 
+- 그마나 최신
+
+  - https://stackoverflow.com/questions/42730345/how-to-install-llvm-for-mac
+
 https://embeddedartistry.com/blog/2017/02/24/installing-llvm-clang-on-osx/
 
 # LLDB Homepage
