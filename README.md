@@ -283,7 +283,13 @@ shapeshed.com
 
 - 우선 터미널을 열고 모든 프로세스를 kill 해줍니다.
 
+```
 $ sudo killall apt apt-get
+```
+
+# 외국 사람의 리눅스 명령어 정리
+
+https://github.com/ethanflower1903/linux-command
 
 # 관련 eBook책 유료$
 
