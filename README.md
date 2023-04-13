@@ -1,4 +1,4 @@
-# Linux Version 체크
+# Linux Version 체크<a href="https://www.linux.org/pages/download/"><img align="left" alt="linux" width="26px" src="https://user-images.githubusercontent.com/67513038/210177859-6623064c-7344-46ce-a0d3-b6dcf21410e2.png"></a>
 
 ```
 lsb_release -a
@@ -287,7 +287,7 @@ shapeshed.com
 $ sudo killall apt apt-get
 ```
 
-# 외국 사람의 리눅스 명령어 정리
+# 외국 사람의 리눅스 명령어 정리<a href="https://www.linux.org/pages/download/"><img align="left" alt="linux" width="26px" src="https://user-images.githubusercontent.com/67513038/210177859-6623064c-7344-46ce-a0d3-b6dcf21410e2.png"></a>
 
 https://github.com/ethanflower1903/linux-command
 
