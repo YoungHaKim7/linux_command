@@ -1,3 +1,7 @@
+# 다른 사람의 리눅스Command 정리 자료
+
+- [ㅅㄷㄴㅅ](test)
+
 # Linux Version 체크<a href="https://www.linux.org/pages/download/"><img align="left" alt="linux" width="26px" src="https://user-images.githubusercontent.com/67513038/210177859-6623064c-7344-46ce-a0d3-b6dcf21410e2.png"></a>
 
 ```
