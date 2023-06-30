@@ -1,3 +1,14 @@
+# ip 확인
+
+```bash
+// To run the alternative to the ifconfig utility, type in this command:
+
+ip a
+```
+https://www.makeuseof.com/fix-ifconfig-command-not-found-error-linux/
+
+<hr>
+
 # 다른 사람의 리눅스Command 정리 자료
 
 - [외국 사람(터키)Dev정리한 Linux_Command](https://github.com/YoungHaKim7/linux_command/blob/main/README.md#%EC%99%B8%EA%B5%AD-%EC%82%AC%EB%9E%8C%EC%9D%98-%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC)
