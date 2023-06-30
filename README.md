@@ -7,6 +7,8 @@ ip a
 ```
 https://www.makeuseof.com/fix-ifconfig-command-not-found-error-linux/
 
+- ```ip a``` 명령어 익히기 https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/
+
 <hr>
 
 # 다른 사람의 리눅스Command 정리 자료
