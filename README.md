@@ -1,3 +1,14 @@
+# macOS
+
+- Advanced macOS Command-Line Tools
+  - https://saurabhs.org/advanced-macos-commands
+
+<br>
+
+<hr>
+
+<hr>
+
 # ip 확인
 
 ```bash
