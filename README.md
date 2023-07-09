@@ -6,6 +6,9 @@
 dnf install 
 ```
 
+# 내가 만든 Shell check 하기
+
+https://www.shellcheck.net/
 
 
 <br> 
