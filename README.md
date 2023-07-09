@@ -10,6 +10,8 @@ dnf install
 
 https://www.shellcheck.net/
 
+- bash comment
+  - https://www.cyberciti.biz/faq/bash-comment-out-multiple-line-code/
 
 <br> 
 
