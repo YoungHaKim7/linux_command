@@ -13,6 +13,17 @@ https://www.shellcheck.net/
 - bash comment
   - https://www.cyberciti.biz/faq/bash-comment-out-multiple-line-code/
 
+# version check
+
+```
+cat /etc/os-release
+NAME="Rocky Linux"
+VERSION="9.2 (Blue Onyx)"
+..
+..
+..
+```
+
 <br> 
 
 <hr>
