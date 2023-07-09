@@ -1,3 +1,12 @@
+# Rocky Linux 9 ~~~~~~
+
+- apt 비슷
+
+```
+dnf install 
+```
+
+
 
 <br> 
 
