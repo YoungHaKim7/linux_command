@@ -1,3 +1,12 @@
+
+<br> 
+
+<hr>
+
+<hr>
+
+# ubuntu Linux ~~~~~~~~~~~~
+
 # macOS
 
 - Advanced macOS Command-Line Tools
