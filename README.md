@@ -37,6 +37,10 @@ VERSION="9.2 (Blue Onyx)"
 - 리눅스 시스템 부팅 프로세스(리눅스 부팅과정)
 ﻿  -https://yonlog.tistory.com/59
 
+## Linux sed 사용법
+
+https://www.lesstif.com/lpt/linux-sed-6979751.html
+
 # macOS
 
 - Advanced macOS Command-Line Tools
