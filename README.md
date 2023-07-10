@@ -32,9 +32,10 @@ VERSION="9.2 (Blue Onyx)"
 
 # ubuntu Linux ~~~~~~~~~~~~
 
-## GRUB(GRand Unified Bootloader검색하다가 암. 리눅스 시스템 부팅 프로세스(리눅스 부팅과정)
+## GRUB(GRand Unified Bootloader검색하다가 알게 됨. 
 
-﻿https://yonlog.tistory.com/59
+- 리눅스 시스템 부팅 프로세스(리눅스 부팅과정)
+﻿  -https://yonlog.tistory.com/59
 
 # macOS
 
