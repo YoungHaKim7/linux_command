@@ -24,6 +24,10 @@ VERSION="9.2 (Blue Onyx)"
 ..
 ```
 
+# RockyLinux 9 명령어 정리
+
+https://docs.rockylinux.org/books/admin_guide/03-commands/
+
 <br> 
 
 <hr>
