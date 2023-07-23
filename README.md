@@ -34,6 +34,76 @@ https://docs.rockylinux.org/books/admin_guide/03-commands/
 
 <hr>
 
+# Screen 명령어 정리 ~~~~~~~
+
+```
+// Ctrl + a
+커멘트 할때 tmux 처럼
+ 눌러주고 다음  명령 치면 된다
+ 
+ 
+ // 도움말
+ Ctrl + a   ?
+ 
+ 
+ //창 새로 만들기
+ Ctrl + a    c
+ 
+ 
+  //창 새로 만든 list확인
+ Ctrl + a     “
+ 
+ 
+ 
+  //창 전환 만든 창 전환
+ Ctrl + a     0
+ 0
+ 1
+ 2
+ 
+ 
+ 
+  //창 새로 만든 list확인
+ Ctrl + a     “ 
+ 이걸로 만든 bash 화면 확인 하면 된다
+ 
+ 
+ 
+ 
+  //창 창bufer Kill 확인
+ Ctrl + a     K
+```
+
+- 나눈 창 전환
+```
+// 창 sp로 나누기 좌우. 파이프 활용
+Ctrl + a      |
+
+or
+
+Ctrl + a      :split -v
+
+
+
+
+// ❤️나눈거 창 전환❤️ tap
+Ctrl + a     tap
+
+
+
+
+// 상하 vs.  (대문자S)
+Ctrl + a     S
+
+or
+
+Ctrl + a   :split
+```
+
+https://economiceco.tistory.com/m/16169
+
+<hr>
+
 # ubuntu Linux ~~~~~~~~~~~~
 
 ## GRUB(GRand Unified Bootloader검색하다가 알게 됨. 
