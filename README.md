@@ -186,6 +186,21 @@ https://velog.io/@ur-luella/tmux-%EC%82%AC%EC%9A%A9%EB%B2%95
 
 # ubuntu Linux ~~~~~~~~~~~~
 
+# lsof 포트 죽이기
+
+- 8000 포트port 검색
+
+```
+lsof -i :7999
+
+```
+
+- 사용중인 포트 죽이기
+
+```
+kill -9 pid쓰면 됨
+```
+
 ## GRUB(GRand Unified Bootloader검색하다가 알게 됨. 
 
 - 리눅스 시스템 부팅 프로세스(리눅스 부팅과정)
