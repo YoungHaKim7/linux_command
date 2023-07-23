@@ -98,9 +98,17 @@ Ctrl + a     S
 or
 
 Ctrl + a   :split
+
+
+// 나눈 창 없애기
+Ctrl + a  :remove
+or
+Ctrl + a , x 
 ```
 
 https://economiceco.tistory.com/m/16169
+
+https://superuser.com/questions/243459/unix-how-to-unsplit-in-screen
 
 <hr>
 
