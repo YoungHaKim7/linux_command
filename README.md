@@ -6,6 +6,7 @@ https://developer.nvidia.com/cuda-downloads
 - UEFI SEcure Boot Settings https://docs.nvidia.com/networking/display/BlueFieldSWv36011699/UEFI+Secure+Boot
   - https://elrepo.org/tiki/SecureBootKey
 
+- Cuda Version https://tkayyoo.tistory.com/17
 
 - ```nvidia-smi```
 
