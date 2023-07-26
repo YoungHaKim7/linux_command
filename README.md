@@ -36,6 +36,9 @@ Thu Jul 27 00:09:38 2023
 +---------------------------------------------------------------------------------------+
 ```
 
+- Rocky 9
+- https://forums.rockylinux.org/t/how-to-install-nvidia-driver-and-cuda-on-rocky-9-1/9686/2
+
 <hr>
 
 # Rocky Linux 9 ~~~~~~
