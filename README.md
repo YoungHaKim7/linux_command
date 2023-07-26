@@ -187,6 +187,10 @@ https://velog.io/@ur-luella/tmux-%EC%82%AC%EC%9A%A9%EB%B2%95
 # ubuntu Linux ~~~~~~~~~~~~
 
 # Nvidia 설치를 위해 Exit The X Server
+
+- 이거인듯
+  - https://unix.stackexchange.com/questions/25668/how-to-close-x-server-to-avoid-errors-while-updating-nvidia-driver
+
 https://www.systranbox.com/how-to-exit-the-x-server-on-a-linux-machine/
 
 ```bash
