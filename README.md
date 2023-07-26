@@ -3,6 +3,8 @@ https://developer.nvidia.com/cuda-downloads
 
 딥러닝을 위한 NVIDIA-Driver 설치 2편 - Quick Guides https://youtu.be/xCeB5hQnDF0
 
+- UEFI SEcure Boot Settings https://docs.nvidia.com/networking/display/BlueFieldSWv36011699/UEFI+Secure+Boot
+
 <hr>
 
 # Rocky Linux 9 ~~~~~~
