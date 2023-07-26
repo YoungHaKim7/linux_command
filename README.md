@@ -1,3 +1,10 @@
+# Nvidia CUDA Install
+https://developer.nvidia.com/cuda-downloads
+
+딥러닝을 위한 NVIDIA-Driver 설치 2편 - Quick Guides https://youtu.be/xCeB5hQnDF0
+
+<hr>
+
 # Rocky Linux 9 ~~~~~~
 
 - apt 비슷
