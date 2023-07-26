@@ -7,6 +7,7 @@ https://developer.nvidia.com/cuda-downloads
   - https://elrepo.org/tiki/SecureBootKey
 
 - Cuda Version https://tkayyoo.tistory.com/17
+  - Cuda11.7? https://forums.developer.nvidia.com/t/cuda-10-2-or-cuda-11-0-for-rtx3060/170757/3
 
 - ```nvidia-smi```
 
