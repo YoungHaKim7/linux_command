@@ -42,6 +42,9 @@ Thu Jul 27 00:09:38 2023
 
 <hr>
 
+# Rocky 9 Linux 
+- Obs Studio install https://idroot.us/how-to-install-obs-studio-on-rocky-linux-9/
+
 # Rocky Linux 9 ~~~~~~
 
 - apt 비슷
@@ -49,6 +52,7 @@ Thu Jul 27 00:09:38 2023
 ```
 dnf install 
 ```
+
 
 # 내가 만든 Shell check 하기
 
