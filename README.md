@@ -189,6 +189,10 @@ https://velog.io/@ur-luella/tmux-%EC%82%AC%EC%9A%A9%EB%B2%95
 # Nvidia 설치를 위해 Exit The X Server
 https://www.systranbox.com/how-to-exit-the-x-server-on-a-linux-machine/
 
+```bash
+sudo service lightdm stop
+```
+
 # lsof 포트 죽이기
 
 - 8000 포트port 검색
