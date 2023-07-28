@@ -86,6 +86,10 @@ Thu Jul 27 08:17:28 2023
 
 <hr>
 
+# Linux Mint install
+
+https://itcider.com/1440/
+
 <hr>
 
 # Arch Linux 설치하는 방법
