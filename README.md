@@ -87,6 +87,8 @@ Thu Jul 27 08:17:28 2023
 
 # Arch Linux 설치하는 방법
 
+- 인스톨 가이드 https://wiki.archlinux.org/title/Installation_guide
+
 https://juo6442.github.io/study/2021/04/26/setup-archlinux.html
 
 <hr>
