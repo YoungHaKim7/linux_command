@@ -36,7 +36,7 @@ https://superuser.com/questions/158255/what-is-hd0-and-sda-sdb-in-linux
 
 # Nvidia CUDA Install
 - Rocky linux 9 https://forums.rockylinux.org/t/how-to-install-nvidia-driver-and-cuda-on-rocky-9-1/9686
-  - 1 https://forums.rockylinux.org/t/tutorial-for-nvidia-gpu/4234
+  - test1 https://forums.rockylinux.org/t/tutorial-for-nvidia-gpu/4234
   
 https://developer.nvidia.com/cuda-downloads
 
