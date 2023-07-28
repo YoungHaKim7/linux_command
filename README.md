@@ -88,6 +88,8 @@ Thu Jul 27 08:17:28 2023
 
 # Linux Mint install
 
+- 공식 채널 https://linuxmint.com/
+
 https://itcider.com/1440/
 
 <hr>
