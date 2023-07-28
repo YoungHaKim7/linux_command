@@ -7,6 +7,27 @@
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+# Disk (WindowsOS)
+
+- ```cmd```
+```
+
+관리자 권한 실행으로 도스창을 여십시요
+
+다음에 diskpart 라는 명령을 내립니다.
+
+list disk 라는 명령으로 컴퓨터에 붙어 있는 하드 리스트를 확인(번호)합니다.
+
+select disk 번호 (지우고자 하는 디스크 번호) 입력합니다.
+
+clean
+
+detail disk
+
+exit
+
+```
+
 <hr>
 
 # Nvidia CUDA Install
