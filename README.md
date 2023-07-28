@@ -35,6 +35,8 @@ https://superuser.com/questions/158255/what-is-hd0-and-sda-sdb-in-linux
 <hr>
 
 # Nvidia CUDA Install
+- Rocky linux 9 https://forums.rockylinux.org/t/how-to-install-nvidia-driver-and-cuda-on-rocky-9-1/9686
+  
 https://developer.nvidia.com/cuda-downloads
 
 딥러닝을 위한 NVIDIA-Driver 설치 2편 - Quick Guides https://youtu.be/xCeB5hQnDF0
