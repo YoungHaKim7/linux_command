@@ -28,6 +28,10 @@ exit
 
 ```
 
+# grub관련
+
+https://superuser.com/questions/158255/what-is-hd0-and-sda-sdb-in-linux
+
 <hr>
 
 # Nvidia CUDA Install
