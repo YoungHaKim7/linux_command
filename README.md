@@ -3,7 +3,7 @@
 - Linux File System/Structure Explained! 윈도우와 비교해서 Linux 파일 구조 이해하기
   - https://youtu.be/HbgzrKJvDRw
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 <hr>
 
