@@ -74,11 +74,22 @@ Thu Jul 27 08:17:28 2023
 +-----------------------------------------------------------------------------+
 
 
+
 ```
 
 - Rocky 9
 - https://forums.rockylinux.org/t/how-to-install-nvidia-driver-and-cuda-on-rocky-9-1/9686/2
 - https://www.linuxcapable.com/how-to-install-nvidia-drivers-on-rocky-linux/
+
+<hr>
+
+<hr>
+
+# Arch Linux 설치하는 방법
+
+https://juo6442.github.io/study/2021/04/26/setup-archlinux.html
+
+<hr>
 
 <hr>
 
