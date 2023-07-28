@@ -96,6 +96,12 @@ https://juo6442.github.io/study/2021/04/26/setup-archlinux.html
 
 <hr>
 
+# Debian 10 Install
+
+https://wiki.debianusers.or.kr/index.php?title=%EB%8D%B0%EB%B9%84%EC%95%88_10(buster)_%EC%84%A4%EC%B9%98
+
+<hr>
+
 <hr>
 
 # Rocky 9 Linux 
