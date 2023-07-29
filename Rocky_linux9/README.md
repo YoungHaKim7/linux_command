@@ -122,3 +122,8 @@ https://forums.rockylinux.org/t/x-server-for-rocky/5640
 # Network
 
 https://docs.rockylinux.org/guides/network/basic_network_configuration/
+
+# Apach Server
+
+- Apache hardened web server
+  - https://docs.rockylinux.org/guides/web/apache_hardened_webserver/
