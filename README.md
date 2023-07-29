@@ -77,27 +77,6 @@ Thu Jul 27 08:17:28 2023
 
 <hr>
 
-# Linux Mint install
-
-- 공식 채널 https://linuxmint.com/
-
-https://itcider.com/1440/
-
-<hr>
-
-# Arch Linux 설치하는 방법
-
-- 인스톨 가이드 https://wiki.archlinux.org/title/Installation_guide
-
-https://juo6442.github.io/study/2021/04/26/setup-archlinux.html
-
-<hr>
-
-# Debian 10 Install
-
-https://wiki.debianusers.or.kr/index.php?title=%EB%8D%B0%EB%B9%84%EC%95%88_10(buster)_%EC%84%A4%EC%B9%98
-
-<hr>
 
 <hr>
 
