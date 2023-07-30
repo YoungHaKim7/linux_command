@@ -36,4 +36,6 @@ https://blog.desdelinux.net/en/install-discord-linux/
 
 # Linux로 공유 폴더 만들기 
 
-https://ddbobd.tistory.com/entry/Linux-%EC%9A%B0%EB%B6%84%ED%88%AC%EB%A1%9C-%EA%B3%B5%EC%9C%A0%ED%8F%B4%EB%8D%94-%EB%A7%8C%EB%93%A4%EA%B8%B0
+- 이게 젤 깔끔함 https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-%EC%82%BC%EB%B0%94SAMBA-%EC%84%A4%EC%B9%98-%EC%84%A4%EC%A0%95-%E2%80%BB-%EC%B4%9D%EC%A0%95%EB%A6%AC
+
+  - https://ddbobd.tistory.com/entry/Linux-%EC%9A%B0%EB%B6%84%ED%88%AC%EB%A1%9C-%EA%B3%B5%EC%9C%A0%ED%8F%B4%EB%8D%94-%EB%A7%8C%EB%93%A4%EA%B8%B0
