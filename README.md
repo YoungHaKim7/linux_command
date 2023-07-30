@@ -1,3 +1,14 @@
+# find로 파일, 폴더 찾아서 지우기 
+
+```bash
+find . -type f -name ".DS_Store" -exec rm {} \; 
+```
+https://shutcoding.tistory.com/entry/LINUX-FIND-%EB%A1%9C-%ED%8C%8C%EC%9D%BC%ED%8F%B4%EB%8D%94-%EC%B0%BE%EA%B8%B0-%EC%A7%80%EC%9A%B0%EA%B8%B0
+
+https://gracefulprograming.tistory.com/86
+
+<hr>
+
 # Disk (WindowsOS)
 
 - ```cmd```
