@@ -11,7 +11,7 @@ https://gracefulprograming.tistory.com/86
 
 <hr>
 
-# Disk (WindowsOS)
+# Disk (WindowsOS) 파티션 이게 최고 ㅎ
 
 - ```cmd```
 ```
