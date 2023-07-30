@@ -32,3 +32,8 @@ https://blog.desdelinux.net/en/install-discord-linux/
   ```
 
   - Once done, you could run the application, and it can also be easily updated.
+ 
+
+# Linux로 공유 폴더 만들기 
+
+https://ddbobd.tistory.com/entry/Linux-%EC%9A%B0%EB%B6%84%ED%88%AC%EB%A1%9C-%EA%B3%B5%EC%9C%A0%ED%8F%B4%EB%8D%94-%EB%A7%8C%EB%93%A4%EA%B8%B0
