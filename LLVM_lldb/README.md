@@ -10,6 +10,57 @@ To install all of them (currently version 18):
 apt-get install clang-format clang-tidy clang-tools clang clangd libc++-dev libc++1 libc++abi-dev libc++abi1 libclang-dev libclang1 liblldb-dev libllvm-ocaml-dev libomp-dev libomp5 lld lldb llvm-dev llvm-runtime llvm python3-clang
 ```
 
+# Install (stable branch)
+- To retrieve the archive signature:
+
+```bash
+wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
+# or
+wget -qO- https://apt.llvm.org/llvm-snapshot.gpg.key | sudo tee /etc/apt/trusted.gpg.d/apt.llvm.org.asc
+# Fingerprint: 6084 F3CF 814B 57C1 CF12 EFD5 15CF 4D18 AF4F 7421
+```
+
+- To install just clang, lld and lldb (16 release):
+
+```bash
+apt-get install clang-16 lldb-16 lld-16
+```
+
+- To install all key packages:
+
+```bash
+# LLVM
+apt-get install libllvm-16-ocaml-dev libllvm16 llvm-16 llvm-16-dev llvm-16-doc llvm-16-examples llvm-16-runtime
+# Clang and co
+apt-get install clang-16 clang-tools-16 clang-16-doc libclang-common-16-dev libclang-16-dev libclang1-16 clang-format-16 python3-clang-16 clangd-16 clang-tidy-16
+# compiler-rt
+apt-get install libclang-rt-16-dev
+# polly
+apt-get install libpolly-16-dev
+# libfuzzer
+apt-get install libfuzzer-16-dev
+# lldb
+apt-get install lldb-16
+# lld (linker)
+apt-get install lld-16
+# libc++
+apt-get install libc++-16-dev libc++abi-16-dev
+# OpenMP
+apt-get install libomp-16-dev
+# libclc
+apt-get install libclc-16-dev
+# libunwind
+apt-get install libunwind-16-dev
+# mlir
+apt-get install libmlir-16-dev mlir-16-tools
+# bolt
+apt-get install libbolt-16-dev bolt-16
+# flang
+apt-get install flang-16
+# wasm support
+apt-get install libclang-rt-16-dev-wasm32 libclang-rt-16-dev-wasm64 libc++-16-dev-wasm32 libc++abi-16-dev-wasm32 libclang-rt-16-dev-wasm32 libclang-rt-16-dev-wasm64
+```
+
 
 # Automatic installation script 
 
