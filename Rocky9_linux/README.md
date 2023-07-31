@@ -1,4 +1,14 @@
 # Rocky 9 Linux 
+
+- ```sudo apt-get install build-essential```       ->> ubuntu
+
+```
+sudo yum groupinstall 'Development Tools'  ->> centos 
+```
+
+
+# Rocky 9 Obs Studio install
+
 - Obs Studio install https://idroot.us/how-to-install-obs-studio-on-rocky-linux-9/
 
 # Rocky Linux 9 ~~~~~~
