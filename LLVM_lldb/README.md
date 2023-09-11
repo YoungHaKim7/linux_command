@@ -1,3 +1,9 @@
+# Debugging C/C++ with LLDB Tutorial | constref
+
+https://youtu.be/2GV0K9Y2MKA?si=xXO73M1GAQ9yiPO3
+
+<hr>
+
 # 최신 LLVM
 
 https://llvm.org/
