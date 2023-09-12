@@ -1,3 +1,33 @@
+# ```lsd``` 사용법
+
+```bash
+lsd
+ Cargo.lock   Cargo.toml   examples   LICENSE-MIT   README.md   resources   src   target
+
+
+lsd -a
+ .    .editorconfig   .github      Cargo.lock   examples      README.md   src
+ ..   .git            .gitignore   Cargo.toml   LICENSE-MIT   resources   target
+
+
+lsd -l
+.rw-r--r-- globalyoung staff  31 KB Tue Sep 12 22:04:07 2023  Cargo.lock
+.rw-r--r-- globalyoung staff 725 B  Tue Sep 12 22:03:49 2023  Cargo.toml
+drwxr-xr-x globalyoung staff 192 B  Tue Sep 12 22:03:49 2023  examples
+.rw-r--r-- globalyoung staff 1.0 KB Tue Sep 12 22:03:49 2023  LICENSE-MIT
+.rw-r--r-- globalyoung staff 2.4 KB Tue Sep 12 22:03:49 2023  README.md
+drwxr-xr-x globalyoung staff 160 B  Tue Sep 12 22:03:49 2023  resources
+drwxr-xr-x globalyoung staff 256 B  Tue Sep 12 22:03:49 2023  src
+drwxr-xr-x globalyoung staff 160 B  Tue Sep 12 22:04:21 2023  target
+```
+
+https://github.com/lsd-rs/lsd
+
+
+
+
+<hr>
+
 # find로 파일, 폴더 찾아서 지우기 
 
 - 현재 디렉토리 하위에서 디렉토리에 있는 ".DS_Store"  모든 파일 삭제
