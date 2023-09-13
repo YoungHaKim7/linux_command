@@ -183,3 +183,95 @@ https://lldb.llvm.org/use/tutorial.html
 # codelldb
 
 https://github.com/vadimcn/codelldb/blob/master/MANUAL.md
+
+# LLDB명령어 정리
+
+- ```-g``` 넣어줘서 실행파일 만들기
+
+```
+gcc -g -Wall -Wextra -ggdb -o main main.c -lm
+```
+
+- ```lldb main``` 하면 실행됨
+- ```b``` Break Point
+
+```
+lldb main
+(lldb) target create "main"
+Current executable set to '/Users/globalyoung/Documents/test/test/c_lang/c_project/02_Debugging_VScode_etc/c_debugger03_vimspector/main' (arm64).
+(lldb) b main
+Breakpoint 1: where = main`main + 24 at main.c:4:7, address = 0x0000000100003c98
+(lldb) b 23
+Breakpoint 2: where = main`main + 152 at main.c:23:11, address = 0x0000000100003d18
+(lldb) gui
+(lldb) c
+and x = 2
+or x = 3
+xor x = 18
+xor2 x = 1
+not x = 1
+not ~a = -17
+not~a -17 + 1  = -16
+not b = -4
+---------------x == 9732
+Loop iteration number 0
+Loop iteration number 1
+Loop iteration number 2
+Loop iteration number 3
+Loop iteration number 4
+Loop iteration number 5
+Loop iteration number 6
+Loop iteration number 7
+Loop iteration number 8
+Loop iteration number 9
+Done!
+error: Process must be launched.
+(lldb) r
+Process 46230 launched: '/Users/globalyoung/Documents/test/test/c_lang/c_project/02_Debugging_VScode_etc/c_debugger03_vimspector/main' (arm64)
+Process 46230 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+    frame #0: 0x0000000100003c98 main`main(argc=1, argv=0x000000016fdff1a0) at main.c:4:7
+   1   	#include <stdio.h>
+   2   	
+   3   	int main(int argc, char **argv) {
+-> 4   	  int x = 0;
+   5   	  int a = 16; // 1111
+   6   	  int b = 3;  // 0011
+   7   	  int c = 2;  // 0010
+(lldb) l
+   8   	  int and_x = 0;
+   9   	  int or_x = 0;
+   10  	  int xor_x = 0;
+   11  	  int xor_x2 = 0;
+   12  	  int not_x = 0;
+   13  	  int not = 0;
+   14  	  int not_b = 0;
+(lldb) bt
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+  * frame #0: 0x0000000100003c98 main`main(argc=1, argv=0x000000016fdff1a0) at main.c:4:7
+    frame #1: 0x00000001903f7f28 dyld`start + 2236
+(lldb) frame variable
+(int) argc = 1
+(char **) argv = 0x000000016fdff1a0
+(int) x = 1
+(int) a = 55568
+(int) b = 1
+(int) c = 1876946992
+(int) and_x = 1
+(int) or_x = -1874385978
+(int) xor_x = 1
+(int) xor_x2 = 1876946864
+(int) not_x = 0
+(int) not = 1
+(int) not_b = 0
+(int) not_a17 = 0
+(lldb) disassemble
+main`main:
+    0x100003c80 <+0>:   sub    sp, sp, #0x60
+    0x100003c84 <+4>:   stp    x29, x30, [sp, #0x50]
+    0x100003c88 <+8>:   add    x29, sp, #0x50
+    0x100003c8c <+12>:  stur   wzr, [x29, #-0x4]
+    0x100003c90 <+16>:  stur   w0, [x29, #-0x8]
+    0x100003c94 <+20>:  stur   x1, [x29, #-0x10]
+->  0x100003c98 <+24>:  stur   wzr, [x29, #-0x14]
+```
