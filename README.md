@@ -1,3 +1,8 @@
+# ```alias``` 사용 방법 등록 & 삭제 
+
+https://withcoding.com/121
+
+
 # ```lsd``` 사용법
 
 ```bash
