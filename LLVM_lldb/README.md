@@ -2,6 +2,9 @@
 
 https://youtu.be/2GV0K9Y2MKA?si=xXO73M1GAQ9yiPO3
 
+- lldb한국 블로그 글
+https://80000coding.oopy.io/7aae2237-876b-43df-b9dd-5aac541207f4
+
 <hr>
 
 # 최신 LLVM
