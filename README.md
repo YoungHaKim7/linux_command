@@ -1,3 +1,7 @@
+# bash 명령어 히스토리 관리 - readline 사용법 및 line 편집, reverse search 등 단축키 요약
+
+https://www.lesstif.com/system-admin/bash-readline-line-reverse-search-6717494.html
+
 # ```alias``` 사용 방법 등록 & 삭제 
 
 https://withcoding.com/121
