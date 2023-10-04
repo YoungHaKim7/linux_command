@@ -1,3 +1,27 @@
+# file 사용법
+
+- ```file``` file 뒤에 파일명을 누르면 어떻게 실행되고 자세한 사항을 알수 있다.
+
+```
+$ file a.out
+a.out: Mach-O 64-bit executable arm64
+
+
+$ ls
+README.md a.out     build.sh  delete.sh main.c
+
+
+$ zig cc main.c
+
+
+$ file build.sh
+build.sh: Bourne-Again shell script text executable, ASCII text
+
+```
+
+- 출처: Using ZIG as a Drop-In Replacement C Compiler on Windows, Linux, and macOS!
+  - https://youtu.be/kuZIzL0K4o4?si=FLRoA8yl-9GQGW_0
+
 # uname 으로 내 컴퓨터 사양 보여줄 때 굿
 
 ```
