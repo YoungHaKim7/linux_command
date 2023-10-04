@@ -1,3 +1,12 @@
+# uname 으로 내 컴퓨터 사양 보여줄 때 굿
+
+```
+$ uname -a
+Darwin g-y-MacBookPro.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:43 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T6000 arm64
+```
+
+<hr>
+
 # bash 명령어 히스토리 관리 - readline 사용법 및 line 편집, reverse search 등 단축키 요약
 
 https://www.lesstif.com/system-admin/bash-readline-line-reverse-search-6717494.html
