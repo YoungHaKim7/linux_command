@@ -1,3 +1,40 @@
+# ```zig cc``` 맥에서 윈도우 파일 만들기 ㅋ 컴파일 하는 방법 ㅋ
+
+- ```zig cc -o main.exe main.c -target x86_64-windows-gnu``` zig cc 웃기네 ㅋ
+
+```
+$ file main.exe
+main.exe: PE32+ executable (console) x86-64, for MS Windows
+
+
+$ ls
+README.md build.sh  delete.sh main.c    main.exe  main.pdb
+
+
+$ zig cc -o main.exe main.c -target x86_64-windows-gnu
+Compile C Objects [106/406] mingw_vsprintfw.c... /Users/globalyoung/.zig/lib/libc/mingw/stdio/mingw_wvfscanf.c:167:17: warning: implicit truncation from 'int' to a one-bit wide bit-field changes value from 1 to -1 [-Wsingle-bit-bitfield-constant-conversion]
+    s->seen_eof = 1;
+                ^ ~
+/Users/globalyoung/.zig/lib/libc/mingw/stdio/mingw_wvfscanf.c:176:22: warning: implicit truncation from 'int' to a one-bit wide bit-field changes value from 1 to -1 [-Wsingle-bit-bitfield-constant-conversion]
+    else s->seen_eof = 1;
+                     ^ ~
+/Users/globalyoung/.zig/lib/libc/mingw/stdio/mingw_wvfscanf.c:1628:17: warning: implicit truncation from 'int' to a one-bit wide bit-field changes value from 1 to -1 [-Wsingle-bit-bitfield-constant-conversion]
+  ifp.is_string = 1;
+                ^ ~
+/Users/globalyoung/.zig/lib/libc/mingw/stdio/mingw_vfscanf.c:158:17: warning: implicit truncation from 'int' to a one-bit wide bit-field changes value from 1 to -1 [-Wsingle-bit-bitfield-constant-conversion]
+    s->seen_eof = 1;
+                ^ ~
+/Users/globalyoung/.zig/lib/libc/mingw/stdio/mingw_vfscanf.c:167:22: warning: implicit truncation from 'int' to a one-bit wide bit-field changes value from 1 to -1 [-Wsingle-bit-bitfield-constant-conversion]
+    else s->seen_eof = 1;
+                     ^ ~
+/Users/globalyoung/.zig/lib/libc/mingw/stdio/mingw_vfscanf.c:1629:17: warning: implicit truncation from 'int' to a one-bit wide bit-field changes value from 1 to -1 [-Wsingle-bit-bitfield-constant-conversion]
+  ifp.is_string = 1;
+                ^ ~
+Compile C Objects [175/406] wcstoumax.c... 3 warnings generated.
+3 warnings generated.
+
+```
+
 # file 사용법
 
 - ```file``` file 뒤에 파일명을 누르면 어떻게 실행되고 자세한 사항을 알수 있다.
