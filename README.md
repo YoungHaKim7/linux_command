@@ -27,7 +27,7 @@ Compile C Objects [106/406] mingw_vsprintfw.c... /Users/globalyoung/.zig/lib/lib
 /Users/globalyoung/.zig/lib/libc/mingw/stdio/mingw_vfscanf.c:167:22: warning: implicit truncation from 'int' to a one-bit wide bit-field changes value from 1 to -1 [-Wsingle-bit-bitfield-constant-conversion]
     else s->seen_eof = 1;
                      ^ ~
-/Users/globalyoung/.zig/lib/libc/mingw/stdio/mingw_vfscanf.c:1629:17: warning: implicit truncation from 'int' to a one-bit wide bit-field changes value from 1 to -1 [-Wsingle-bit-bitfield-constant-conversion]
+/Users/globalyoung/.zig/lib/libc/mingw/stdio/mingw_vfscanf.c:1629:17: warning: implicit truncation from 'int' to a one-bit wide bit-field changes value from 1 to -1 [-Wsingle-bit-bitfield-constant-con]
   ifp.is_string = 1;
                 ^ ~
 Compile C Objects [175/406] wcstoumax.c... 3 warnings generated.
@@ -230,6 +230,12 @@ VERSION="9.2 (Blue Onyx)"
 ..
 ..
 ..
+```
+
+- neofetch (컴터 내 사양 확인 한눈에 다 들어온다. 굿) 
+https://github.com/dylanaraps/neofetch
+```
+./neofetch
 ```
 
 # RockyLinux 9 명령어 정리
