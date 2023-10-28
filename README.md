@@ -118,6 +118,10 @@ https://shutcoding.tistory.com/entry/LINUX-FIND-%EB%A1%9C-%ED%8C%8C%EC%9D%BC%ED%
 
 https://gracefulprograming.tistory.com/86
 
+
+# find에서 업그레이드 된 fd (Rust로 만듬)
+https://github.com/sharkdp/fd
+
 <hr>
 
 # Disk (WindowsOS) 파티션 이게 최고 ㅎ
