@@ -11,3 +11,14 @@
 ```
 f  설정화면 들어갈 수 있음 거기서 space로 체크함
 ```
+
+# ```pstree``` 프로세스의 계층적 구조
+
+```
+$ pstree                                                                                                             ─╯
+init(Ubuntu)─┬─SessionLeader───zsh───pstree
+             ├─init───{init}
+             ├─zsh───gitstatusd-linu───8*[{gitstatusd-linu}]
+             ├─2*[zsh]
+             └─{init(Ubuntu)}
+```
