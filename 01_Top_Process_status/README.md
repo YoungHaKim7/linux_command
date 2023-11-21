@@ -37,7 +37,7 @@ MiB Swap:  12288.0 total,  11239.9 free,   1048.1 used.    517.5 avail Mem
    61 y         20   0   18924   2076   1448 R   0.0   0.1   0:00.07 top
 ```
 
-- space누르면 설정하면으로 들어가짐
+- space누르면 설정하면으로 들어가짐(Enter누르고 space눌러야 체크 or 해제됨)
 
 ```
 Fields Management for window 1:Def, whose current sort field is %CPU
