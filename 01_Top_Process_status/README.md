@@ -10,6 +10,8 @@ https://github.com/kangtegong/fastcampus-cs
 - S : Stopped : 종료 상태 
 - Z : Zombie : 프로세스 종료 후 자원이 반환되었지만 커널 영역에 프로세스가 남아 있는 상태
 
+https://www.geeksforgeeks.org/top-command-in-linux-with-examples/
+
 # top command
 
 ```
