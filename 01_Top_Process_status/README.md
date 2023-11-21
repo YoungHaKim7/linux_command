@@ -2,7 +2,7 @@ https://github.com/kangtegong/fastcampus-cs
 
 <hr>
 
-# top 명령어 활용 
+# top 명령어 활용(S = Process Status)
 
 - R : Running:실행상태
 - S : Sleeping: 대기 상태
