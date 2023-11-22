@@ -55,6 +55,9 @@ timeline
     (I/O Burst) : wait for I/O
 ```
 
+- Scheduling Algorithms
+  - https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/6_CPU_Scheduling.html
+
 # top 명령어 활용(S = Process Status)
 
 - R : Running:실행상태
