@@ -54,6 +54,7 @@ timeline
     (CPU Burst) : Load store,<br> add store,<br> read from file
     (I/O Burst) : wait for I/O
 ```
+https://mermaid.live/edit
 
 - Scheduling Algorithms
   - https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/6_CPU_Scheduling.html
