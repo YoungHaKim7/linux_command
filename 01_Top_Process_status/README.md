@@ -31,6 +31,9 @@ https://tigris-data-science.tistory.com/entry/Linux-ps-%EB%AA%85%EB%A0%B9%EC%96%
 - Understanding process thread priorities in Linux
   - https://blogs.oracle.com/linux/post/task-priority
 
+- CPU Scheduling
+  - https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/6_CPU_Scheduling.html
+
 
 # top 명령어 활용(S = Process Status)
 
