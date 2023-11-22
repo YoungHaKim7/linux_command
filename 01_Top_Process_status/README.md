@@ -33,7 +33,27 @@ https://tigris-data-science.tistory.com/entry/Linux-ps-%EB%AA%85%EB%A0%B9%EC%96%
 
 - CPU Scheduling
   - https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/6_CPU_Scheduling.html
+```mermaid
+timeline
+    title Alternating sequence of CPU and I/O bursts.
+    (CPU Burst) : Load store,<br> add store,<br> read from file
+    (I/O Burst) : wait for I/O
+    (CPU Burst) : store increment index write to file
+    (I/O Burst) : wait for I/O
+    (CPU Burst) : Load store,<br> add store,<br> read from file
+    (I/O Burst) : wait for I/O
+```
 
+```
+timeline
+    title Alternating sequence of CPU and I/O bursts.
+    (CPU Burst) : Load store,<br> add store,<br> read from file
+    (I/O Burst) : wait for I/O
+    (CPU Burst) : store increment index write to file
+    (I/O Burst) : wait for I/O
+    (CPU Burst) : Load store,<br> add store,<br> read from file
+    (I/O Burst) : wait for I/O
+```
 
 # top 명령어 활용(S = Process Status)
 
