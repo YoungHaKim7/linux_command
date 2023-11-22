@@ -2,6 +2,33 @@ https://github.com/kangtegong/fastcampus-cs
 
 <hr>
 
+# ```ps -el``` 프로세스 우선순위
+
+```
+$ ps -el
+
+PRI 프로세스 우선순위 : 낮을수록 높은 우선순위
+NI
+
+// ex)
+
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S     0     1     0  0  80   0 -  2626 ?      ?        00:00:00 init(Ubuntu)
+0 S     0     5     1  0  80   0 -  2628 ?      ?        00:00:00 init
+0 S     0     9     1  0  80   0 -  2633 -      tty1     00:00:00 SessionLeader
+0 S  1000    10     9  8  80   0 -  5675 -      tty1     00:00:01 zsh
+0 S  1000    22     1  0  80   0 -  5228 -      tty1     00:00:00 zsh
+0 S  1000    48     1  0  80   0 -  5599 -      tty1     00:00:00 zsh
+0 S  1000    49     1  0  80   0 -  5595 -      tty1     00:00:00 zsh
+0 S  1000    51    22  0  80   0 -  2874 ?      tty1     00:00:00 gitstatusd-linu
+0 R  1000    61    10  3  80   0 -  4645 -      tty1     00:00:00 ps
+
+```
+
+https://tigris-data-science.tistory.com/entry/Linux-ps-%EB%AA%85%EB%A0%B9%EC%96%B4
+
+
+
 # top 명령어 활용(S = Process Status)
 
 - R : Running:실행상태
