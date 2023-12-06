@@ -702,7 +702,13 @@ move test.js test/new_test.js
 
 // mv를 많이 씀
 mv test.js new_test.js
+
+// 여러개 파일을 다른 폴더로 옮기는 방법 쭉 나열하고 맨 마지막에 타켓이 되는 폴더는 지정해주면 옮겨진다. 굿!
+mv <file> <file> <file> <file> <Target:Folder>
 ```
+
+- mv 외에 정규식을 이용한 방법도 있다. https://discourse.ubuntu-kr.org/t/topic/15388
+
 
 ```
 move test.js test/new_test.js mv test.js test/new_test.js
