@@ -144,6 +144,12 @@ https://github.com/sharkdp/fd
 - macOS
 ```bash
 find . -type f -perm +111 -print
+
+
+# 실행파일만 검색해서 그것만 지우기
+
+find . -type f -perm +111 -print -exec rm -rf {} \;
+
 ```
 https://stackoverflow.com/questions/4458120/search-for-executable-files-using-find-command
 
