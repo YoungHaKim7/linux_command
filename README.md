@@ -150,6 +150,8 @@ find ./* -type -f -name '*.jpg' -size +512k -size -1024k -exec rm -rf {} \;
 ```
 - 출처: https://nota.tistory.com/89 [nota's story:티스토리]
 
+- find function 만들어서 내 맘대로 검색하기 https://www.baeldung.com/linux/find-exec-command
+
 <hr>
 
 # Disk (WindowsOS) 파티션 이게 최고 ㅎ
