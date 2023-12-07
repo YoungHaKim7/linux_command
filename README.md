@@ -142,8 +142,11 @@ https://github.com/sharkdp/fd
 # find 용량 순으로 정렬해서 골라서 지우기
 
 ```bash
+
 find ./* -type -f -name '*.jpg' -size +512k -size -1024k -exec rm -rf {} \;
-//=> 현재 경로의 파일 중에 파일 확장자가 jpg이면서, 사이즈가 512kbyte 이상, 1024kbyte 이하인 것들을 모두 삭제한다.
+
+
+# => 현재 경로의 파일 중에 파일 확장자가 jpg이면서, 사이즈가 512kbyte 이상, 1024kbyte 이하인 것들을 모두 삭제한다.
 ```
 - 출처: https://nota.tistory.com/89 [nota's story:티스토리]
 
