@@ -141,6 +141,12 @@ https://github.com/sharkdp/fd
 
 # find로 실행파일만 검색하기
 
+- LinuxOS
+```bash
+find . -type f -executable -print -exec rm {} \;
+./main
+```
+
 - macOS
 ```bash
 find . -type f -perm +111 -print
