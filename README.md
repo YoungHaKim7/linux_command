@@ -139,6 +139,14 @@ https://gracefulprograming.tistory.com/86
 # find에서 업그레이드 된 fd (Rust로 만듬)
 https://github.com/sharkdp/fd
 
+# find로 실행파일만 검색하기
+
+- macOS
+```bash
+find . -type f -perm +111 -print
+```
+https://stackoverflow.com/questions/4458120/search-for-executable-files-using-find-command
+
 # find 용량 순으로 정렬해서 골라서 지우기
 
 ```bash
