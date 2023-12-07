@@ -124,7 +124,7 @@ https://github.com/lsd-rs/lsd
 
 <hr>
 
-# find로 파일, 폴더 찾아서 지우기 
+# find로 파일, 폴더 찾아서 지우기<a href="https://github.com/YoungHaKim7/linux_command#link">Top</a>
 
 - 현재 디렉토리 하위에서 디렉토리에 있는 ".DS_Store"  모든 파일 삭제
 
