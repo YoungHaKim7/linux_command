@@ -6,6 +6,21 @@
 
 <hr>
 
+# Rust로 만든 CPU,GPU 감시 ytop
+
+- https://github.com/cjbassi/ytop
+
+# Rust로 만든 네트워크 top 같은거
+
+- A network diagnostic tool
+  - https://trippy.cli.rs/
+
+    - https://github.com/fujiapple852/trippy
+
+    - https://www.reddit.com/r/rust/comments/18bexd5/trippy_090_release/
+
+<hr>
+
 # 오류 해결 History
 
 - ```sudo apt-get update``` 실패로 아무것도 업데이트 안될때 
