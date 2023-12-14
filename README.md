@@ -13,6 +13,9 @@
 # Rust로 만든 네트워크 top 같은거
 
 - A network diagnostic tool
+```
+cargo install trippy
+```
   - https://trippy.cli.rs/
 
     - https://github.com/fujiapple852/trippy
