@@ -8,6 +8,11 @@
 
 # Rust로 만든 CPU,GPU 감시 ytop
 
+- A TUI system monitor written in Rust 
+```
+cargo install ytop
+```
+
 - https://github.com/cjbassi/ytop
 
 # Rust로 만든 네트워크 top 같은거
