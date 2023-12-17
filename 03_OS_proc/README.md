@@ -72,3 +72,36 @@ Mems_allowed:   1
 voluntary_ctxt_switches:    0
 nonvoluntary_ctxt_switches: 3
 ```
+
+# ```vmstat```
+
+- ```vmstat```LinuxOS
+
+- ```vm_stat``` macOS
+```
+$ vm_stat
+
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                               30332.
+Pages active:                            440187.
+Pages inactive:                          427555.
+Pages speculative:                        12885.
+Pages throttled:                              0.
+Pages wired down:                         89349.
+Pages purgeable:                           7043.
+"Translation faults":                  10051039.
+Pages copy-on-write:                     699046.
+Pages zero filled:                      4412917.
+Pages reactivated:                        88071.
+Pages purged:                             93216.
+File-backed pages:                       358914.
+Anonymous pages:                         521713.
+Pages stored in compressor:               27907.
+Pages occupied by compressor:              8871.
+Decompressions:                            6406.
+Compressions:                             38868.
+Pageins:                                 551103.
+Pageouts:                                   205.
+Swapins:                                      0.
+Swapouts:                                     0.
+```
