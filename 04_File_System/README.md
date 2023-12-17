@@ -1,5 +1,6 @@
 # stat(LinuxOS)
 
+- ```stat```
 ```
 
 stat Cargo.toml 
@@ -11,6 +12,22 @@ Access: 2023-01-14 16:42:01.525147822 +0900
 Modify: 2023-01-14 16:42:01.489148224 +0900
 Change: 2023-01-14 16:42:01.489148224 +0900
  Birth: 2023-01-14 16:42:01.489148224 +0900
+```
+
+# blkid
+
+- ```blkid -o list```
+
+```
+ubuntu@dignified-trunkfish:~$ blkid -o list
+device                                     fs_type         label            mount point                                    UUID
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+/dev/sda15                                 vfat            UEFI             /boot/efi                                      6555-C.....
+/dev/sda1                                  ext4            cloudimg-rootfs  /                                              691a........
+/dev/vda                                   iso9660         cidata           (not mounted)                                  
+/dev/loop1                                 squashfs                         /snap/core18/2671                              
+/dev/loop8                                 squashfs                         /snap/snapd/17954                              
+/dev/loop6                                 squashfs                         /snap/lxd/23545 
 ```
 
 # File permissions and attributes
