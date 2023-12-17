@@ -42,3 +42,19 @@ https://www.ibm.com/docs/en/zos/2.3.0?topic=database-index-blocks
 - 대용량 파일 관리일 경우
   - 블록 주소 12 번 부터는 이중 간접 블록, 삼중 이렇게 감. ..
     - https://rrhh234cm.tistory.com/185
+   
+## ```df -ih```
+
+- 아이노드의 사용량이 100%로 가득 찼을 경우에는
+  - 용량이 남았 있어도 파일 생성 불가 ..
+
+```
+$ df -ih
+Filesystem     Inodes IUsed IFree IUse% Mounted on
+tmpfs            992K   683  991K    1% /run
+/dev/sda1        3.8M  242K  3.5M    7% /
+tmpfs            992K     1  992K    1% /dev/shm
+tmpfs            992K     3  992K    1% /run/lock
+/dev/sda15          0     0     0     - /boot/efi
+tmpfs            199K    25  199K    1% /run/user/1000
+```
