@@ -33,3 +33,8 @@ device                                     fs_type         label            moun
 # File permissions and attributes
 
 https://wiki.archlinux.org/title/File_permissions_and_attributes
+
+
+# i-node(Index Block)
+
+https://www.ibm.com/docs/en/zos/2.3.0?topic=database-index-blocks
