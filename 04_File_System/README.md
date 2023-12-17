@@ -38,3 +38,7 @@ https://wiki.archlinux.org/title/File_permissions_and_attributes
 # i-node(Index Block)
 
 https://www.ibm.com/docs/en/zos/2.3.0?topic=database-index-blocks
+
+- 대용량 파일 관리일 경우
+  - 블록 주소 12 번 부터는 이중 간접 블록, 삼중 이렇게 감. ..
+    - https://rrhh234cm.tistory.com/185
