@@ -15,6 +15,11 @@ apk update
 
 // Upgrade
 apk upgrade
+
+// list 찾기
+apk list <package names>
+
+apk search <package names>
 ```
 
 
