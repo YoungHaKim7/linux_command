@@ -14,8 +14,7 @@ apk update
 
 
 // Upgrade
-apk upgrade upgrade
-  
+apk upgrade
 ```
 
 
