@@ -6,6 +6,13 @@
 
 <hr>
 
+# 『유닉스 리눅스 명령어 사전』의 개정판- linux command총정리
+
+- 『유닉스 리눅스 명령어 사전』의 개정판. 빠르게 찾아 쉽게 활용할 수 있는 유닉스 리눅스 명령어 사전이다. 일반 명령어, 데몬 및 서버설정, RPM & DEB, VI 에디터, SVN & Git, 쉘 스크립트 프로그래밍으로 분류하여 자세히 다룬다.
+- https://terms.naver.com/list.naver?cid=59321&categoryId=59321
+
+<hr>
+
 # Rust로 만든 CPU,GPU 감시 ytop
 
 - A TUI system monitor written in Rust 
