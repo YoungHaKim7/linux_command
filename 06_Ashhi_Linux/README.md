@@ -1,5 +1,5 @@
 <p>
-  <img src="https://asahilinux.org/img/AsahiLinux_logomark.svg" />
+  <img width=55px src="https://asahilinux.org/img/AsahiLinux_logomark.svg" />
 </p>
 
 
