@@ -19,6 +19,19 @@ sudo apt update
 sudo apt -y full-upgrade -y 
 ```
 
+# linux PATH
+
+How To Set Your $path Variable In Linux
+
+To make sure the user is following all of the steps, enable ash_profile. Setting the $PATH setting for all users on the system with the following command is as simple as that.
+Please navigate to vi /etc/profile. 
+
+```
+vi /etc/profile
+```
+
+https://www.systranbox.com/how-to-set-path-in-kali-linux/
+
 <hr>
 
 # Rust로 만든 CPU,GPU 감시 ytop
