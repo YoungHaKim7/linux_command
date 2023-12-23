@@ -67,6 +67,7 @@ https://www.kali.org/
           - https://youtu.be/nHFeAUOGC9o?si=FZ8X4zSdxY86YVpu
 - How to Install Python 3.10.2 on Kali Linux 2022.1 | Compile Python from Source | Python on Kali 2022
   - https://youtu.be/CCTFn-aLwEc?si=NbrGqwxDjUrAJb5s
+    - https://docs.python.org/3/tutorial/venv.html
 <hr>
 
 - How to install ReconSpider, Exiflooter & Sn0int | Kali Linux 2023.4 New Tools | BJ ACH
