@@ -1,6 +1,9 @@
-# Kali Linux Docs
+# Kali Linux Docs & Tools
 
 https://www.kali.org/docs/
+
+- Tools
+  - https://www.kali.org/tools/
 
 <hr>
 
