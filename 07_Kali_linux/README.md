@@ -52,3 +52,8 @@ https://www.kali.org/
 
 - https://www.kali.org/docs/general-use/install-nvidia-drivers-on-kali-linux/
 
+
+# Install
+- OBS Studio
+  - How To Install OBS Studio in Kali Linux | BJ ACH
+    - https://youtu.be/lEBGGOCx10M?si=l4Qt0S4TElKOc502
