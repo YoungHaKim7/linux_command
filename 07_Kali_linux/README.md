@@ -57,6 +57,8 @@ https://www.kali.org/
 - OBS Studio
   - How To Install OBS Studio in Kali Linux | BJ ACH
     - https://youtu.be/lEBGGOCx10M?si=l4Qt0S4TElKOc502
+      - Focusrite Scarlett 2i2 3rd gen. on LINUX (Tutorial and Review)
+        - https://youtu.be/5zFA5piXf8Q?si=YMxKva9pZyZ9vOCD
 
 <hr>
 
