@@ -65,7 +65,8 @@ https://www.kali.org/
         - https://youtu.be/5zFA5piXf8Q?si=YMxKva9pZyZ9vOCD
         - Interfacing Linux: Focusrite Scarlett Solo (Gen3)
           - https://youtu.be/nHFeAUOGC9o?si=FZ8X4zSdxY86YVpu
-
+- How to Install Python 3.10.2 on Kali Linux 2022.1 | Compile Python from Source | Python on Kali 2022
+  - https://youtu.be/CCTFn-aLwEc?si=NbrGqwxDjUrAJb5s
 <hr>
 
 - How to install ReconSpider, Exiflooter & Sn0int | Kali Linux 2023.4 New Tools | BJ ACH
