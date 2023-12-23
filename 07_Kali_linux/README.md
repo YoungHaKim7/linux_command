@@ -59,6 +59,8 @@ https://www.kali.org/
     - https://youtu.be/lEBGGOCx10M?si=l4Qt0S4TElKOc502
       - Focusrite Scarlett 2i2 3rd gen. on LINUX (Tutorial and Review)
         - https://youtu.be/5zFA5piXf8Q?si=YMxKva9pZyZ9vOCD
+        - Interfacing Linux: Focusrite Scarlett Solo (Gen3)
+          - https://youtu.be/nHFeAUOGC9o?si=FZ8X4zSdxY86YVpu
 
 <hr>
 
