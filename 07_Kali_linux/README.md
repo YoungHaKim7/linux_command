@@ -57,3 +57,8 @@ https://www.kali.org/
 - OBS Studio
   - How To Install OBS Studio in Kali Linux | BJ ACH
     - https://youtu.be/lEBGGOCx10M?si=l4Qt0S4TElKOc502
+
+<hr>
+
+- How to install ReconSpider, Exiflooter & Sn0int | Kali Linux 2023.4 New Tools | BJ ACH
+  - https://youtu.be/XdaZO5gsylQ?si=m0nnY_A3LssRXeho
