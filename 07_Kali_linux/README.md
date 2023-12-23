@@ -62,3 +62,6 @@ https://www.kali.org/
 
 - How to install ReconSpider, Exiflooter & Sn0int | Kali Linux 2023.4 New Tools | BJ ACH
   - https://youtu.be/XdaZO5gsylQ?si=m0nnY_A3LssRXeho
+
+- How to install DVWA in Kali Linux 2023 Tutorial | BJ ACH
+  -  https://youtu.be/OUYpHTKH8Kc?si=x7YJNu4uJRkKQH-z
