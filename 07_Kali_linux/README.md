@@ -41,6 +41,10 @@ sudo systemctl poweroff
 
 <hr>
 
+# Kali Command 정리 
+
+- https://blog.naver.com/wwwkasa/221100071545
+
 # Kali Linux
 
 https://www.kali.org/
