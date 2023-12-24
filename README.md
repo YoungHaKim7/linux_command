@@ -863,6 +863,16 @@ shapeshed.com
 $ sudo killall apt apt-get
 ```
 
+# symbol link만들기 단축아이콘 만들어서 편하게 이동
+
+```
+심볼릭 링크는 아래 명령어로 만들수 있다.
+
+ln -s TARGET(원본) LINK_NAME(링크이름)
+```
+출처 : https://hong00.tistory.com/80
+
+
 # 외국 사람의 리눅스 명령어 정리<a href="https://www.linux.org/pages/download/"><img align="left" alt="linux" width="26px" src="https://user-images.githubusercontent.com/67513038/210177859-6623064c-7344-46ce-a0d3-b6dcf21410e2.png"></a><a href="https://github.com/rust-ml/linfa"><img align="left" alt="js" width="26px" src="https://user-images.githubusercontent.com/67513038/215448983-97327d43-4c12-4e83-b529-e994d7614a21.png" /></a><a href="https://github.com/YoungHaKim7/linux_command#rocky-linux-9-">[🔝]</a>
 
 https://github.com/ethanflower1903/linux-command
