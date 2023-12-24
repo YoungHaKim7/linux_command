@@ -311,9 +311,11 @@ watch -d -n 0.5 nvidia-smi
 
 출처 : https://wscode.tistory.com/116
 
-```
+<hr>
 
-- Rocky 9
+<hr>
+
+# Rocky 9
 - https://forums.rockylinux.org/t/how-to-install-nvidia-driver-and-cuda-on-rocky-9-1/9686/2
 - https://www.linuxcapable.com/how-to-install-nvidia-drivers-on-rocky-linux/
 
