@@ -34,7 +34,7 @@ https://www.systranbox.com/how-to-set-path-in-kali-linux/
 
 <hr>
 
-# Rust로 만든 CPU,GPU 감시 ytop
+# Rust로 만든 CPU 감시 ytop
 
 - A TUI system monitor written in Rust 
 ```
@@ -298,12 +298,14 @@ Thu Jul 27 08:17:28 2023
 ## GPU 상태 실시간 확인하기(gpustat & watch)
 
 - ```gpustat```
-```
+
+```bash
 gpustat -i
 ```
 
 - ```watch -d -n 0.5 nvidia-smi```
-```
+
+```bash
 watch -d -n 0.5 nvidia-smi
 ```
 
