@@ -84,3 +84,7 @@ https://www.kali.org/
 
 - How to install DVWA in Kali Linux 2023 Tutorial | BJ ACH
   -  https://youtu.be/OUYpHTKH8Kc?si=x7YJNu4uJRkKQH-z
+
+# Etc
+- 화면 보호기 끄기off
+  - https://www.bddungsblog.com/2021/01/turn-off-kali-linux-screen-saver.html
