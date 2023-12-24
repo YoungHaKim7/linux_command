@@ -295,6 +295,19 @@ Thu Jul 27 08:17:28 2023
 +-----------------------------------------------------------------------------+
 
 
+## GPU 상태 실시간 확인하기(gpustat & watch)
+
+- ```gpustat```
+```
+gpustat -i
+```
+
+- ```watch -d -n 0.5 nvidia-smi```
+```
+watch -d -n 0.5 nvidia-smi
+```
+
+출처 : https://wscode.tistory.com/116
 
 ```
 
