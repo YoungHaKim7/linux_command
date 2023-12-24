@@ -88,3 +88,5 @@ https://www.kali.org/
 # Etc
 - 화면 보호기 끄기off
   - https://www.bddungsblog.com/2021/01/turn-off-kali-linux-screen-saver.html
+  - 1,2,3,4 창 사이 전환하기
+  - Ctrl + Alt 방향키 ⇄  → ⇽
