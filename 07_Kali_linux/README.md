@@ -54,6 +54,13 @@ sudo systemctl poweroff
 
 - https://blog.naver.com/wwwkasa/221100071545
 
+- 나만의 단축키 만들기
+  - https://lureout.tistory.com/420
+
+<hr>
+
+# Install
+
 # Kali Linux
 
 https://www.kali.org/
@@ -84,6 +91,8 @@ https://www.kali.org/
 
 - How to install DVWA in Kali Linux 2023 Tutorial | BJ ACH
   -  https://youtu.be/OUYpHTKH8Kc?si=x7YJNu4uJRkKQH-z
+
+<hr>
 
 # Etc
 - 화면 보호기 끄기off
