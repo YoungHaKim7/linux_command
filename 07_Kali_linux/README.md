@@ -97,8 +97,14 @@ https://www.kali.org/
 # Etc
 - 화면 보호기 끄기off
   - https://www.bddungsblog.com/2021/01/turn-off-kali-linux-screen-saver.html
-  - 1,2,3,4 창 사이 전환하기
-  - Ctrl + Alt 방향키 ⇄  →  ←  ⇽
+
 
 - Copy & Paste
   - https://askubuntu.com/questions/211292/a-terminal-which-provides-select-to-copy-and-right-click-to-paste
+ 
+- 창 전환
+  - 1,2,3,4 전체 화면 창 사이 전환하기
+  - Ctrl + Alt 방향키 ⇄  →  ←  ⇽
+    - 창 추가 하기 Alt+Insert
+    - 창 전환 창 삭제 하기 Alt+Delete
+  - 난 창 전환 3개가 딱 좋은듯 ㅋ
