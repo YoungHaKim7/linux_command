@@ -99,3 +99,6 @@ https://www.kali.org/
   - https://www.bddungsblog.com/2021/01/turn-off-kali-linux-screen-saver.html
   - 1,2,3,4 창 사이 전환하기
   - Ctrl + Alt 방향키 ⇄  →  ←  ⇽
+
+- Copy & Paste
+  - https://askubuntu.com/questions/211292/a-terminal-which-provides-select-to-copy-and-right-click-to-paste
