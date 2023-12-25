@@ -101,6 +101,7 @@ https://www.kali.org/
 
 - Copy & Paste
   - https://askubuntu.com/questions/211292/a-terminal-which-provides-select-to-copy-and-right-click-to-paste
+  - Shift + Insert (Pasted Selection)
  
 - 창 전환
   - 1,2,3,4 전체 화면 창 사이 전환하기
