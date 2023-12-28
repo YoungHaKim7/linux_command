@@ -59,8 +59,10 @@ cargo install trippy
 
 # 오류 해결 History
 
-- ```sudo apt-get update``` 실패로 아무것도 업데이트 안될때 
-https://ko.linux-console.net/?p=9349
+- ```sudo apt-get update``` 실패로 아무것도 업데이트 안될때
+  - https://ko.linux-console.net/?p=9349
+  - [SOLVED] Update manager gets GPG error when trying to download repositorie]
+    - https://forums.linuxmint.com/viewtopic.php?t=286266
 
 - 시간 안 맞는걸로 해결 https://askubuntu.com/questions/1096930/sudo-apt-update-error-release-file-is-not-yet-valid
 
