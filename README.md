@@ -16,7 +16,8 @@
 ```
 sudo apt-get update
 sudo apt-get install build-essential
-``
+```
+
 https://askubuntu.com/questions/398489/how-to-install-build-essential
 
 # update
