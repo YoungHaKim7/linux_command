@@ -63,6 +63,13 @@ cargo install trippy
   - https://ko.linux-console.net/?p=9349
   - [SOLVED] Update manager gets GPG error when trying to download repositorie]
     - https://forums.linuxmint.com/viewtopic.php?t=286266
+```
+Failed to fetch https://master.dl.sourceforge.net/project/d-apt/dists/d-apt/main/binary-amd64/Packages  Certificate verifica
+tion failed: The certificate is NOT trusted. The certificate chain uses expired certificate.  Could not handshake: Error in the
+ certificate verification. [IP: 216.105.38.12 443]
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+```
+ - 이거 해결 https://groups.google.com/g/unimrcp/c/700XHJIaEp8?pli=1
 
 - 시간 안 맞는걸로 해결 https://askubuntu.com/questions/1096930/sudo-apt-update-error-release-file-is-not-yet-valid
 
