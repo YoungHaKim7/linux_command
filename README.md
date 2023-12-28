@@ -66,7 +66,7 @@ cargo install trippy
 ```
 Failed to fetch https://master.dl.sourceforge.net/project/d-apt/dists/d-apt/main/binary-amd64/Packages  Certificate verifica
 tion failed: The certificate is NOT trusted. The certificate chain uses expired certificate.  Could not handshake: Error in the
- certificate verification. [IP: 216.105.38.12 443]
+ certificate verification. [IP: 2xx.1xx.3x.x2 xx3]
 E: Some index files failed to download. They have been ignored, or old ones used instead.
 ```
  - 이거 해결 https://groups.google.com/g/unimrcp/c/700XHJIaEp8?pli=1
