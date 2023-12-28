@@ -75,6 +75,9 @@ E: Some index files failed to download. They have been ignored, or old ones used
 
 <hr>
 
+# tar압축 해제 & 압축하기
+https://eehoeskrap.tistory.com/555
+
 # ```zig cc``` 맥에서 윈도우 파일 만들기 ㅋ 컴파일 하는 방법 ㅋ
 
 - ```zig cc -o main.exe main.c -target x86_64-windows-gnu``` zig cc 웃기네 ㅋ
