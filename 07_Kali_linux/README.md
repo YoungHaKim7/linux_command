@@ -85,7 +85,9 @@ https://www.kali.org/
   - https://youtu.be/CCTFn-aLwEc?si=NbrGqwxDjUrAJb5s
     - https://docs.python.org/3/tutorial/venv.html
 
-# Installing the NVIDIA Container Toolkit
+# Installing the NVIDIA Container Toolkit
+
+- https://www.byteworks.com/install-nvidia-drivers-and-cuda-toolkit-on-kali-1-0-6/
 
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 
