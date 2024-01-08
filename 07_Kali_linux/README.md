@@ -87,9 +87,7 @@ https://www.kali.org/
 
 # Installing the NVIDIA Container Toolkit
 
-- https://www.byteworks.com/install-nvidia-drivers-and-cuda-toolkit-on-kali-1-0-6/
-
-https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+- https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 
 # Install nvidia cuda cudnn
 
