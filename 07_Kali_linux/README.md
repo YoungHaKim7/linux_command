@@ -84,6 +84,11 @@ https://www.kali.org/
 - How to Install Python 3.10.2 on Kali Linux 2022.1 | Compile Python from Source | Python on Kali 2022
   - https://youtu.be/CCTFn-aLwEc?si=NbrGqwxDjUrAJb5s
     - https://docs.python.org/3/tutorial/venv.html
+
+# Installing the NVIDIA Container Toolkit
+
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+
 <hr>
 
 - How to install ReconSpider, Exiflooter & Sn0int | Kali Linux 2023.4 New Tools | BJ ACH
