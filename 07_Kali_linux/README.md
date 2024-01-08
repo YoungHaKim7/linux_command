@@ -91,6 +91,10 @@ https://www.kali.org/
 
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 
+# Install nvidia cuda cudnn
+
+https://linuxhint.com/install-nvidia-cuda-cudnn-kali-linux/
+
 <hr>
 
 - How to install ReconSpider, Exiflooter & Sn0int | Kali Linux 2023.4 New Tools | BJ ACH
