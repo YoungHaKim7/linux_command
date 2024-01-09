@@ -909,6 +909,169 @@ ln -s TARGET(원본) LINK_NAME(링크이름)
 ```
 출처 : https://hong00.tistory.com/80
 
+# tree
+
+https://leevisual.tistory.com/75
+
+- 2 깊이 까지만 들어간다. 굿
+```
+tree -L 2
+```
+
+<table>
+<tbody>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>옵션</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>의미</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>기타</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-d</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>디렉토리만 리스트</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-1번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-a</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>모든파일 리스트</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-2번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-f</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>표시되는 파일의 전체경로 표시</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-3번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-L</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>디렉토리 depth 설정</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-4번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-P</span></span></div>
+</td>
+<td colspan="1" rowspan="1">&nbsp;</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-5번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-I</span></span></div>
+</td>
+<td colspan="1" rowspan="1">&nbsp;</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-6번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>--prune</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>텅빈 디렉토리 리스트 안함.</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-7번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-p</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>파일의 타입및 퍼미션 출력</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-8번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-u</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>사용자(username) 출력</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-9번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-h</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>파일의 사이즈 출력 (human readable)</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-10번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-s</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>파일의 사이즈 출력</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-11번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>--du</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>디렉토리에 대한 실제 크기 출력</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-12번 항목 참조</span></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">
+<div><span><span>-o</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>출력을 파일로 전송</span></span></div>
+</td>
+<td colspan="1" rowspan="1">
+<div><span><span>1-13번 항목 참조</span></span></div>
+</td>
+</tr>
+</tbody>
+</table>
 
 # 외국 사람의 리눅스 명령어 정리<a href="https://www.linux.org/pages/download/"><img align="left" alt="linux" width="26px" src="https://user-images.githubusercontent.com/67513038/210177859-6623064c-7344-46ce-a0d3-b6dcf21410e2.png"></a><a href="https://github.com/rust-ml/linfa"><img align="left" alt="js" width="26px" src="https://user-images.githubusercontent.com/67513038/215448983-97327d43-4c12-4e83-b529-e994d7614a21.png" /></a><a href="https://github.com/YoungHaKim7/linux_command#rocky-linux-9-">[🔝]</a>
 
