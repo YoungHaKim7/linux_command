@@ -1,3 +1,10 @@
+# 여기에 정리함
+
+- https://github.com/YoungHaKim7/rust_vim_setting/tree/main/10_FishShell
+
+
+<hr>
+
 # FishShell
 
 - https://fishshell.com/
