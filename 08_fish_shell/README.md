@@ -7,6 +7,9 @@
 - 명령어 쓰고 뒤에 쓰면 끝 편하네 
   - https://fishshell.com/docs/current/cmds/fish_add_path.html
 
+- 잘못 쓴 PATH 지우기
+  - https://superuser.com/questions/776008/how-to-remove-a-path-from-path-variable-in-fish
+
 # Fish에 Plugin 설치 하기
 
 - 플러그인 매니져
