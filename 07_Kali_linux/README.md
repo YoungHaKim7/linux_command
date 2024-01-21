@@ -2,6 +2,9 @@
 
 - https://www.guru99.com/ko/kali-linux-tutorial.html
 
+- Display Manager(GDM,SDDM, LightDM) 3개중에 뭐하지?
+  - https://forums.debian.net/viewtopic.php?t=154871
+ 
 <hr>
 
 
