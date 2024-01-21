@@ -1,3 +1,10 @@
+# kali install & tutorial
+
+- https://www.guru99.com/ko/kali-linux-tutorial.html
+
+<hr>
+
+
 # Kali Linux Docs & Tools
 
 https://www.kali.org/docs/
