@@ -42,6 +42,12 @@ https://www.systranbox.com/how-to-set-path-in-kali-linux/
 
 <hr>
 
+# linux에서 윈도우 실행하기
+
+- https://sprout13.tistory.com/m/42
+
+<hr>
+
 # Rust로 만든 CPU 감시 ytop
 
 - A TUI system monitor written in Rust 
