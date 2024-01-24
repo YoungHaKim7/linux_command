@@ -27,6 +27,10 @@ https://itcider.com/1440/
 
 - error https://forums.developer.nvidia.com/t/535-doesnt-work-on-6-2-0-26-generic/261877/6
 
+# Docker 
+
+https://download.docker.com/linux/static/stable/?_gl=1*1bq929c*_ga*MTM0Nzc0NTk4NS4xNzA2MDk1ODI2*_ga_XJWPQMJYHQ*MTcwNjA5NTgyNS4xLjEuMTcwNjA5NjM2MS4yNy4wLjA.
+
 # Install Discord on Linux
 
 
