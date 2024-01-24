@@ -24,7 +24,7 @@ https://askubuntu.com/questions/398489/how-to-install-build-essential
 
 ```
 sudo apt update
-sudo apt -y full-upgrade -y 
+sudo apt full-upgrade -y 
 ```
 
 # linux PATH
