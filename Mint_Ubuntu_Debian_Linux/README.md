@@ -33,6 +33,7 @@ https://itcider.com/1440/
   - 역시 레딧 짱 https://www.reddit.com/r/linuxmint/comments/18iigwl/can_i_install_cuda_toolkit_on_linux_mint_212/?rdt=45724
 
 - error https://forums.developer.nvidia.com/t/535-doesnt-work-on-6-2-0-26-generic/261877/6
+- CUDA 툴킷 설치해기 https://bluecolorsky.tistory.com/110
 
 # Docker 
 
