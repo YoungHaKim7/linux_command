@@ -21,6 +21,9 @@ https://itcider.com/1440/
 
 - https://www.linuxcapable.com/install-nvidia-drivers-on-linux-mint/
 
+- Mok세팅
+  - https://elrepo.org/tiki/SecureBootKey
+
 # Install Discord on Linux
 
 
