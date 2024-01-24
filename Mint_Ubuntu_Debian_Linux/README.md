@@ -29,6 +29,8 @@ https://itcider.com/1440/
 
 # Docker 
 
+- Dokcer install https://linuxiac.com/how-to-install-docker-on-linux-mint-21/
+
 https://download.docker.com/linux/static/stable/?_gl=1*1bq929c*_ga*MTM0Nzc0NTk4NS4xNzA2MDk1ODI2*_ga_XJWPQMJYHQ*MTcwNjA5NTgyNS4xLjEuMTcwNjA5NjM2MS4yNy4wLjA.
 
 # Install Discord on Linux
