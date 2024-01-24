@@ -12,6 +12,10 @@ https://itcider.com/1440/
 
 <hr>
 
+# Font Install
+
+- https://www.debugpoint.com/fonts-mint-cinnamon/
+
 # Install Discord on Linux
 
 
