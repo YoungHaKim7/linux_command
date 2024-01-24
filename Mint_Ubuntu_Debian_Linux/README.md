@@ -28,6 +28,10 @@ https://itcider.com/1440/
 
   - https://elrepo.org/tiki/SecureBootKey
 
+- Cuda install
+  - https://developer.nvidia.com/cuda-12-0-1-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local
+  - 역시 레딧 짱 https://www.reddit.com/r/linuxmint/comments/18iigwl/can_i_install_cuda_toolkit_on_linux_mint_212/?rdt=45724
+
 - error https://forums.developer.nvidia.com/t/535-doesnt-work-on-6-2-0-26-generic/261877/6
 
 # Docker 
