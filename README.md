@@ -75,6 +75,11 @@ cargo install trippy
 
 - ```sudo apt-get update``` 실패로 아무것도 업데이트 안될때
   - https://ko.linux-console.net/?p=9349
+```
+릴리스가 수명 종료(EOL)에 도달한 경우 "apt-get 업데이트< 중에 404 오류를 방지하려면 다음과 같이 /etc/apt/sources.list를 수정해야 합니다. /코드>". CODENAME을 사용 중인 Ubuntu 릴리스의 코드명으로 바꾸십시오.
+
+cd /etc/apt/souces.list.d 
+```
   - [SOLVED] Update manager gets GPG error when trying to download repositorie]
     - https://forums.linuxmint.com/viewtopic.php?t=286266
 ```
