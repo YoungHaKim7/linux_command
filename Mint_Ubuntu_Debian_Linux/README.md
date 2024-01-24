@@ -10,6 +10,9 @@ https://wiki.debianusers.or.kr/index.php?title=%EB%8D%B0%EB%B9%84%EC%95%88_10(bu
 
 https://itcider.com/1440/
 
+- 설명
+  - https://namu.wiki/w/Linux%20Mint
+
 <hr>
 
 # Font Install
