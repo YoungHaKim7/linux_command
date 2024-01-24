@@ -16,6 +16,11 @@ https://itcider.com/1440/
 
 - https://www.debugpoint.com/fonts-mint-cinnamon/
 
+
+# NVidia Drivers on linux mint
+
+- https://www.linuxcapable.com/install-nvidia-drivers-on-linux-mint/
+
 # Install Discord on Linux
 
 
