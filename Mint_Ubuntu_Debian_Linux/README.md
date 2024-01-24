@@ -22,7 +22,10 @@ https://itcider.com/1440/
 - https://www.linuxcapable.com/install-nvidia-drivers-on-linux-mint/
 
 - Mok세팅
+
   - https://elrepo.org/tiki/SecureBootKey
+
+- error https://forums.developer.nvidia.com/t/535-doesnt-work-on-6-2-0-26-generic/261877/6
 
 # Install Discord on Linux
 
