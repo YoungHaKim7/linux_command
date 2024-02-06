@@ -176,6 +176,17 @@ https://www.lesstif.com/system-admin/bash-readline-line-reverse-search-6717494.h
 https://withcoding.com/121
 
 
+# ```ls``` 사용법
+
+- 용량 보기 좋게 MB로 표시해서 보기
+```
+ls -lah
+```
+- 출처: https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=khsmonad&logNo=220040189919
+
+<hr>
+
+
 # ```lsd``` 사용법
 
 ```bash
