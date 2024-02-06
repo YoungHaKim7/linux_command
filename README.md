@@ -20,6 +20,14 @@ sudo apt-get install build-essential
 
 https://askubuntu.com/questions/398489/how-to-install-build-essential
 
+# How to add PPA on Ubuntu?
+
+```
+sudo apt-get install software-properties-common
+```
+
+- https://geekflare.com/ubuntu-ppa/
+
 # update
 
 ```
