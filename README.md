@@ -1105,6 +1105,15 @@ tree -L 2
 
 - 출처 : https://leevisual.tistory.com/75
 
+
+# [Linux] scp 명령어로 (로컬↔서버) 파일 전송| by Heejin Do
+
+
+- 파일 전송  scp
+
+- https://doheejin.github.io/linux/2021/03/03/linux-scp.html
+
+
 # 외국 사람의 리눅스 명령어 정리<a href="https://www.linux.org/pages/download/"><img align="left" alt="linux" width="26px" src="https://user-images.githubusercontent.com/67513038/210177859-6623064c-7344-46ce-a0d3-b6dcf21410e2.png"></a><a href="https://github.com/rust-ml/linfa"><img align="left" alt="js" width="26px" src="https://user-images.githubusercontent.com/67513038/215448983-97327d43-4c12-4e83-b529-e994d7614a21.png" /></a><a href="https://github.com/YoungHaKim7/linux_command#rocky-linux-9-">[🔝]</a>
 
 https://github.com/ethanflower1903/linux-command
