@@ -65,6 +65,12 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install nodejs
 ```
 
+- pip설치
+  - https://automatetheboringstuff.com/appendixa/
+```
+sudo apt-get install python3-pip
+```
+
 # linux PATH
 
 How To Set Your $path Variable In Linux
