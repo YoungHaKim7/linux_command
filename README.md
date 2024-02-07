@@ -55,6 +55,16 @@ Now using node v20.11.0 (npm v10.2.4)
 v20.11.0
 ```
 
+-nodejs 18 버젼 설치
+  - https://velog.io/@leehy0782/Ubuntu-Node.js-18%EB%B2%84%EC%A0%84-%EC%84%A4%EC%B9%98
+```
+sudo apt update && sudo apt upgrade
+
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+
+sudo apt-get install nodejs
+```
+
 # linux PATH
 
 How To Set Your $path Variable In Linux
