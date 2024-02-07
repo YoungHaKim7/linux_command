@@ -35,6 +35,26 @@ sudo apt update
 sudo apt full-upgrade -y 
 ```
 
+# npm
+
+- https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
+
+```
+ nvm install --lts
+Installing latest LTS version.
+Downloading and installing node v20.11.0...
+Downloading https://nodejs.org/dist/v20.11.0/node-v20.11.0-linux-x64.tar.xz...
+############################################################################################################################################### 100.0%
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v20.11.0 (npm v10.2.4)
+
+
+
+❯ node --version
+v20.11.0
+```
+
 # linux PATH
 
 How To Set Your $path Variable In Linux
