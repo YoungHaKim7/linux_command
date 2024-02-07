@@ -71,6 +71,9 @@ sudo apt-get install nodejs
 sudo apt-get install python3-pip
 ```
 
+# Nerd Font 설치 install
+- https://github.com/ryanoasis/nerd-fonts
+
 # linux PATH
 
 How To Set Your $path Variable In Linux
