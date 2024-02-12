@@ -35,6 +35,15 @@ sudo apt update
 sudo apt full-upgrade -y 
 ```
 
+# apt 찾기
+
+```
+apt-cache search openjdk-17
+
+apt-cache search 찾고자 하는거 쓰기
+
+```
+
 # npm
 
 - https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
