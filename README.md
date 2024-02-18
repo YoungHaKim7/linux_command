@@ -99,6 +99,7 @@ make
 
 
 # Vulkan Install
+- https://installati.one/install-vulkan-tools-ubuntu-22-04/?expand_article=1
 
 ```
 sudo apt-get update
