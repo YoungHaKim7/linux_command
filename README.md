@@ -72,6 +72,31 @@ sudo apt remove -y meson
 sudo pip3 install --upgrade meson
 ```
 - https://github.com/jellyfin/jellyfin-media-player/issues/461
+
+
+- meson 쓰는 순서
+- https://www.linuxfromscratch.org/blfs/view/svn/general/glib2.html
+
+```
+meson build .
+
+cd build
+
+meson test
+
+ninja     
+
+sudo ninja install 
+```
+
+- cmake쓰는 순서
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+
 <hr>
 
 # npm
