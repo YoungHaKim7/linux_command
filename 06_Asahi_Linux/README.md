@@ -23,3 +23,6 @@ Asahi Linux is developed by a thriving community of free and open source softwar
 
 How to install build-essential
 - https://www.pragmaticlinux.com/2022/05/how-to-install-build-essential-on-fedora/#google_vignette
+
+# font install
+- https://docs.fedoraproject.org/en-US/quick-docs/fonts/
