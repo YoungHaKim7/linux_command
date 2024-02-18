@@ -46,6 +46,11 @@ apt-cache search 찾고자 하는거 쓰기
 
 <hr>
 
+# Cmake다음 버젼 meson 이제는 meson으로 넘어가나?
+
+- https://int-i.github.io/cpp/2021-06-26/cpp-meson/
+
+
 # meson install(Successfully installed meson-1.3.2)
 
 ```
