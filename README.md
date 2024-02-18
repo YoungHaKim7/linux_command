@@ -50,7 +50,7 @@ apt-cache search 찾고자 하는거 쓰기
 
 - https://int-i.github.io/cpp/2021-06-26/cpp-meson/
 
-- meson 최신버젼을 설치하기전 pip3설치해야함
+- meson 최신버젼을 설치하기전 pip3설치해야함 & ninja
 
 ```
 sudo apt-get update
@@ -59,6 +59,10 @@ sudo apt-get -y install python3-pip
 
 
 pip3 --version
+
+sudo apt install build-essential
+
+sudo apt install ninja-build
 ```
 
 # meson install(Successfully installed meson-1.3.2)
