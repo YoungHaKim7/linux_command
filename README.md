@@ -44,6 +44,17 @@ apt-cache search 찾고자 하는거 쓰기
 
 ```
 
+<hr>
+
+# meson install(Successfully installed meson-1.3.2)
+
+```
+sudo apt remove -y meson
+sudo pip3 install --upgrade meson
+```
+- https://github.com/jellyfin/jellyfin-media-player/issues/461
+<hr>
+
 # npm
 
 - https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
