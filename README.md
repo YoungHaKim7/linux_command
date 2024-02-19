@@ -1,6 +1,6 @@
 # link
 
-<a href="https://github.com/YoungHaKim7/linux_command#find%EB%A1%9C-%ED%8C%8C%EC%9D%BC-%ED%8F%B4%EB%8D%94-%EC%B0%BE%EC%95%84%EC%84%9C-%EC%A7%80%EC%9A%B0%EA%B8%B0top">Find 명령어로 내가 원하는 파일만 골라서 지우기</a>
+- [find로-파일-폴더-찾아서-지우기top](#find로-파일-폴더-찾아서-지우기top)
 
 
 
