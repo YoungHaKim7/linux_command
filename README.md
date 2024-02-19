@@ -404,6 +404,21 @@ find ./* -type -f -name '*.jpg' -size +512k -size -1024k -exec rm -rf {} \;
 
 - find function 만들어서 내 맘대로 검색하기 https://www.baeldung.com/linux/find-exec-command
 
+
+# 실행 파일만 골라서 지우기 Makefile(delete execute file)
+
+```
+- macOS ```find . -type f -perm +111 -print -exec rm -rf {} \;```
+- LinuxOS ```find . -type f -executable -print -exec rm {} \;```
+- WindowsOS ```Get-ChildItem -Filter *.exe -Recurse -Force | Remove-Item -Recurse -Force```
+```Makefile
+clean:
+		find . -type f -perm +111 -print -exec rm -rf {} \;
+rm:
+		find . -type f -executable -print -exec rm {} \;
+```
+
+
 <hr>
 
 # Disk (WindowsOS) 파티션 이게 최고 ㅎ
@@ -1243,20 +1258,6 @@ tree -L 2
 - 파일 전송  scp
 
 - https://doheejin.github.io/linux/2021/03/03/linux-scp.html
-
-
-# 실행 파일만 골라서 지우기 Makefile(delete execute file)
-
-```
-- macOS ```find . -type f -perm +111 -print -exec rm -rf {} \;```
-- LinuxOS ```find . -type f -executable -print -exec rm {} \;```
-- WindowsOS ```Get-ChildItem -Filter *.exe -Recurse -Force | Remove-Item -Recurse -Force```
-```Makefile
-clean:
-		find . -type f -perm +111 -print -exec rm -rf {} \;
-rm:
-		find . -type f -executable -print -exec rm {} \;
-```
 
 
 # 외국 사람의 리눅스 명령어 정리<a href="https://www.linux.org/pages/download/"><img align="left" alt="linux" width="26px" src="https://user-images.githubusercontent.com/67513038/210177859-6623064c-7344-46ce-a0d3-b6dcf21410e2.png"></a><a href="https://github.com/rust-ml/linfa"><img align="left" alt="js" width="26px" src="https://user-images.githubusercontent.com/67513038/215448983-97327d43-4c12-4e83-b529-e994d7614a21.png" /></a><a href="https://github.com/YoungHaKim7/linux_command#rocky-linux-9-">[🔝]</a>
