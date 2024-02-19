@@ -17,6 +17,23 @@ Asahi Linux is developed by a thriving community of free and open source softwar
 
 - https://github.com/AsahiLinux
 
+# Ashhi Linux Install
+
+- Installing Fedora Asahi Remix
+
+
+
+Fedora Asahi Remix is installed from macOS. The minimum supported macOS versions are 13.5 and 14.2. Due to macOS issues outside of our control, you may be prompted to upgrade to 14.2 if you have an intermediate version.
+
+To install the latest release build, open up the terminal and run the following as a regular user:
+
+
+```
+curl https://fedora-asahi-remix.org/install | sh
+```
+
+- https://docs.fedoraproject.org/en-US/fedora-asahi-remix/installation/
+
 <hr>
 
 # dnf install
