@@ -1245,6 +1245,20 @@ tree -L 2
 - https://doheejin.github.io/linux/2021/03/03/linux-scp.html
 
 
+# 실행 파일만 골라서 지우기 Makefile(delete execute file)
+
+```
+- macOS ```find . -type f -perm +111 -print -exec rm -rf {} \;```
+- LinuxOS ```find . -type f -executable -print -exec rm {} \;```
+- WindowsOS ```Get-ChildItem -Filter *.exe -Recurse -Force | Remove-Item -Recurse -Force```
+```Makefile
+clean:
+		find . -type f -perm +111 -print -exec rm -rf {} \;
+rm:
+		find . -type f -executable -print -exec rm {} \;
+```
+
+
 # 외국 사람의 리눅스 명령어 정리<a href="https://www.linux.org/pages/download/"><img align="left" alt="linux" width="26px" src="https://user-images.githubusercontent.com/67513038/210177859-6623064c-7344-46ce-a0d3-b6dcf21410e2.png"></a><a href="https://github.com/rust-ml/linfa"><img align="left" alt="js" width="26px" src="https://user-images.githubusercontent.com/67513038/215448983-97327d43-4c12-4e83-b529-e994d7614a21.png" /></a><a href="https://github.com/YoungHaKim7/linux_command#rocky-linux-9-">[🔝]</a>
 
 https://github.com/ethanflower1903/linux-command
