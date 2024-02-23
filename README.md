@@ -98,6 +98,9 @@ make
 ```
 
 
+# Clipboard 먹통일때 설치
+- https://superuser.com/questions/1559544/how-to-copy-from-vim-to-clipboard-on-ubuntu-20-04
+
 # Vulkan Install(22.04)
 - https://installati.one/install-vulkan-tools-ubuntu-22-04/?expand_article=1
 
