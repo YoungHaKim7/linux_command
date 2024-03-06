@@ -43,3 +43,9 @@ How to install build-essential
 
 # font install
 - https://docs.fedoraproject.org/en-US/quick-docs/fonts/
+
+# 최근 news
+
+- 240215 GN⁺: 아사히 리눅스의 애플 실리콘 OpenGL 지원, 공식적으로 애플을 초월 (arstechnica.com)
+  - https://news.hada.io/topic?id=13401
+    - https://arstechnica.com/gadgets/2024/02/asahi-linux-projects-opengl-support-on-apple-silicon-officially-surpasses-apples/
