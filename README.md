@@ -310,6 +310,14 @@ drwxrwxrwx    - y 26 Feb 12:28    ├── debug
 drwxrwxrwx    - y 26 Feb 11:54    └── nextest
 ```
 
+- (eza)icons으로 이쁘게 보기
+  - `eza --icons`
+
+```
+eza --icons
+ Cargo.lock   Cargo.toml   src   target
+```
+
 # file 사용법
 
 - ```file``` file 뒤에 파일명을 누르면 어떻게 실행되고 자세한 사항을 알수 있다.
