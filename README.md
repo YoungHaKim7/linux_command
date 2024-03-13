@@ -1,6 +1,7 @@
 # link
 
 - [find로-파일-폴더-찾아서-지우기top](#find로-파일-폴더-찾아서-지우기top)
+- [eza-사용법exa에서-eza로-넘어감](#eza-사용법exa에서-eza로-넘어감)
 
 
 
