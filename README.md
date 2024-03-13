@@ -276,6 +276,39 @@ Compile C Objects [175/406] wcstoumax.c... 3 warnings generated.
 
 ```
 
+# eza 사용법(exa에서 eza로 넘어감)
+
+
+- https://github.com/eza-community/eza
+
+- `eza -la -TL2` 트리랑 용량 체크
+
+```
+$ eza -la -TL2
+drwxrwxrwx    - y 26 Feb 12:17 .
+drwxrwxrwx    - y 13 Mar 15:29 ├── .git
+.rw-rw-rw-   92 y 26 Feb 11:42 │  ├── config
+.rw-rw-rw-   73 y 26 Feb 11:42 │  ├── description
+.rw-rw-rw-   23 y 26 Feb 11:42 │  ├── HEAD
+drwxr-xr-x    - y 26 Feb 11:42 │  ├── hooks
+drwxr-xr-x    - y 26 Feb 11:42 │  ├── info
+drwxrwxrwx    - y 26 Feb 11:42 │  ├── objects
+drwxrwxrwx    - y 26 Feb 11:42 │  └── refs
+.rw-rw-rw-    8 y 26 Feb 11:42 ├── .gitignore
+drwxrwxrwx    - y 26 Feb 12:17 ├── .vscode
+.rw-rw-rw- 1.9k y 26 Feb 12:17 │  └── launch.json
+.rw-rw-rw-  154 y 26 Feb 11:42 ├── Cargo.lock
+.rw-rw-rw-  179 y 26 Feb 11:42 ├── Cargo.toml
+drwxrwxrwx    - y 13 Mar 16:01 ├── src
+.rw-rw-rw- 2.0k y  7 Mar 10:27 │  ├── lib.rs
+.rw-rw-rw-  138 y 26 Feb 12:28 │  └── main.rs
+drwxrwxrwx    - y 26 Feb 11:54 └── target
+.rw-rw-rw- 1.0k y 13 Mar 16:01    ├── .rustc_info.json
+.rw-rw-rw-  177 y 26 Feb 11:42    ├── CACHEDIR.TAG
+drwxrwxrwx    - y 26 Feb 12:28    ├── debug
+drwxrwxrwx    - y 26 Feb 11:54    └── nextest
+```
+
 # file 사용법
 
 - ```file``` file 뒤에 파일명을 누르면 어떻게 실행되고 자세한 사항을 알수 있다.
