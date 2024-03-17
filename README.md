@@ -33,7 +33,10 @@ sudo apt-get install software-properties-common
 
 ```
 sudo apt update
-sudo apt full-upgrade -y 
+sudo apt full-upgrade -y
+
+// 한줄로
+sudo apt update && sudo apt full-upgrade -y 
 ```
 
 # apt 찾기
