@@ -2,6 +2,7 @@
 
 - [find로-파일-폴더-찾아서-지우기top](#find로-파일-폴더-찾아서-지우기top)
 - [eza-사용법exa에서-eza로-넘어감](#eza-사용법exa에서-eza로-넘어감)
+- [valgrind-최신-버젼-설치하기](#valgrind-최신-버젼-설치하기)
 
 
 
@@ -103,10 +104,10 @@ make
 ```
 
 
-# Clipboard 먹통일때 설치
+# Clipboard 먹통일때 설치[[🔝]](#link)
 - https://superuser.com/questions/1559544/how-to-copy-from-vim-to-clipboard-on-ubuntu-20-04
 
-# Vulkan Install(22.04)
+# Vulkan Install(22.04)[[🔝]](#link)
 - https://installati.one/install-vulkan-tools-ubuntu-22-04/?expand_article=1
 
 ```
@@ -125,7 +126,7 @@ sudo apt install vulkan-sdk
 
 <hr>
 
-# npm
+# npm[[🔝]](#link)
 
 - https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
 
@@ -161,17 +162,17 @@ sudo apt-get install nodejs
 sudo apt-get install python3-pip
 ```
 
-# Cmake업데이트 하기
+# Cmake업데이트 하기[[🔝]](#link)
 - https://somjang.tistory.com/entry/Ubuntu-CMake-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
 
-# netstat 없으면 설치
+# netstat 없으면 설치[[🔝]](#link)
 - ```netstat```
 ```
 sudo apt update
 sudo apt install net-tools -y
 ```
 
-# Valgrind 최신 버젼 설치하기
+# Valgrind 최신 버젼 설치하기[[🔝]](#link)
 
 - https://valgrind.org/downloads/current.html
 
@@ -186,10 +187,13 @@ make install
 sudo make install
 ```
 
-# Nerd Font 설치 install
+- Valgrind 에러 해결
+  - https://github.com/llvm/llvm-project/issues/56550
+
+# Nerd Font 설치 install[[🔝]](#link)
 - https://github.com/ryanoasis/nerd-fonts
 
-# linux PATH
+# linux PATH[[🔝]](#link)
 
 How To Set Your $path Variable In Linux
 
@@ -584,7 +588,7 @@ watch -d -n 0.5 nvidia-smi
 
 <hr>
 
-# Rocky 9 Linux 
+# Rocky 9 Linux [[🔝]](#link)
 - Obs Studio install https://idroot.us/how-to-install-obs-studio-on-rocky-linux-9/
 
 # Rocky Linux 9 ~~~~~~
@@ -596,14 +600,14 @@ dnf install
 ```
 
 
-# 내가 만든 Shell check 하기
+# 내가 만든 Shell check 하기[[🔝]](#link)
 
 https://www.shellcheck.net/
 
 - bash comment
   - https://www.cyberciti.biz/faq/bash-comment-out-multiple-line-code/
 
-# version check
+# version check[[🔝]](#link)
 
 ```
 cat /etc/os-release
@@ -620,7 +624,7 @@ https://github.com/dylanaraps/neofetch
 ./neofetch
 ```
 
-# RockyLinux 9 명령어 정리
+# RockyLinux 9 명령어 정리[[🔝]](#link)
 
 https://docs.rockylinux.org/books/admin_guide/03-commands/
 
@@ -630,7 +634,7 @@ https://docs.rockylinux.org/books/admin_guide/03-commands/
 
 <hr>
 
-# Screen 명령어 정리 ~~~~~~~
+# Screen 명령어 정리 ~~~~~~~[[🔝]](#link)
 
 ```
 // Ctrl + a
@@ -708,7 +712,7 @@ https://superuser.com/questions/243459/unix-how-to-unsplit-in-screen
 
 <hr>
 
-# [Linux] tmux 사용법  ~~~~~~~~~
+# [Linux] tmux 사용법  ~~~~~~~~~[[🔝]](#link)
 
 - tmux 세팅
   - https://github.com/YoungHaKim7/rust_vim_setting
@@ -780,9 +784,9 @@ https://velog.io/@ur-luella/tmux-%EC%82%AC%EC%9A%A9%EB%B2%95
 
 <hr>
 
-# ubuntu Linux ~~~~~~~~~~~~
+# ubuntu Linux ~~~~~~~~~~~~[[🔝]](#link)
 
-# Nvidia 설치를 위해 Exit The X Server
+# Nvidia 설치를 위해 Exit The X Server[[🔝]](#link)
 
 - 이거인듯
   - https://unix.stackexchange.com/questions/25668/how-to-close-x-server-to-avoid-errors-while-updating-nvidia-driver
@@ -793,7 +797,7 @@ https://www.systranbox.com/how-to-exit-the-x-server-on-a-linux-machine/
 sudo service lightdm stop
 ```
 
-# lsof 포트 죽이기
+# lsof 포트 죽이기[[🔝]](#link)
 
 - 8000 포트port 검색
 
@@ -808,12 +812,12 @@ lsof -i :7999
 kill -9 pid쓰면 됨
 ```
 
-## GRUB(GRand Unified Bootloader검색하다가 알게 됨. 
+## GRUB(GRand Unified Bootloader검색하다가 알게 됨. [[🔝]](#link)
 
 - 리눅스 시스템 부팅 프로세스(리눅스 부팅과정)
 ﻿  -https://yonlog.tistory.com/59
 
-## Linux sed 사용법
+## Linux sed 사용법[[🔝]](#link)
 
 https://www.lesstif.com/lpt/linux-sed-6979751.html
 
@@ -828,7 +832,7 @@ https://www.lesstif.com/lpt/linux-sed-6979751.html
 
 <hr>
 
-# ip 확인
+# ip 확인[[🔝]](#link)
 
 ```bash
 // To run the alternative to the ifconfig utility, type in this command:
@@ -841,7 +845,7 @@ https://www.makeuseof.com/fix-ifconfig-command-not-found-error-linux/
 
 <hr>
 
-# 다른 사람의 리눅스Command 정리 자료
+# 다른 사람의 리눅스Command 정리 자료[[🔝]](#link)
 
 - [외국 사람(터키)Dev정리한 Linux_Command](https://github.com/YoungHaKim7/linux_command/blob/main/README.md#%EC%99%B8%EA%B5%AD-%EC%82%AC%EB%9E%8C%EC%9D%98-%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC)
 
@@ -851,11 +855,11 @@ https://www.makeuseof.com/fix-ifconfig-command-not-found-error-linux/
 lsb_release -a
 ```
 
-# 윈도우 관련 & 리눅스 겹치는 내용 shell
+# 윈도우 관련 & 리눅스 겹치는 내용 shell[[🔝]](#link)
 
 https://github.com/YoungHaKim7/Shell_Script
 
-# sudo apt 많이 쓰는거 정리
+# sudo apt 많이 쓰는거 정리[[🔝]](#link)
 
 - 설치 가능한 패키지 리스트를 최신화
 ```
@@ -886,7 +890,7 @@ https://tttap.tistory.com/130
 sudo apt autoremove
 ```
 
-# apt search & install & remove
+# apt search & install & remove[[🔝]](#link)
 
 ```
 sudo apt search elastic
@@ -898,7 +902,7 @@ sudo apt install elastic
 
 https://codingdog.tistory.com/entry/%EC%9A%B0%EB%B6%84%ED%88%AC-apt-search-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%ED%8C%A8%ED%82%A4%EC%A7%80%EB%A5%BC-%EC%B0%BE%EC%95%84%EB%B4%85%EC%8B%9C%EB%8B%A4
 
-# remove & purge 차이
+# remove & purge 차이[[🔝]](#link)
 
 ```
 $ sudo apt remove <패키지명>
@@ -912,13 +916,13 @@ $ sudo apt purge <패키지명>
 ```
 https://gintrie.tistory.com/23
 
-# Command Line Crash Course | freeCodeCamp.org
+# Command Line Crash Course | freeCodeCamp.org[[🔝]](#link)
 
 - https://www.youtube.com/watch?v=yz7nYlnXLfE 
 
   - https://www.freecodecamp.org/news/the-linux-commands-handbook/
   
-# 결국은 Linux command를 외워야함
+# 결국은 Linux command를 외워야함[[🔝]](#link)
 
 Cd
 Ls (dos에서 dir이랑 똑같음)
@@ -930,7 +934,7 @@ https://ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
 
 
 
-#  WindowsOS 실행 창에서 (단축키 win+R)
+#  WindowsOS 실행 창에서 (단축키 win+R)[[🔝]](#link)
 
 ```
 //윈도우 터미널
@@ -944,7 +948,7 @@ pwsh.exe
 ```
 
 
-# Linux 명령어는 모두 소문자
+# Linux 명령어는 모두 소문자[[🔝]](#link)
 
 
 # whoami
@@ -955,7 +959,7 @@ pwsh.exe
 whoami
 ```
 
-# pwd
+# pwd[[🔝]](#link)
 
 - 현재 워킹 디렉토리 표시해줌the pwd command will tell you exactly what the current working directory is.
 
@@ -963,7 +967,7 @@ whoami
 pwd
 ```
 
-# cd 작업디렉토리 변경
+# cd 작업디렉토리 변경[[🔝]](#link)
 - You can change the working directory using the cd command, an abbreviation for ‘change directory’. Try typing the following:
 
 ```
@@ -1005,7 +1009,7 @@ Note that the directory separator is a forward slash (”/”), not the backslas
 
 
 
-# rm
+# rm[[🔝]](#link)
 
 - 파일 지우기
 
@@ -1022,7 +1026,7 @@ rm -r 폴더명 폴더에 파일이 있어도 강제로 다 지워줌 최고!!!
 ```
 
 
-# touch
+# touch[[🔝]](#link)
 
 - 파일 만들기
 ```
@@ -1032,7 +1036,7 @@ touch test.txt
 ```
 
 
-# 윈도에서 touch같은 기능 구현하기
+# 윈도에서 touch같은 기능 구현하기[[🔝]](#link)
 
 - 나의 shell참조
 
@@ -1046,20 +1050,20 @@ $ echo $null >> hello.c
 hello.c 파일 만들기
 https://github.com/YoungHaKim7/Ada_Lang
 
-# mkdir폴더 만들기
+# mkdir폴더 만들기[[🔝]](#link)
 
 ```
 mkdir test test폴더 만들어짐 rmdir test test폴더 지워짐
 ```
 
-# rmdir폴더 지우기
+# rmdir폴더 지우기[[🔝]](#link)
 
 ```
 // 많이 안 써봐서 잘 모르겠음
 rmdir
 ```
 
-# move
+# move[[🔝]](#link)
 = mv
 파일명 바꾸기
 
@@ -1088,7 +1092,7 @@ cp 폴더 강제로 만들기 좋네 ㅎㅎ❤️ -
 https://economiceco.tistory.com/m/15199
 
 
-# clear화면 깨끗이 하기
+# clear화면 깨끗이 하기[[🔝]](#link)
 
 ```
 cd g
@@ -1107,21 +1111,21 @@ ls
 http://www.ktword.co.kr/test/view/view.php?m_temp1=6054
 
 
-# sudo
+# sudo[[🔝]](#link)
 
 root권한으로 파일 설치 할 때 씀
 윈도우의 Admin계정 권한으로 이해!!!
 
 
 
-# 리눅스 용량확인
+# 리눅스 용량확인[[🔝]](#link)
 ```
 df -h
 ```
 
 https://velog.io/@devmin/%EB%A6%AC%EB%88%85%EC%8A%A4%EC%97%90%EC%84%9C-%EB%8B%A4%EB%A5%B8-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%A1%9C-%EA%B2%BD%EB%A1%9C-%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0
 
-# mv ls옵션 명령어 잘 정리됨.
+# mv ls옵션 명령어 잘 정리됨.[[🔝]](#link)
 
 https://shapeshed.com/unix-mv/#:~:text=What%20is%20the%20mv%20command,are%20new%20than%20the%20destination.
 
@@ -1132,7 +1136,7 @@ Last updated Wednesday, Jan 8, 2020 Linux and Unix mv command tutorial with exam
 
 shapeshed.com
 
-# 터미널에서 모든 프로세스 kill
+# 터미널에서 모든 프로세스 kill[[🔝]](#link)
 
 - 우선 터미널을 열고 모든 프로세스를 kill 해줍니다.
 
@@ -1140,7 +1144,7 @@ shapeshed.com
 $ sudo killall apt apt-get
 ```
 
-# symbol link만들기 단축아이콘 만들어서 편하게 이동
+# symbol link만들기 단축아이콘 만들어서 편하게 이동[[🔝]](#link)
 
 ```
 심볼릭 링크는 아래 명령어로 만들수 있다.
@@ -1149,7 +1153,7 @@ ln -s TARGET(원본) LINK_NAME(링크이름)
 ```
 출처 : https://hong00.tistory.com/80
 
-# tree
+# tree[[🔝]](#link)
 
 https://leevisual.tistory.com/75
 
@@ -1316,7 +1320,7 @@ tree -L 2
 - 출처 : https://leevisual.tistory.com/75
 
 
-# [Linux] scp 명령어로 (로컬↔서버) 파일 전송| by Heejin Do
+# [Linux] scp 명령어로 (로컬↔서버) 파일 전송| by Heejin Do[[🔝]](#link)
 
 
 - 파일 전송  scp
@@ -1328,7 +1332,7 @@ tree -L 2
 
 https://github.com/ethanflower1903/linux-command
 
-# 관련 eBook책 유료$
+# 관련 eBook책 유료$[[🔝]](#link)
 
 eBook)리눅스 입문자를 위한 명령어 사전 : 우분투, 데비안, CentOS, 페도라 대응 [ PDF ] -
 https://economiceco.tistory.com/m/11390
