@@ -171,6 +171,21 @@ sudo apt update
 sudo apt install net-tools -y
 ```
 
+# Valgrind 최신 버젼 설치하기
+
+- https://valgrind.org/downloads/current.html
+
+```
+//다운 받고 압축 풀고
+./configure
+
+make
+
+make install
+// or
+sudo make install
+```
+
 # Nerd Font 설치 install
 - https://github.com/ryanoasis/nerd-fonts
 
