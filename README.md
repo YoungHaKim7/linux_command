@@ -375,11 +375,11 @@ Darwin g-y-MacBookPro.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:4
 
 <hr>
 
-# bash 명령어 히스토리 관리 - readline 사용법 및 line 편집, reverse search 등 단축키 요약
+# bash 명령어 히스토리 관리 - readline 사용법 및 line 편집, reverse search 등 단축키 요약[[🔝]](#link)
 
 https://www.lesstif.com/system-admin/bash-readline-line-reverse-search-6717494.html
 
-# ```alias``` 사용 방법 등록 & 삭제 
+# ```alias``` 사용 방법 등록 & 삭제[[🔝]](#link)
 
 https://withcoding.com/121
 
@@ -437,10 +437,10 @@ https://shutcoding.tistory.com/entry/LINUX-FIND-%EB%A1%9C-%ED%8C%8C%EC%9D%BC%ED%
 https://gracefulprograming.tistory.com/86
 
 
-# find에서 업그레이드 된 fd (Rust로 만듬)
+# find에서 업그레이드 된 fd (Rust로 만듬)[[🔝]](#link)
 https://github.com/sharkdp/fd
 
-# find로 실행파일만 검색하기
+# find로 실행파일만 검색하기[[🔝]](#link)
 
 - LinuxOS
 ```bash
@@ -460,7 +460,7 @@ find . -type f -perm +111 -print -exec rm -rf {} \;
 ```
 https://stackoverflow.com/questions/4458120/search-for-executable-files-using-find-command
 
-# find 용량 순으로 정렬해서 골라서 지우기
+# find 용량 순으로 정렬해서 골라서 지우기[[🔝]](#link)
 
 ```bash
 
@@ -474,7 +474,7 @@ find ./* -type -f -name '*.jpg' -size +512k -size -1024k -exec rm -rf {} \;
 - find function 만들어서 내 맘대로 검색하기 https://www.baeldung.com/linux/find-exec-command
 
 
-# 실행 파일만 골라서 지우기 Makefile(delete execute file)
+# 실행 파일만 골라서 지우기 Makefile(delete execute file)[[🔝]](#link)
 
 ```
 - macOS ```find . -type f -perm +111 -print -exec rm -rf {} \;```
@@ -487,7 +487,7 @@ rm:
 		find . -type f -executable -print -exec rm {} \;
 ```
 
-# find | grep조합❤️내 폴더에서 하위 폴더까지 파일 안에 내가 원하는 "println" 들어간 파일명과 몇번째 줄인지 다 나오게 단어 찾기
+# find | grep조합❤️내 폴더에서 하위 폴더까지 파일 안에 내가 원하는 "println" 들어간 파일명과 몇번째 줄인지 다 나오게 단어 찾기[[🔝]](#link)
 
 - 내 폴더에서 하위 폴더까지 파일 안에 내가 원하는 "println" 들어간 파일명과 몇번째 줄인지 다 나오게 단어 찾기
 
