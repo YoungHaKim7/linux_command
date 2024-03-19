@@ -486,6 +486,17 @@ rm:
 		find . -type f -executable -print -exec rm {} \;
 ```
 
+# find | grep조합❤️내 폴더에서 하위 폴더까지 파일 안에 내가 원하는 "println" 들어간 파일명과 몇번째 줄인지 다 나오게 단어 찾기
+
+- 내 폴더에서 하위 폴더까지 파일 안에 내가 원하는 "println" 들어간 파일명과 몇번째 줄인지 다 나오게 단어 찾기
+
+```bash
+find . | grep -winr -C 4 "println"
+```
+
+- grep 사용법
+  - https://docs.oracle.com/cd/E19620-01/805-3902/6j3n40vti/index.html
+
 
 <hr>
 
