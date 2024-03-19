@@ -301,7 +301,7 @@ Compile C Objects [175/406] wcstoumax.c... 3 warnings generated.
 
 ```
 
-# eza 사용법(exa에서 eza로 넘어감)
+# eza 사용법(exa에서 eza로 넘어감)[[🔝]](#link)
 
 
 - https://github.com/eza-community/eza
@@ -342,7 +342,7 @@ eza --icons
  Cargo.lock   Cargo.toml   src   target
 ```
 
-# file 사용법
+# file 사용법[[🔝]](#link)
 
 - ```file``` file 뒤에 파일명을 누르면 어떻게 실행되고 자세한 사항을 알수 있다.
 
@@ -366,7 +366,7 @@ build.sh: Bourne-Again shell script text executable, ASCII text
 - 출처: Using ZIG as a Drop-In Replacement C Compiler on Windows, Linux, and macOS!
   - https://youtu.be/kuZIzL0K4o4?si=FLRoA8yl-9GQGW_0
 
-# uname 으로 내 컴퓨터 사양 보여줄 때 굿
+# uname 으로 내 컴퓨터 사양 보여줄 때 굿[[🔝]](#link)
 
 ```
 $ uname -a
