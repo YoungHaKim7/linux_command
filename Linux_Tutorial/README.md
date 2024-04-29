@@ -8,3 +8,5 @@
     - 다른 외국인 자료 Linux File System Simply Explained
       - https://youtu.be/BUnb1PKKMBA
 
+# Nvidia Install
+- https://linuxconfig.org/how-to-install-nvidia-drivers-on-ubuntu-24-04
