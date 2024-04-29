@@ -53,6 +53,25 @@ apt-cache search 찾고자 하는거 쓰기
 
 <hr>
 
+# Rust Install
+```bash
+Rust is installed now. Great!
+
+To get started you may need to restart your current shell.
+This would reload your PATH environment variable to include
+Cargo's bin directory ($HOME/.cargo/bin).
+
+To configure your current shell, you need to source
+the corresponding env file under $HOME/.cargo.
+
+This is usually done by running one of the following (note the leading DOT):
+. "$HOME/.cargo/env"            # For sh/bash/zsh/ash/dash/pdksh
+source "$HOME/.cargo/env.fish"  # For fish
+
+```
+
+<hr>
+
 # Cmake다음 버젼 meson 이제는 meson으로 넘어가나?
 
 - https://int-i.github.io/cpp/2021-06-26/cpp-meson/
