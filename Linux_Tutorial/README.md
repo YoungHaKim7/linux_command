@@ -10,3 +10,6 @@
 
 # Nvidia Install
 - https://linuxconfig.org/how-to-install-nvidia-drivers-on-ubuntu-24-04
+
+# screen saver
+- https://superuser.com/questions/644804/disable-screensaver-screen-blank-via-command-line
