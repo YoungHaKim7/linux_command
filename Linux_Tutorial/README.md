@@ -20,3 +20,13 @@
 
 # screen saver
 - https://superuser.com/questions/644804/disable-screensaver-screen-blank-via-command-line
+
+# Discord 설치
+
+```
+wget "https://discord.com/api/download?platform=linux&format=deb" -O discord.deb
+
+sudo apt install ./discord.deb -y
+```
+
+https://www.linuxcapable.com/how-to-install-discord-on-ubuntu-linux/
