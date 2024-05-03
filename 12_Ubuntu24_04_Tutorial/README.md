@@ -30,3 +30,9 @@ sudo apt install ./discord.deb -y
 ```
 
 https://www.linuxcapable.com/how-to-install-discord-on-ubuntu-linux/
+
+# LLVM 설치(clangd, clang18)
+
+```bash
+sudo apt install llvm-18-tools llvm-18 lldb-18 lld-18 libllvm18 liblldb-18-dev libllvm18 libclang-18-dev clang-tools-18 clangd
+```
