@@ -36,3 +36,20 @@ https://www.linuxcapable.com/how-to-install-discord-on-ubuntu-linux/
 ```bash
 sudo apt install llvm-18-tools llvm-18 lldb-18 lld-18 libllvm18 liblldb-18-dev libllvm18 libclang-18-dev clang-tools-18 clangd
 ```
+
+# vagrind 설치
+
+- Install
+  - https://stackoverflow.com/questions/37725825/aclocal-not-found-for-mingw-sh-autogen-sh-execution
+```
+apt-get install automake libtool
+```
+
+- https://valgrind.org/downloads/repository.html
+```
+  git clone https://sourceware.org/git/valgrind.git
+  cd valgrind
+  ./autogen.sh
+  ./configure
+  make
+```
