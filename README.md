@@ -1370,3 +1370,12 @@ eBook)리눅스 입문자를 위한 명령어 사전 : 우분투, 데비안, Cen
 https://economiceco.tistory.com/m/11390
 
 
+# echo 로 unicode 출력하기[[🔝]](#link)
+- https://stackoverflow.com/questions/602912/how-do-you-echo-a-4-digit-unicode-character-in-bash
+- LinuxOS기준
+```sh
+% echo -e '\u2620'     # \u takes four hexadecimal digits
+☠
+% echo -e '\U0001f602' # \U takes eight hexadecimal digits
+😂
+```
