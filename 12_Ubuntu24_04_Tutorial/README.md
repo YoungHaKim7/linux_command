@@ -53,3 +53,9 @@ apt-get install automake libtool
   ./configure
   make
 ```
+
+# 외부에 노출된 내 컴퓨터 ip번호
+```
+curl https://ipinfo.io/ip
+211.xxx.xxx.xxx
+```
