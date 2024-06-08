@@ -5,8 +5,8 @@
 - [eza-사용법exa에서-eza로-넘어감](#eza-사용법exa에서-eza로-넘어감)
 - [valgrind-최신-버젼-설치하기](#valgrind-최신-버젼-설치하기)
 
-- link만들기
-- 
+- [link만들기_symbol-link만들기-단축아이콘-만들어서-편하게-이동](#symbol-link만들기-단축아이콘-만들어서-편하게-이동)
+
 - 프로세서관련
   - [터미널에서-모든-프로세스-kill](#터미널에서-모든-프로세스-kill)
 - echo관련
@@ -14,6 +14,8 @@
 - cat관련
   - [cat활용법](#cat활용법)
 
+- network관련
+  - [linux-scp-명령어로-로컬서버-파일-전송-by-heejin-do](#linux-scp-명령어로-로컬서버-파일-전송-by-heejin-do)
 
 <hr>
 
