@@ -1379,3 +1379,16 @@ https://economiceco.tistory.com/m/11390
 % echo -e '\U0001f602' # \U takes eight hexadecimal digits
 😂
 ```
+
+# cat활용법[[🔝]](#link)
+
+```bash
+# 파일 미리 보기
+cat main.rs
+
+
+# vim에디터도 못 쓰는 환경해서 급하게 쓰는 법 좋네
+cat > main.c
+# 내가 넣고 싶은 코드 넣고
+# Ctrl + D 하면 저장됨. 대박
+```
