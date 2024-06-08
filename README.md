@@ -5,6 +5,21 @@
 - [eza-사용법exa에서-eza로-넘어감](#eza-사용법exa에서-eza로-넘어감)
 - [valgrind-최신-버젼-설치하기](#valgrind-최신-버젼-설치하기)
 
+- link만들기
+- 
+- 프로세서관련
+  - [터미널에서-모든-프로세스-kill](#터미널에서-모든-프로세스-kill)
+- echo관련
+  - [echo-로-unicode-출력하기](#echo-로-unicode-출력하기)
+- cat관련
+  - [cat활용법](#cat활용법)
+
+
+<hr>
+
+- Linux Tutorial
+  - [유닉스-리눅스-명령어-사전의-개정판--linux-command총정리](#유닉스-리눅스-명령어-사전의-개정판--linux-command총정리)
+  - [외국-사람의-리눅스-명령어-정리](#외국-사람의-리눅스-명령어-정리)
 
 
 <hr>
