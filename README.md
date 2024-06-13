@@ -1409,3 +1409,58 @@ cat > main.c
 # 내가 넣고 싶은 코드 넣고
 # Ctrl + D 하면 저장됨. 대박
 ```
+
+# curl사용법[[🔝]](#link)
+- curl 이란?
+  - curl은 Client Url 이란 의미로 클라이언트에서 url을 사용해서 서버와 데이터를 송수신하는 명령어 툴이다.
+  - Linux, MacOS, Window 등 다양한 환경에서 HTTP, HTTPS, SMTP, TELNET, FTP, LDAP 등 다양한 프로토콜을 지원하여 통신 환경에서 자주 쓰인다.
+
+- `-H` `-X`  뒤에 이런 옵션들 붙히면 된다.
+ 
+```
+$ curl -h
+Usage: curl [options...] <url>
+ -d, --data <data>          HTTP POST data
+ -f, --fail                 Fail fast with no output on HTTP errors
+ -h, --help <category>      Get help for commands
+ -i, --include              Include protocol response headers in the output
+ -o, --output <file>        Write to file instead of stdout
+ -O, --remote-name          Write output to a file named as the remote file
+ -s, --silent               Silent mode
+ -T, --upload-file <file>   Transfer local FILE to destination
+ -u, --user <user:password> Server user and password
+ -A, --user-agent <name>    Send User-Agent <name> to server
+ -v, --verbose              Make the operation more talkative
+ -V, --version              Show version number and quit
+
+This is not the full help, this menu is stripped into categories.
+Use "--help category" to get an overview of all categories.
+For all options use the manual or "--help all".
+
+
+
+$ curl --help category
+Usage: curl [options...] <url>
+ auth        Different types of authentication methods
+ connection  Low level networking operations
+ curl        The command line tool itself
+ dns         General DNS options
+ file        FILE protocol options
+ ftp         FTP protocol options
+ http        HTTP and HTTPS protocol options
+ imap        IMAP protocol options
+ misc        Options that don't fit into any other category
+ output      Filesystem output
+ pop3        POP3 protocol options
+ post        HTTP Post specific options
+ proxy       All options related to proxies
+ scp         SCP protocol options
+ sftp        SFTP protocol options
+ smtp        SMTP protocol options
+ ssh         SSH protocol options
+ telnet      TELNET protocol options
+ tftp        TFTP protocol options
+ tls         All TLS/SSL related options
+ upload      All options for uploads
+ verbose     Options related to any kind of command line output of curl
+```
