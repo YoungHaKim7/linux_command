@@ -16,6 +16,7 @@
 
 - network관련
   - [linux-scp-명령어로-로컬서버-파일-전송-by-heejin-do](#linux-scp-명령어로-로컬서버-파일-전송-by-heejin-do)
+  - [curl사용법](#curl사용법)
 
 <hr>
 
