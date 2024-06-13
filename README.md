@@ -1417,6 +1417,8 @@ cat > main.c
   - curl은 Client Url 이란 의미로 클라이언트에서 url을 사용해서 서버와 데이터를 송수신하는 명령어 툴이다.
   - Linux, MacOS, Window 등 다양한 환경에서 HTTP, HTTPS, SMTP, TELNET, FTP, LDAP 등 다양한 프로토콜을 지원하여 통신 환경에서 자주 쓰인다.
 
+- https://sasca37.tistory.com/279
+
 - `-H` `-X`  뒤에 이런 옵션들 붙히면 된다.
  
 ```
