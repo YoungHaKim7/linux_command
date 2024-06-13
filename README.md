@@ -17,6 +17,7 @@
 - network관련
   - [linux-scp-명령어로-로컬서버-파일-전송-by-heejin-do](#linux-scp-명령어로-로컬서버-파일-전송-by-heejin-do)
   - [curl사용법](#curl사용법)
+    - [curl공식문서](https://curl.se/docs/manpage.html) 
 
 <hr>
 
@@ -1412,7 +1413,7 @@ cat > main.c
 ```
 
 # curl사용법[[🔝]](#link)
-- curl 이란?
+- curl 이란? https://curl.se/docs/manpage.html
   - curl은 Client Url 이란 의미로 클라이언트에서 url을 사용해서 서버와 데이터를 송수신하는 명령어 툴이다.
   - Linux, MacOS, Window 등 다양한 환경에서 HTTP, HTTPS, SMTP, TELNET, FTP, LDAP 등 다양한 프로토콜을 지원하여 통신 환경에서 자주 쓰인다.
 
