@@ -2,7 +2,7 @@
 
 - [find로-파일-폴더-찾아서-지우기top](#find로-파일-폴더-찾아서-지우기top)
   - [find--grep조합&내-폴더에서-하위-폴더까지-파일-안에-내가-원하는-println-들어간-파일명과-몇번째-줄인지-다-나오게-단어-찾기](#find--grep조합%EF%B8%8F내-폴더에서-하위-폴더까지-파일-안에-내가-원하는-println-들어간-파일명과-몇번째-줄인지-다-나오게-단어-찾기)
-  - [fdfindfd--ripgreprg-조합](#fdfindfd--ripgreprg-조합)
+  - [fdfind(fd) & ripgrep(rg)-조합](#fdfindfd--ripgreprg-조합)
 - [eza-사용법exa에서-eza로-넘어감](#eza-사용법exa에서-eza로-넘어감)
 - [valgrind-최신-버젼-설치하기](#valgrind-최신-버젼-설치하기)
 
