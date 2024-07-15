@@ -540,6 +540,40 @@ find . | grep -winr -C 4 "println"
 
 <hr>
 
+# fdfind(fd) & ripgrep(rg) 조합[[🔝]](#link)
+
+- fdfind(fd) 파일명 찾기
+  - https://github.com/sharkdp/fd
+- `main.rs` 파일 찾기
+```
+fdfind main.rs
+fd main.rs
+```
+
+- 숨긴 파일 찾기
+```
+fdfind -H ".DS_Store"
+```
+
+https://github.com/sharkdp/fd/blob/master/doc/screencast.svg
+
+- `.DS_Store`파일 찾아서 지우기
+```
+fd -H '^\.DS_Store$' -tf -X rm
+```
+- https://github.com/sharkdp/fd?tab=readme-ov-file#deleting-files
+
+<hr>
+
+- ripgrep(rg)
+  - "main" 들어간 파일안쪽 글자 찾기
+    - https://blog.burntsushi.net/ripgrep/
+```
+rg -i main
+```
+
+<hr>
+
 # Disk (WindowsOS) 파티션 이게 최고 ㅎ
 
 - ```cmd```
