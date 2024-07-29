@@ -73,6 +73,12 @@ apt-cache search 찾고자 하는거 쓰기
 
 <hr>
 
+# Linux Command 많이 쓰는거
+- https://www.threads.net/@dan_nanni/post/C97TwbGRrwx/?xmt=AQGz9x0js7ml3sN74_Th-c_Cnc7m0AduY8yQxpZcmncLJw
+
+
+<hr>
+
 # Rust Install
 ```bash
 Rust is installed now. Great!
