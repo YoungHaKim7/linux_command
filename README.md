@@ -74,6 +74,7 @@ apt-cache search 찾고자 하는거 쓰기
 <hr>
 
 # Linux Command 많이 쓰는거
+![IMG_8383](https://github.com/user-attachments/assets/0bde6161-86da-437e-b176-58b702156289)
 - https://www.threads.net/@dan_nanni/post/C97TwbGRrwx/?xmt=AQGz9x0js7ml3sN74_Th-c_Cnc7m0AduY8yQxpZcmncLJw
 
 
