@@ -1,5 +1,7 @@
 # Linux 기초 Tutorial
 
+- Linux 기초 
+  - https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
 - 2023-10 17시 Linux | devCJH
   - https://youtube.com/playlist?list=PLPWuydfX1wRcOV6KO7pEEtVz1H2POGcz9&si=PBmmM2X55N6juLCh
 
