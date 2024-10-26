@@ -1,6 +1,8 @@
 # 여기에 정리함
 
 - https://github.com/YoungHaKim7/rust_vim_setting/tree/main/10_FishShell
+- power10k(zsh설치정리)
+  - https://github.com/YoungHaKim7/Shell_Script?tab=readme-ov-file#power10k-install
 
 
 <hr>
