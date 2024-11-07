@@ -34,6 +34,7 @@ network:
 <hr />
 
 # Linux User List(리눅스 사용자 목록 확인)[|🔝|](#link)
+- 출처: https://overcode.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%AA%A9%EB%A1%9D-%ED%99%95%EC%9D%B8-Linux-User-List
 
 ```bash
 $ cat /etc/passwd
