@@ -1512,3 +1512,11 @@ Usage: curl [options...] <url>
  upload      All options for uploads
  verbose     Options related to any kind of command line output of curl
 ```
+
+- 리눅스 외부 접속 IP 확인 (curl ifconfig.me)_내 아이피 알아내기(`curl ifconfig.me`)
+  - https://clack.tistory.com/m/695
+
+```bash
+$ curl ifconfig.me
+148.83.73.113 
+```
