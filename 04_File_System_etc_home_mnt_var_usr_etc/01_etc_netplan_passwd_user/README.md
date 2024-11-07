@@ -54,15 +54,12 @@ www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
 backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
 list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
 irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
-gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nolog
-in
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nolog in
 nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
-systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/
-nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/ nologin
 systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
-systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sb
-in/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sb in/nologin
 syslog:x:104:111::/home/syslog:/usr/sbin/nologin
 _apt:x:105:65534::/nonexistent:/usr/sbin/nologin
 uuidd:x:106:112::/run/uuidd:/usr/sbin/nologin
