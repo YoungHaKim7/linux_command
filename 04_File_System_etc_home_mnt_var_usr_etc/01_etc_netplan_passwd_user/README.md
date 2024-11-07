@@ -1,7 +1,7 @@
 # link
 
-- [lan카드 못 읽을때 네트워크 확인/etc/netplan]()
-- [Linux User List(리눅스 사용자 목록 확인)]()
+- [lan카드 못 읽을때 네트워크 확인/etc/netplan](#network-interface설정)
+- [Linux User List(리눅스 사용자 목록 확인)](#linux-user-list리눅스-사용자-목록-확인)
 
 <hr />
 
