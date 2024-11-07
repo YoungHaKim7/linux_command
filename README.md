@@ -905,6 +905,16 @@ lsof -i :7999
 kill -9 pid쓰면 됨
 ```
 
+# 실행중인 프로세스가 사용중인 port번호 알아내기
+
+```
+netstat -ntlp
+```
+
+- https://clack.tistory.com/m/611
+  - https://ycswarm.tistory.com/11
+
+
 ## GRUB(GRand Unified Bootloader검색하다가 알게 됨. [[🔝]](#link)
 
 - 리눅스 시스템 부팅 프로세스(리눅스 부팅과정)
