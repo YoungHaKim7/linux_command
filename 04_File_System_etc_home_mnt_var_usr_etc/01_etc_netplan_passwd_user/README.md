@@ -31,6 +31,20 @@ network:
 
 ```
 
+- `50-cloud-inti.yaml`
+  - 파일 하나만 있네 도커 설치하고 나니 바뀜
+
+```yaml
+network:
+  ethernets:
+    enp5s0:
+      dhcp4: true
+  version: 2
+  wifis: {}
+
+
+```
+
 <hr />
 
 # Linux User List(리눅스 사용자 목록 확인)[|🔝|](#link)
