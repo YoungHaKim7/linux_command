@@ -20,6 +20,9 @@
   - [curl사용법](#curl사용법)
     - [curl공식문서](https://curl.se/docs/manpage.html) 
 
+- GNU 바이너리 유틸리티
+  - [맥의 OS X건, 리눅스 건, 개발을 하다 보면 디버깅 할 일이 생기게 마련이다.`as` `ld` `nm` `readelf` 등등.](#gnu-바이너리-유틸리티)
+
 <hr>
 
 - Linux Tutorial
