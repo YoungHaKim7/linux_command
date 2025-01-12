@@ -1530,3 +1530,59 @@ Usage: curl [options...] <url>
 $ curl ifconfig.me
 148.83.73.113 
 ```
+
+
+<hr />
+
+# GNU 바이너리 유틸리티[|🔝|](#link)
+- GNU Binutils 맥의 OS X건, 리눅스 건, 개발을 하다 보면 디버깅 할 일이 생기게 마련이다. 디버깅시 유용한 도구중 하나가 GNU 바이너리 유틸리티(GNU Binutils)이다.
+  - GNU 바이너리 유틸리티는 여러 종류의 오브젝트 파일 형식들을 조작하기 위한 프로그래밍 도구 모음인데, 이들은 일반적으로 GCC, make, GDB와 함께 사용하게 된다.
+
+```
+as - 어셈블러
+ld - 링커
+addr2line - 주소를 파일과 줄로 바꾼다.
+ar - 아카이브(압축) 파일을 만들고, 수정하고, 해제한다.
+c++filt - 맹글링된 C++ 심볼들을 원래대로 되돌린다.
+nm - 오브젝트 파일의 심볼을 출력한다.
+objcopy - 오브젝트 파일을 복사한다.
+objdump - 오브젝트 파일에 대한 정보를 출력한다.
+ranlib - 아카이브(압축)를 위한 색인을 만든다.
+readelf - ELF 파일의 내용을 출력한다.
+size - 전체와 부분의 크기를 출력한다.
+strings - 표시할 수 있는 문자열을 출력한다.
+strip - 오브젝트 파일로부터 심볼을 제거한다.
+gprof - 프로파일러
+```
+
+출처: https://techlog.gurucat.net/263 [제임스딘딘의 Tech & Life:티스토리]
+
+- readelf-like tool for Mac OS X? [closed]
+  - https://stackoverflow.com/questions/3286675/readelf-like-tool-for-mac-os-x
+
+```bash
+readelf -r app
+
+Relocation section '.rel.dyn' at offset 0x5ec contains 2 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+08049d58  00001706 R_386_GLOB_DAT    00000000   __gmon_start__
+08049d60  00000305 R_386_COPY        08049d60   _ZSt4cout
+
+Relocation section '.rel.plt' at offset 0x5fc contains 13 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+08049d24  00000107 R_386_JUMP_SLOT   0804868c   print
+08049d28  00000207 R_386_JUMP_SLOT   0804869c   _ZNSt8ios_base4InitC1E
+08049d2c  00000507 R_386_JUMP_SLOT   080486ac   _ZStlsISt11char_traits
+08049d30  00000607 R_386_JUMP_SLOT   080486bc   _ZNSolsEPFRSoS_E
+08049d34  00000707 R_386_JUMP_SLOT   08048664   _init
+08049d38  00000807 R_386_JUMP_SLOT   080486dc   sleep
+08049d3c  00000907 R_386_JUMP_SLOT   080486ec   _ZNKSsixEj
+08049d40  00000b07 R_386_JUMP_SLOT   080486fc   _ZNKSs4sizeEv
+08049d44  00000c07 R_386_JUMP_SLOT   0804870c   __libc_start_main
+08049d48  00000d07 R_386_JUMP_SLOT   08048ae4   _fini
+08049d4c  00001307 R_386_JUMP_SLOT   0804872c   _ZSt4endlIcSt11char_tr
+08049d50  00001507 R_386_JUMP_SLOT   0804873c   __gxx_personality_v0
+08049d54  00001607 R_386_JUMP_SLOT   0804874c   _ZNSt8ios_base4InitD1E
+```
+
+<hr />
