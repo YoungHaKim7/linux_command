@@ -11,6 +11,7 @@
 <hr />
 
 - [Qalculate! library and CLI터미널에서 쓰는 계산기(qalc)](#터미널에서-쓰는-계산기qalcc로-만듬)
+- [linux에서 쓰는 그림판 같은거 & VSCode의 Draw.io)]()
 
 <hr />
 
@@ -1849,5 +1850,12 @@ code(Ø) to hex = 0xD8
 ```
 
 
+
+<hr />
+
+# linux에서 쓰는 그림판 같은거 & VSCode의 Draw.io)[|🔝|](#link)
+- https://xournalpp.github.io/
+- VSCode extension(Draw.io Integration)
+  - https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio
 
 <hr />
