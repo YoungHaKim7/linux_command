@@ -8,6 +8,12 @@
 
 - [link만들기_symbol-link만들기-단축아이콘-만들어서-편하게-이동](#symbol-link만들기-단축아이콘-만들어서-편하게-이동)
 
+<hr />
+
+- [Qalculate! library and CLI터미널에서 쓰는 계산기(qalc)](#터미널에서-쓰는-계산기qalcc로-만듬)
+
+<hr />
+
 - 프로세서관련
   - [터미널에서-모든-프로세스-kill](#터미널에서-모든-프로세스-kill)
 - echo관련
