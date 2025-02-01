@@ -23,3 +23,20 @@
 ```
 pacman -Syu
 ```
+
+# pacman (check)
+- https://bbs.archlinux.org/viewtopic.php?id=287674
+
+```
+Sanity check:
+
+$ type pacman
+$ pacman -V
+$ pacman -Qi pacman
+```
+
+# arch linux는 약간 명령어가 다른듯
+
+```
+which 는 type
+```
