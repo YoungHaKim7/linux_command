@@ -7,3 +7,6 @@
 # Arch Linux 설치, 처음부터 끝까지
 2024년 3월 16일
 - https://jaehong21.com/ko/posts/arch-linux/01-install/
+
+- wsl2 설치하고 해야함
+- [(230611)Using Linux on Windows with WSL 2 🐧 – Debian and Arch Linux | NL Tech](https://youtu.be/4RXDbz-EEEo?si=-Vsj9GpvuqPBCpMN)
