@@ -13,4 +13,6 @@
 
 # 패키지 관리
 - https://wiki.archlinux.org/title/Official_repositories
-- 
+
+# pacman사용법
+- https://wiki.archlinux.org/title/Pacman
