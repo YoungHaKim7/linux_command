@@ -16,3 +16,10 @@
 
 # pacman사용법
 - https://wiki.archlinux.org/title/Pacman
+
+# 전부다 업데이트
+- https://bbs.archlinux.org/viewtopic.php?id=32339
+
+```
+pacman -Syu
+```
