@@ -6,6 +6,7 @@
 
 - [archlinux_packages_Search](https://archlinux.org/packages/)
 
+- [arch linux에서 도커 쓰는 방법snap을 쓴다. 좀 구리네](https://ko.linux-console.net/?p=16630)
 
 <hr/>
 
