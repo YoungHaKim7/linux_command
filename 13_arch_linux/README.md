@@ -39,9 +39,16 @@ $ pacman -V
 $ pacman -Qi pacman
 ```
 
+<hr />
+
 # nvidia Install
 
+- 이게 젤 좋다.
+- https://github.com/Frogging-Family/nvidia-all
+
 - https://github.com/korvahannu/arch-nvidia-drivers-installation-guide
+
+<hr />
 
 # arch linux는 약간 명령어가 다른듯
 
