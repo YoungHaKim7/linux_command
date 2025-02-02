@@ -51,3 +51,6 @@ lsblk
 # 파티션
 fdisk /dev/nvme0n1
 ```
+
+# arch linux Background Img
+- https://bbs.archlinux.org/viewtopic.php?id=259604
