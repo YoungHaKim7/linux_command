@@ -43,4 +43,7 @@ type
 
 # 용량 확인 dh
 lsblk
+
+# 파티션
+fdisk /dev/nvme0n1
 ```
