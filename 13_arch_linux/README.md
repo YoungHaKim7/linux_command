@@ -55,6 +55,8 @@ fdisk /dev/nvme0n1
 # arch linux (Hangle)
 - https://wiki.archlinux.org/title/Localization/Korean
 
+- [Medium_iBus로 세팅 깔끔 설명](https://sungyong.medium.com/manzaro-arch-linux-%EC%84%B8%ED%8C%85%EA%B3%BC-ibus-%ED%95%9C%EA%B8%80-76237f8a9689)
+
 - iBus
   - https://data-science.tistory.com/283
 
