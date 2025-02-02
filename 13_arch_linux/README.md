@@ -52,5 +52,8 @@ lsblk
 fdisk /dev/nvme0n1
 ```
 
+# arch linux (Hangle)
+- https://wiki.archlinux.org/title/Localization/Korean
+
 # arch linux Background Img
 - https://bbs.archlinux.org/viewtopic.php?id=259604
