@@ -22,6 +22,10 @@
 
 ```
 pacman -Syu
+
+
+# 내가 원하는 패키지
+pacman -S "패키지"
 ```
 
 # pacman (check)
