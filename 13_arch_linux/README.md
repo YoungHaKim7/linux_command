@@ -47,6 +47,18 @@ $ pacman -Qi pacman
   - [ OUTDATED - How to install the Nvidia 555 beta drivers on Arch Linux (and derivative) | A1RM4X](https://youtu.be/40QI1-4Nlx4?si=GLbiAdrDsD6gF2Vr)
   - https://github.com/Frogging-Family/nvidia-all
 
+
+```
+nvidia
+nvidia-utils
+lib32-nvidia-utils
+nvidia-settings 
+opencl-nvidia
+
+```
+
+- https://www.reddit.com/r/archlinux/comments/1e0txi0/which_nvidia_drivers_should_i_choose/
+
 - https://github.com/korvahannu/arch-nvidia-drivers-installation-guide
 
 <hr />
