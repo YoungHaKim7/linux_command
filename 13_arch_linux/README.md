@@ -37,6 +37,10 @@ $ pacman -Qi pacman
 
 # arch linux는 약간 명령어가 다른듯
 
-```
-which 는 type
+```bash
+# which 는 
+type
+
+# 용량 확인 dh
+lsblk
 ```
