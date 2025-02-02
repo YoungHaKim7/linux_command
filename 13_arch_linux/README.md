@@ -14,8 +14,11 @@
 2024년 3월 16일
 - https://jaehong21.com/ko/posts/arch-linux/01-install/
 
+- How to Install Arch Linux: Step-by-Step Guide (240129) |  Learn Linux TV
+  - https://youtu.be/FxeriGuJKTM?si=4twj1Oy7dCDnyU4C
+
 - wsl2 설치하고 해야함
-- [(230611)Using Linux on Windows with WSL 2 🐧 – Debian and Arch Linux | NL Tech](https://youtu.be/4RXDbz-EEEo?si=-Vsj9GpvuqPBCpMN)
+  - [(230611)Using Linux on Windows with WSL 2 🐧 – Debian and Arch Linux | NL Tech](https://youtu.be/4RXDbz-EEEo?si=-Vsj9GpvuqPBCpMN)
 
 # 패키지 관리
 - https://wiki.archlinux.org/title/Official_repositories
