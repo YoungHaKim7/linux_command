@@ -70,6 +70,8 @@ opencl-nvidia
 
 - https://www.reddit.com/r/archlinux/comments/1e0txi0/which_nvidia_drivers_should_i_choose/
 
+- sway 사용으로 하는 방법 (힌트2) https://karupro.tistory.com/126
+
 - https://github.com/korvahannu/arch-nvidia-drivers-installation-guide
 
 <hr />
