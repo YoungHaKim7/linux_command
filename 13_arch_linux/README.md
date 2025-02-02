@@ -46,7 +46,7 @@ $ pacman -Qi pacman
 - 이게 젤 좋다.
   - [ OUTDATED - How to install the Nvidia 555 beta drivers on Arch Linux (and derivative) | A1RM4X](https://youtu.be/40QI1-4Nlx4?si=GLbiAdrDsD6gF2Vr)
   - https://github.com/Frogging-Family/nvidia-all
-
+  - https://gist.github.com/joyk50/b53987d3e41bec1359952b6a5932dd73
 
 ```
 nvidia
