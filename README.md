@@ -36,6 +36,9 @@
   - [유닉스-리눅스-명령어-사전의-개정판--linux-command총정리](#유닉스-리눅스-명령어-사전의-개정판--linux-command총정리)
   - [외국-사람의-리눅스-명령어-정리](#외국-사람의-리눅스-명령어-정리)
 
+<hr />
+
+- [linux 파티션(fdisk사용법)](https://m.blog.naver.com/PostView.naver?blogId=hanajava&logNo=223031357057&proxyReferer=https:%2F%2Fwww.google.com%2Furl%3Fq%3Dhttps:%2F%2Fblog.naver.com%2Fhanajava%2F223031357057%253FviewType%253Dpc%26sa%3DU%26sqi%3D2%26ved%3D2ahUKEwjGjbWdtqSLAxX3dfUHHWpxF5YQFnoECCIQAQ%26usg%3DAOvVaw1o_A7r5C3CwM_nbmvMy_h1&trackingCode=external)
 
 <hr>
 
