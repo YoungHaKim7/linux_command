@@ -39,6 +39,10 @@ $ pacman -V
 $ pacman -Qi pacman
 ```
 
+# nvidia Install
+
+- https://github.com/korvahannu/arch-nvidia-drivers-installation-guide
+
 # arch linux는 약간 명령어가 다른듯
 
 ```bash
