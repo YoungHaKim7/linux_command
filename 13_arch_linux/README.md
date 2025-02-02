@@ -28,6 +28,15 @@ pacman -Syu
 pacman -S "패키지"
 ```
 
+- Removing packages
+  - To remove a single package, leaving all of its dependencies installed:
+
+```
+# pacman -R package_name
+```
+
+<hr />
+
 # pacman (check)
 - https://bbs.archlinux.org/viewtopic.php?id=287674
 
