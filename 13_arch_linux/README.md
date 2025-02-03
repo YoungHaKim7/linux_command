@@ -20,6 +20,16 @@
 - wsl2 설치하고 해야함
   - [(230611)Using Linux on Windows with WSL 2 🐧 – Debian and Arch Linux | NL Tech](https://youtu.be/4RXDbz-EEEo?si=-Vsj9GpvuqPBCpMN)
 
+# 필수 Install
+
+- sudo 뒤에 써도 됨. ㅋㅋ 신기
+- https://youtu.be/FxeriGuJKTM?si=uS7K0jLDN2bCLHNs&t=2876
+
+```
+pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools networkmanager openssh os-prober sudo
+```
+
+
 # 패키지 관리
 - https://wiki.archlinux.org/title/Official_repositories
 
