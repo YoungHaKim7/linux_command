@@ -104,6 +104,9 @@ type
 # 용량 확인 dh
 lsblk
 
+# 그래픽 같은거 확인
+lspci
+
 # 파티션
 fdisk /dev/nvme0n1
 ```
