@@ -14,6 +14,9 @@
 - https://linuxconfig.org/how-to-install-nvidia-drivers-on-ubuntu-24-04
 
 
+# Linux(Korean install)
+- https://andrewpage.tistory.com/390
+
 # apt 작살 나면 해야 할것
 
 - https://stackoverflow.com/questions/53800051/repository-does-not-have-a-release-file-error
