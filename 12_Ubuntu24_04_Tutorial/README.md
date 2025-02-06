@@ -17,6 +17,17 @@
 # Linux(Korean install)
 - https://andrewpage.tistory.com/390
 
+# 최신clang설치
+- https://askubuntu.com/questions/1525087/after-upgrading-ubuntu-to-24-04-lts-clang-does-not-work-properly
+
+```
+sudo apt update
+sudo apt-get remove clang-* 
+cd /usr/lib/gcc/aarch64-linux-gnu/
+sudo rm -r 8
+sudo apt install clang clang-18 clang-tools-18 g++-13 libstdc++-dev
+```
+
 # apt 작살 나면 해야 할것
 
 - https://stackoverflow.com/questions/53800051/repository-does-not-have-a-release-file-error
