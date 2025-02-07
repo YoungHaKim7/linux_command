@@ -122,3 +122,26 @@ fdisk /dev/nvme0n1
 
 # arch linux Background Img
 - https://bbs.archlinux.org/viewtopic.php?id=259604
+
+<hr />
+
+# Docker Install
+- https://itsfoss.com/install-docker-arch-linux/
+
+```
+sudo pacman -S docker
+
+sudo systemctl start docker.service
+
+sudo systemctl enable docker.service
+```
+
+```
+sudo usermod -aG docker $USER
+
+newgrp docker
+
+
+# test
+docker run hello-world
+```
