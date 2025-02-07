@@ -151,3 +151,9 @@ newgrp docker
 # test
 docker run hello-world
 ```
+
+# NVIDIA (container-device세팅 도커에서 nvidia풀로 쓰기)
+- https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#container-device-interface-cdi-support
+
+- Go로 만든거
+  - https://github.com/containerd/nerdctl
