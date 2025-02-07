@@ -31,6 +31,8 @@ pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools n
 
 ```
 pacman -S nvidia-container-toolkit
+
+pacman -S cudnn 
 ```
 
 
