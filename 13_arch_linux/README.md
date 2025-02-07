@@ -29,6 +29,10 @@
 pacman -S base-devel dosfstools grub efibootmgr gnome gnome-tweaks lvm2 mtools networkmanager openssh os-prober sudo
 ```
 
+```
+pacman -S nvidia-container-toolkit
+```
+
 
 # 패키지 관리
 - https://wiki.archlinux.org/title/Official_repositories
