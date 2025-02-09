@@ -130,6 +130,18 @@ fdisk /dev/nvme0n1
 
 <hr />
 
+# Docker 깔끔하게 지우고 다시 설치하기
+- https://bbs.archlinux.org/viewtopic.php?id=267694
+
+```
+Jul 03 00:31:21 ws sudo[126291]:    denis : TTY=pts/1 ; PWD=/home/denis/code/vastgoed/etl ; USER=root ; COMMAND=/usr/bin/pacman -S docker
+Jul 03 00:30:41 ws sudo[126220]:    denis : TTY=pts/1 ; PWD=/home/denis/code/vastgoed/etl ; USER=root ; COMMAND=/usr/bin/rm -rf /run/docker.sock
+Jul 03 00:30:33 ws sudo[126201]:    denis : TTY=pts/1 ; PWD=/home/denis/code/vastgoed/etl ; USER=root ; COMMAND=/usr/bin/rm -rf /var/lib/docker
+Jul 03 00:30:24 ws sudo[126176]:    denis : TTY=pts/1 ; PWD=/home/denis/code/vastgoed/etl ; USER=root ; COMMAND=/usr/bin/rm -rf /run/docker
+Jul 03 00:30:16 ws sudo[126132]:    denis : TTY=pts/1 ; PWD=/home/denis/code/vastgoed/etl ; USER=root ; COMMAND=/usr/bin/pacman -Rns docker
+```
+
+
 # Docker Install
 - https://itsfoss.com/install-docker-arch-linux/
 
