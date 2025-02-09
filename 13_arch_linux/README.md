@@ -35,7 +35,6 @@ pacman -S nvidia-container-toolkit
 pacman -S cudnn 
 ```
 
-
 # 패키지 관리
 - https://wiki.archlinux.org/title/Official_repositories
 
@@ -157,3 +156,10 @@ docker run hello-world
 
 - Go로 만든거
   - https://github.com/containerd/nerdctl
+
+<hr />
+
+# 다른 외국 사람의 arch linux
+
+# (230618)Arch Linux post install Guide | Mashed
+- https://youtu.be/YPrhIfm3VJs?si=wDwKYuJVZ6NpnANP
