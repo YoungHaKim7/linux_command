@@ -175,3 +175,44 @@ docker run hello-world
 
 # (230618)Arch Linux post install Guide | Mashed
 - https://youtu.be/YPrhIfm3VJs?si=wDwKYuJVZ6NpnANP
+
+
+# localhost:8080허용하게 만들기
+- https://github.com/bettercap/bettercap/issues/783
+
+- 문제
+
+```
+tcpdump -lnn -i ethX port 8080
+tcpdump: ethX: You don't have permission to perform this capture on that device
+(socket: Operation not permitted)
+
+```
+
+```
+It's a little late, but I just had the same problem. You need to give tcpdump the permission and capability to allow raw packet captures and network interface manipulation.
+
+Add a capture group and add yourself to it:
+
+sudo groupadd pcap
+sudo usermod -a -G pcap $USER
+
+Next, change the group of tcpdump and set permissions:
+
+sudo chgrp pcap /usr/sbin/tcpdump
+sudo chmod 750 /usr/sbin/tcpdump
+
+OR
+
+sudo chgrp pcap /usr/bin/tcpdump
+sudo chmod 750 /usr/bin/tcpdump
+
+Finally, use setcap to give tcpdump the necessary permissions:
+
+sudo setcap cap_net_raw,cap_net_admin=eip /usr/sbin/tcpdump
+
+Be careful, that this will allow everybody from the group pcap to manipulate network interfaces and read raw packets!
+
+www.kumaratuljaiswal.in
+www.hackingtruth.in
+```
