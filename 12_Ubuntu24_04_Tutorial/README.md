@@ -75,3 +75,14 @@ apt-get install automake libtool
 curl https://ipinfo.io/ip
 211.xxx.xxx.xxx
 ```
+
+# google-chrome 인스톨하기
+
+```
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+google-chrome
+
+```
