@@ -8,6 +8,8 @@
 
 - [arch linux에서 도커 쓰는 방법snap을 쓴다. 좀 구리네](https://ko.linux-console.net/?p=16630)
 
+- [(외부링크)archlinux배경화면](https://bbs.archlinux.org/viewtopic.php?id=259604)
+
 <hr/>
 
 # Arch Linux 설치, 처음부터 끝까지
