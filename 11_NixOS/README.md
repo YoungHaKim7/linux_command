@@ -1,3 +1,7 @@
+# (250111)I'm Coding on Linux Again // My NixOS Dual PC Setup | ForrestKnight
+- https://youtu.be/fmFjV3_iIn0?si=Y7ZiVGDyQ2MxnBq9
+
+
 # 우분투에 nix insatll 깔아서 패키지 관리하는 방법
 
 - https://tech.aufomm.com/my-nix-journey-use-nix-with-ubuntu
