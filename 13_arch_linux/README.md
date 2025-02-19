@@ -6,7 +6,7 @@
 
 - [archlinux_packages_Search](https://archlinux.org/packages/)
 
-- [arch linux에서 도커 쓰는 방법snap을 쓴다. 좀 구리네](snap은 절대 쓰지말자)(https://ko.linux-console.net/?p=16630)
+- [arch linux에서 도커 쓰는 방법snap을 쓴다. 좀 구리네(snap은 절대 쓰지말자)](https://ko.linux-console.net/?p=16630)
 
 - [(외부링크)archlinux배경화면](https://bbs.archlinux.org/viewtopic.php?id=259604)
 
