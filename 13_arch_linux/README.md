@@ -12,6 +12,8 @@
 
 - [(외부링크)pacman 에러나면 list 관리하는곳](https://github.com/warpdotdev/Warp/issues/4654)
 
+- [(외부링크)OBS생방송끊기는거 다른거 설치해보자Vulkan_https://wiki.archlinux.org/title/Open_Broadcaster_Software](https://wiki.archlinux.org/title/Open_Broadcaster_Software)
+
 <hr />
 
 # pacman 에러나면 list 관리하는곳
