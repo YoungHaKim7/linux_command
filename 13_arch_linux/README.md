@@ -10,6 +10,23 @@
 
 - [(외부링크)archlinux배경화면](https://bbs.archlinux.org/viewtopic.php?id=259604)
 
+- [(외부링크)pacman 에러나면 list 관리하는곳](https://github.com/warpdotdev/Warp/issues/4654)
+
+<hr />
+
+# pacman 에러나면 list 관리하는곳
+- `/etc/pacman.conf` 
+- (A bit late, but for posterity:
+You can remove the key with the following command (manual on https://pacman.archlinux.page/pacman-key.8.html)
+`sudo pacman-key -d "linux-maintainers@warp.dev"`
+
+You can cleanup your `/etc/pacman.conf` file by removing the following lines:
+
+```conf
+[warpdotdev]
+Server = https://releases.warp.dev/linux/pacman/$repo/$arch
+```
+
 <hr/>
 
 # Arch Linux 설치, 처음부터 끝까지
