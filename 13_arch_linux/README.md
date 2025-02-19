@@ -15,7 +15,8 @@
 <hr />
 
 # pacman 에러나면 list 관리하는곳
-- `/etc/pacman.conf` 
+- `/etc/pacman.conf`
+  - https://github.com/warpdotdev/Warp/issues/4654
 - (A bit late, but for posterity:
 You can remove the key with the following command (manual on https://pacman.archlinux.page/pacman-key.8.html)
 `sudo pacman-key -d "linux-maintainers@warp.dev"`
