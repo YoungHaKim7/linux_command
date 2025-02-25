@@ -50,6 +50,24 @@
 
 <hr>
 
+# (250225조회기준)참고로 레딧의 Subreddit 구독자수는 대략 다음과 같다. 출처
+- https://namu.wiki/w/MX%20Linux
+  
+```
+r/Linux 370,000
+r/Ubuntu 108,000
+r/LinuxMint 23,957
+r/Fedora 18,925
+r/ManjaroLinux 11,087
+r/openSUSE 7,359
+r/SolusProject 5,965
+r/NixOS 3,051
+r/voidlinux 1,802
+r/MXLinux 478
+```
+
+<hr />
+
 # 『유닉스 리눅스 명령어 사전』의 개정판- linux command총정리
 
 - 『유닉스 리눅스 명령어 사전』의 개정판. 빠르게 찾아 쉽게 활용할 수 있는 유닉스 리눅스 명령어 사전이다. 일반 명령어, 데몬 및 서버설정, RPM & DEB, VI 에디터, SVN & Git, 쉘 스크립트 프로그래밍으로 분류하여 자세히 다룬다.
