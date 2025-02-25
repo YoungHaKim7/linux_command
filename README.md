@@ -3,6 +3,7 @@
 - [(외부링크)리눅스인기순위보는곳_https://distrowatch.com/](https://distrowatch.com/)
   - [(250225조회기준)참고로 레딧의 Subreddit 구독자수는 대략 다음과 같다. ](#250225조회기준참고로-레딧의-subreddit-구독자수는-대략-다음과-같다-출처)
 
+- [(외부링크)명령어 비교 Arch & Red Hat/Fedora & Debian/Ubuntu & SLES/openSUSE & Gentoo](https://wiki.archlinux.org/title/Pacman/Rosetta)
 
 <hr />
 
