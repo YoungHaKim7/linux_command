@@ -1955,3 +1955,11 @@ code(Ø) to hex = 0xD8
 
 
 - https://gcc.gnu.org/releases.html
+
+```bash
+mkdir builld && cd build
+
+./configure --host=x86_64-pc-linux-gnu
+
+
+```
