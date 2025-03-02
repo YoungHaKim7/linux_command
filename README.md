@@ -1962,4 +1962,6 @@ mkdir builld && cd build
 ./configure --host=x86_64-pc-linux-gnu
 
 
+# 쓰레드 8개 써서 빠르게
+make -j 8
 ```
