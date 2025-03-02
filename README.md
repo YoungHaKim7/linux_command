@@ -53,6 +53,11 @@
 
 <hr>
 
+- 최신판 수동 설치
+  - [cmake최신판]()
+
+<hr />
+
 # (250225조회기준)참고로 레딧의 Subreddit 구독자수는 대략 다음과 같다. 출처
 - https://namu.wiki/w/MX%20Linux
   
@@ -1932,3 +1937,15 @@ code(Ø) to hex = 0xD8
   - https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio
 
 <hr />
+
+
+# cmake 최신판 설치[|🔝|](#link)
+
+- https://cmake.org/download/
+- 압축 풀고 cmake폴더 들어가서
+
+```bash
+./bootstrap && make && sudo make install
+```
+
+- https://tttsss77.tistory.com/77
