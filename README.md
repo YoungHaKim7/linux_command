@@ -55,6 +55,7 @@
 
 - 최신판 수동 설치
   - [cmake최신판](#cmake-최신판-설치)
+  - [gcc최신판](#gcc-최신판-설치)
 
 <hr />
 
@@ -1949,3 +1950,8 @@ code(Ø) to hex = 0xD8
 ```
 
 - https://tttsss77.tistory.com/77
+
+# gcc 최신판 설치[|🔝|](#link)
+
+
+- https://gcc.gnu.org/releases.html
