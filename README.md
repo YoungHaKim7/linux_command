@@ -60,6 +60,12 @@
   - [cmake최신판](#cmake-최신판-설치)
   - [gcc최신판](#gcc-최신판-설치)
 
+
+<hr />
+
+- 보안 & 해킹
+  - [파일의 hash해시값 확인하기(md5, sha1, 파일 검증&변조 확인)]()
+
 <hr />
 
 # (250225조회기준)참고로 레딧의 Subreddit 구독자수는 대략 다음과 같다. 출처
@@ -1967,4 +1973,17 @@ mkdir builld && cd build
 
 # 쓰레드 8개 써서 빠르게
 make -j 8
+```
+
+
+# 파일의 (hash)해시값 확인하기(md5, sha1, 파일 검증&변조 확인)[|🔝|](#link)
+- https://yangnoon.tistory.com/36
+ 
+```bash
+$ md5sum ./text_hash.txt
+0082745f92a2881b2edaadc0f9e44289  ./text_hash.txt
+
+my_project/rust_lang/9999
+$ sha1sum ./text_hash.txt
+afaf2153d3e0be3bdf3cbd7533ae7602b510b1bd  ./text_hash.txt
 ```
