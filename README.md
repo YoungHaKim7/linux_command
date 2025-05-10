@@ -1983,7 +1983,6 @@ make -j 8
 $ md5sum ./text_hash.txt
 0082745f92a2881b2edaadc0f9e44289  ./text_hash.txt
 
-my_project/rust_lang/9999
 $ sha1sum ./text_hash.txt
 afaf2153d3e0be3bdf3cbd7533ae7602b510b1bd  ./text_hash.txt
 ```
