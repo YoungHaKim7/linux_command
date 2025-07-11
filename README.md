@@ -66,6 +66,9 @@
 - 보안 & 해킹
   - [파일의 hash해시값 확인하기(md5, sha1, 파일 검증&변조 확인)](#파일의-hash해시값-확인하기md5-sha1-파일-검증변조-확인)
 
+
+- [우분투(Ubuntu)용 (방송용) ScreenKey(빔Vim 하는거 보여줄때 좋다.)]()
+
 <hr />
 
 # (250225조회기준)참고로 레딧의 Subreddit 구독자수는 대략 다음과 같다. 출처
@@ -1987,4 +1990,19 @@ $ md5sum ./text_hash.txt
 
 $ sha1sum ./text_hash.txt
 afaf2153d3e0be3bdf3cbd7533ae7602b510b1bd  ./text_hash.txt
+```
+
+
+<hr />
+
+# 우분투(Ubuntu)용 (방송용) ScreenKey(빔Vim 하는거 보여줄때 좋다.)[|🔝|](#link)
+
+- https://drogrammer.tistory.com/68
+
+```bash
+# install
+sudo apt install screenkey
+
+# kill process
+killall screenkey
 ```
