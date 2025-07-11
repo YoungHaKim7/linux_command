@@ -826,6 +826,7 @@ https://docs.rockylinux.org/books/admin_guide/03-commands/
 <hr>
 
 # Screen 명령어 정리 ~~~~~~~[[🔝]](#link)
+- https://erwinousy.medium.com/screen-command-%EC%82%AC%EC%9A%A9%EB%B2%95-linux-mac-62bf5dd23110
 
 ```
 // Ctrl + a
