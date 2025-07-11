@@ -67,7 +67,7 @@
   - [파일의 hash해시값 확인하기(md5, sha1, 파일 검증&변조 확인)](#파일의-hash해시값-확인하기md5-sha1-파일-검증변조-확인)
 
 
-- [우분투(Ubuntu)용 (방송용) ScreenKey(빔Vim 하는거 보여줄때 좋다.)]()
+- [우분투(Ubuntu)용 (방송용) ScreenKey(빔Vim 하는거 보여줄때 좋다.)](#우분투ubuntu용-방송용-screenkey빔vim-하는거-보여줄때-좋다)
 
 <hr />
 
