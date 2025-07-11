@@ -827,6 +827,7 @@ https://docs.rockylinux.org/books/admin_guide/03-commands/
 
 # Screen 명령어 정리 ~~~~~~~[[🔝]](#link)
 - https://erwinousy.medium.com/screen-command-%EC%82%AC%EC%9A%A9%EB%B2%95-linux-mac-62bf5dd23110
+- https://man7.org/linux/man-pages/man1/screen.1.html#top_of_page
 
 ```
 // Ctrl + a
