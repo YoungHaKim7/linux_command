@@ -310,6 +310,34 @@ sudo apt-get install nodejs
 sudo apt-get install python3-pip
 ```
 
+# node.js 업데이트(3개의 명령어)[|🔝|](#link)
+- node.js 업데이트 (3개의 명령어를 차례차례 입력하세요.)
+  - https://kimce.tistory.com/11
+
+```bash
+sudo npm cache clean --force
+sudo npm install -g n
+sudo n stable
+```
+
+```bash
+sudo n stable
+  installing : node-v22.17.0
+       mkdir : /usr/local/n/versions/node/22.17.0
+       fetch : https://nodejs.org/dist/v22.17.0/node-v22.17.0-linux-x64.tar.xz
+     copying : node/22.17.0
+   installed : v22.17.0 (with npm 10.9.2)
+
+Note: the node command changed location and the old location may be remembered in your current shell.
+         old : /usr/bin/node
+         new : /usr/local/bin/node
+If "node --version" shows the old version then start a new shell, or reset the location hash with:
+hash -r  (for bash, zsh, ash, dash, and ksh)
+rehash   (for csh and tcsh)
+```
+
+<hr />
+
 # Cmake업데이트 하기[[🔝]](#link)
 - https://somjang.tistory.com/entry/Ubuntu-CMake-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
 
