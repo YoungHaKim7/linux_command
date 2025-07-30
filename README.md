@@ -2036,3 +2036,12 @@ sudo apt install screenkey
 # kill process
 killall screenkey
 ```
+
+<hr />
+
+# `find`와 `mv`의 조합으로 이동 시키기[|🔝|](#link)
+- https://devsungyeon.github.io/useful/Linux-AllUnderdirectoryFile-to-ParentDir/
+
+```bash
+find -type f -execdir mv "{}" ../ \;
+```
