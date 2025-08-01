@@ -2048,3 +2048,10 @@ find -type f -execdir mv "{}" ../ \;
 
 # [Linux] 리눅스 cp 명령어 / 파일, 디렉토리 복사[|🔝|](#link)
 - https://taeying.tistory.com/entry/Linux-%EB%A6%AC%EB%88%85%EC%8A%A4-cp-%EB%AA%85%EB%A0%B9%EC%96%B4-%ED%8C%8C%EC%9D%BC-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EB%B3%B5%EC%82%AC
+
+
+# `man sudo_root`공부해 보자[|🔝|](#link)
+
+```bash
+man sudo_root
+```
