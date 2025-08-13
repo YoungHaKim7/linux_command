@@ -10,6 +10,9 @@
     - 다른 외국인 자료 Linux File System Simply Explained
       - https://youtu.be/BUnb1PKKMBA
 
+# hangle
+- https://devpro.kr/posts/Ubuntu-24.04-LTS-%ED%95%9C%EA%B8%80-%EC%9E%85%EB%A0%A5-%EC%84%A4%EC%A0%95/
+
 # Nvidia Install
 - https://linuxconfig.org/how-to-install-nvidia-drivers-on-ubuntu-24-04
 
