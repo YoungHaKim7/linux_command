@@ -340,9 +340,6 @@ rehash   (for csh and tcsh)
 
 <hr />
 
-# Cmake업데이트 하기[[🔝]](#link)
-- https://somjang.tistory.com/entry/Ubuntu-CMake-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
-
 # netstat 없으면 설치[[🔝]](#link)
 - ```netstat```
 ```
@@ -1994,6 +1991,12 @@ code(Ø) to hex = 0xD8
 ```
 
 - https://tttsss77.tistory.com/77
+
+
+# Cmake업데이트 하기[[🔝]](#link)
+- https://somjang.tistory.com/entry/Ubuntu-CMake-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
+
+- https://askubuntu.com/questions/829310/how-to-upgrade-cmake-in-ubuntu
 
 # gcc 최신판 설치[|🔝|](#link)
 
