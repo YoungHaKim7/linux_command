@@ -1988,10 +1988,14 @@ code(Ø) to hex = 0xD8
 
 ```bash
 ./bootstrap && make && sudo make install
+
+# 병렬 실행
+make -j `nproc`
 ```
 
 - https://tttsss77.tistory.com/77
 
+- `make -j` 병렬 https://young-cow.tistory.com/28
 
 # Cmake업데이트 하기[[🔝]](#link)
 - https://somjang.tistory.com/entry/Ubuntu-CMake-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
