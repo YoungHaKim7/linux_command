@@ -2001,11 +2001,16 @@ code(Ø) to hex = 0xD8
 # Cmake option옵션 설정[[🔝]](#link)
 - https://tttsss77.tistory.com/193?category=827570
 
-- 최신팔 cmake가 설치되는 위치
+- 최신판 cmake가 설치되는 위치
 ```bash
 $ which cmake
 /usr/local/bin/cmake
+
+$ cmake --version
+cmake version 4.1.0
 ```
+
+
 
 <hr />
 
