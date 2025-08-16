@@ -1998,6 +1998,9 @@ code(Ø) to hex = 0xD8
 
 - https://askubuntu.com/questions/829310/how-to-upgrade-cmake-in-ubuntu
 
+# Cmake option옵션 설정[[🔝]](#link)
+- https://tttsss77.tistory.com/193?category=827570
+
 # gcc 최신판 설치[|🔝|](#link)
 
 
