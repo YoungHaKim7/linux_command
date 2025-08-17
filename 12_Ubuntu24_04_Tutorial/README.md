@@ -21,7 +21,9 @@
 - https://andrewpage.tistory.com/390
 
 # 최신clang설치
-- https://askubuntu.com/questions/1525087/after-upgrading-ubuntu-to-24-04-lts-clang-does-not-work-properly
+- 이게 최종
+  - https://github.com/YoungHaKim7/cpp23_26_project?tab=readme-ov-file#gcc%EC%B5%9C%EC%8B%A0%EC%A0%95%EB%B3%B4-%EB%B0%8F-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EA%B8%B0
+    - https://askubuntu.com/questions/1525087/after-upgrading-ubuntu-to-24-04-lts-clang-does-not-work-properly
 
 ```
 sudo apt update
