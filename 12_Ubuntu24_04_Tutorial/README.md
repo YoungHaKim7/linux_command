@@ -13,6 +13,12 @@
 # hangle
 - https://devpro.kr/posts/Ubuntu-24.04-LTS-%ED%95%9C%EA%B8%80-%EC%9E%85%EB%A0%A5-%EC%84%A4%EC%A0%95/
 
+# 자동으로 드라이버 업데이트 하기
+
+```
+ubuntu-drivers autoinstall
+```
+
 # Nvidia Install
 - https://linuxconfig.org/how-to-install-nvidia-drivers-on-ubuntu-24-04
 
