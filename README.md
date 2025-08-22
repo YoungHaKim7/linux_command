@@ -604,7 +604,11 @@ https://github.com/lsd-rs/lsd
 - 현재 디렉토리 하위에서 디렉토리에 있는 ".DS_Store"  모든 파일 삭제
 
 ```bash
-find . -type f -name ".DS_Store" -exec rm {} \; 
+find . -type f -name ".DS_Store" -exec rm {} \;
+
+
+# fd-find(rust로 만든 find)  현재 디렉토리 하위에서 디렉토리에 있는 "justfile"  모든 파일 삭제
+fd justfile -exec rm {} \;
 ```
 https://shutcoding.tistory.com/entry/LINUX-FIND-%EB%A1%9C-%ED%8C%8C%EC%9D%BC%ED%8F%B4%EB%8D%94-%EC%B0%BE%EA%B8%B0-%EC%A7%80%EC%9A%B0%EA%B8%B0
 
