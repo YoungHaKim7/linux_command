@@ -46,6 +46,8 @@ How to install build-essential
 
 # 최근 news
 
+- [Asahi Linux, Kernel 6.16 릴리즈 | elsa in mac | 2025. 9. 1. 20:39](https://elsainmac.tistory.com/1001)
+
 - 240215 GN⁺: 아사히 리눅스의 애플 실리콘 OpenGL 지원, 공식적으로 애플을 초월 (arstechnica.com)
   - https://news.hada.io/topic?id=13401
     - https://arstechnica.com/gadgets/2024/02/asahi-linux-projects-opengl-support-on-apple-silicon-officially-surpasses-apples/
