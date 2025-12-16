@@ -19,6 +19,14 @@
 ubuntu-drivers autoinstall
 ```
 
+# 소리 안나서 다시 설치하고 재부팅하니 잘됨
+- https://askubuntu.com/questions/1231524/ubuntu-20-04-no-sound
+
+```bash
+sudo apt-get install --reinstall alsa-base pulseaudio
+sudo alsa force-reload
+```
+
 # Nvidia Install
 - https://linuxconfig.org/how-to-install-nvidia-drivers-on-ubuntu-24-04
 
