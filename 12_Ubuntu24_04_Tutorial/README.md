@@ -15,7 +15,15 @@
 
 # 자동으로 드라이버 업데이트 하기
 
+- ubuntu 25.10
+  - https://askubuntu.com/questions/1195996/how-do-i-install-the-latest-nvidia-drivers-automatically
+
+```bash
+sudo ubuntu-drivers install   
+sudo reboot   
 ```
+
+```bash
 ubuntu-drivers autoinstall
 ```
 
