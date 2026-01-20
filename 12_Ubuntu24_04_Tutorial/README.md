@@ -14,6 +14,7 @@
 - https://devpro.kr/posts/Ubuntu-24.04-LTS-%ED%95%9C%EA%B8%80-%EC%9E%85%EB%A0%A5-%EC%84%A4%EC%A0%95/
 - Ubuntu25.10 hangle install
   - https://basiclike.tistory.com/169
+  - https://hangeullo.tistory.com/entry/%EC%9A%B0%EB%B6%84%ED%88%AC-ubuntu-%ED%95%9C%EA%B8%80-%ED%82%A4%EB%B3%B4%EB%93%9C-%EC%84%A4%EC%B9%98-%EB%B0%A9%EB%B2%95
 
 # 자동으로 드라이버 업데이트 하기
 
