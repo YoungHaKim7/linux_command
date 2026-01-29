@@ -16,6 +16,20 @@
   - https://basiclike.tistory.com/169
   - https://hangeullo.tistory.com/entry/%EC%9A%B0%EB%B6%84%ED%88%AC-ubuntu-%ED%95%9C%EA%B8%80-%ED%82%A4%EB%B3%B4%EB%93%9C-%EC%84%A4%EC%B9%98-%EB%B0%A9%EB%B2%95
 
+# snap 업데이트 방법
+- https://askubuntu.com/questions/760823/how-can-i-update-all-snap-packages
+
+```bash
+# 전체 업데이트:
+sudo snap refresh
+
+# 특정 앱 업데이트:
+sudo snap refresh <패키지명>
+
+# 업데이트 확인(설치 안 함):
+sudo snap refresh --list 
+```
+
 # 자동으로 드라이버 업데이트 하기
 
 - ubuntu 25.10
