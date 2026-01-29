@@ -133,3 +133,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 google-chrome
 ```
+
+# pipewire설치
+
+- https://askubuntu.com/questions/1339765/replacing-pulseaudio-with-pipewire-in-ubuntu-20-04
