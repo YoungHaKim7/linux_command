@@ -30,6 +30,9 @@ sudo snap refresh <패키지명>
 sudo snap refresh --list 
 ```
 
+- `sudo snap install obs-studio`
+- `sudo snap refresh obs-studio`
+
 # 자동으로 드라이버 업데이트 하기
 
 - ubuntu 25.10
