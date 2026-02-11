@@ -47,6 +47,12 @@ sudo reboot
 ubuntu-drivers autoinstall
 ```
 
+# OBS
+
+```bash
+obs-studio --platform wayland
+```
+
 # 소리 안나서 다시 설치하고 재부팅하니 잘됨
 - https://askubuntu.com/questions/1231524/ubuntu-20-04-no-sound
 
