@@ -16,6 +16,13 @@
   - https://basiclike.tistory.com/169
   - https://hangeullo.tistory.com/entry/%EC%9A%B0%EB%B6%84%ED%88%AC-ubuntu-%ED%95%9C%EA%B8%80-%ED%82%A4%EB%B3%B4%EB%93%9C-%EC%84%A4%EC%B9%98-%EB%B0%A9%EB%B2%95
 
+# Windows 창전환
+
+- Ubuntu >= 18.04, the default hotkeys for moving windows to another monitor are `Shift + Super + Arrow`. Each arrow will correspond to the location of the destination monitor relative to where the focused window is.
+  - Alt + Shift + Arrow(다른 모니터로 이동)
+  - Alt + Arrow(같은 창에서)
+- https://askubuntu.com/questions/1033018/howto-to-move-window-to-another-monitor-on-the-left-right-using-keyboard-shortcu
+
 # snap 업데이트 방법
 - https://askubuntu.com/questions/760823/how-can-i-update-all-snap-packages
 
