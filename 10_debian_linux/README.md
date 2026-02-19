@@ -19,5 +19,6 @@
 
 # 엔비디아 설치
 - 이게 최고인듯
-- https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Debian&target_version=13&target_type=deb_local
+- https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#pre-installation-actions
+  - https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Debian&target_version=13&target_type=deb_local
 - [The Easiest Way to Install Nvidia Drivers on Debian in 2024 No More Headaches! | Tech For Life](https://youtu.be/aYhWcJo1Zf8?si=vl-Rpap8h0JFMDEc)
