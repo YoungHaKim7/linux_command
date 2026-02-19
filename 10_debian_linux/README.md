@@ -15,3 +15,6 @@
 
 # debian 한글설치
 - https://wiki.debianusers.or.kr/index.php?title=%ED%95%9C%EA%B8%80_%EC%84%A4%EC%A0%95
+
+# 엔비디아 설치
+- [The Easiest Way to Install Nvidia Drivers on Debian in 2024 No More Headaches! | Tech For Life](https://youtu.be/aYhWcJo1Zf8?si=vl-Rpap8h0JFMDEc)
