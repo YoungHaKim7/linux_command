@@ -16,6 +16,9 @@
   - https://basiclike.tistory.com/169
   - https://hangeullo.tistory.com/entry/%EC%9A%B0%EB%B6%84%ED%88%AC-ubuntu-%ED%95%9C%EA%B8%80-%ED%82%A4%EB%B3%B4%EB%93%9C-%EC%84%A4%EC%B9%98-%EB%B0%A9%EB%B2%95
 
+# 24-> 25우분투 업데이트 방법
+- https://documentation.ubuntu.com/server/how-to/software/upgrade-your-release/
+
 # Windows 창전환
 
 - Ubuntu >= 18.04, the default hotkeys for moving windows to another monitor are `Shift + Super + Arrow`. Each arrow will correspond to the location of the destination monitor relative to where the focused window is.
