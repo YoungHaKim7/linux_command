@@ -18,6 +18,8 @@
 
 # 24-> 25우분투 업데이트 방법
 - https://documentation.ubuntu.com/server/how-to/software/upgrade-your-release/
+- 유튜브 영상
+  - [Upgrade Ubuntu 24.04 to 25.04 Step-by-Step (Complete Guide!) | ZacsTech](https://youtu.be/tBXNZmL4SeU?si=EfnZdphTo6vHCx-T)
 
 # Windows 창전환
 
