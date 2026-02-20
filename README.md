@@ -547,6 +547,13 @@ $ uname -a
 Darwin g-y-MacBookPro.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:43 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T6000 arm64
 ```
 
+- 다른 방법
+  - https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#verify-you-have-a-supported-version-of-linux
+
+```bash
+hostnamectl
+```
+
 <hr>
 
 # bash 명령어 히스토리 관리 - readline 사용법 및 line 편집, reverse search 등 단축키 요약[[🔝]](#link)
