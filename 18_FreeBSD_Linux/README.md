@@ -30,3 +30,6 @@
 ```bash
 passwd username
 ```
+
+# lan 못 잡는거 세팅
+- https://forums.freebsd.org/threads/freebsd-disables-wake-on-lan.65499/
