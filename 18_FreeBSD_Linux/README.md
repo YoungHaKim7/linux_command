@@ -12,7 +12,7 @@
   - tony
 - https://youtu.be/TmFl7QTvWPs
 
-- (oxwm)0.9 까지 러스트로 만듬.
+- (oxwm)0.9 까지 러스트로 만듬.(d265668)
   - https://github.com/tonybanters/oxwm/tree/v0.9.0
 
 <hr />
