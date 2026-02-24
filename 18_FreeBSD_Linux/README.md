@@ -7,6 +7,9 @@
 # (영상모아보기)FreeBSD tutorial
 - https://youtube.com/playlist?list=PLimU5OMnV2EeMzzhBflwHLKoJAuL2RXzz&si=5CUXQfUafqXpN9i1
 
+# xfce이게 젤 편하다 ㅋ
+- https://youtu.be/dIedlf7NwmY?si=8eMW9wkgydQxaNbi
+
 # 이게 젤 맘에 듬) How to Install and Configure FreeBSD (2027 Edition)
 - #bsd #freebsd
   - tony
