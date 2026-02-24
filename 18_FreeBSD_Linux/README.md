@@ -24,3 +24,9 @@
 - The FreeBSD src tree publish-only repository. Experimenting with 'simple' pull requests.... 
   - https://github.com/freebsd/freebsd-src
 
+
+# root권한으로 user 비번 초기화
+
+```bash
+passwd username
+```
