@@ -52,6 +52,17 @@ EndSection
 sudo pkg install nvidia-driver nvidia-setting
 ```
 
+- https://forums.freebsd.org/threads/howto-setup-xorg-with-nvidias-driver.52311/
+
+```
+xorg
+nvidia-driver
+nvidia-xconfig
+nvidia-settings
+```
+
+- https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/index.html
+
 # lan 못 잡는거 세팅
 - https://forums.freebsd.org/threads/freebsd-disables-wake-on-lan.65499/
 - networking 기본 세팅 공식 문서
