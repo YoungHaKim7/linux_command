@@ -27,6 +27,7 @@
 
 - Ensure Linux emulation is enabled in `/etc/rc.conf` (`linux_enable="YES"`) and loaded (`service linux start`).
 
+- https://docs.freebsd.org/en/books/handbook/linuxemu/#linux-userlands
 
 # (리눅스에 다른 리눅스 설치USB없이)
 - [Installing FreeBSD 14 with an Encrypted Home Directory | John Grafton](https://youtu.be/cVobPc1PR08?si=O4Kf40SKOnuw16Z3)
