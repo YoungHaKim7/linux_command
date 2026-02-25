@@ -37,6 +37,21 @@ passwd username
 # nvidia setting
 - https://docs.freebsd.org/en/books/handbook/x11/
 
+- Example 3. Select NVIDIA® Graphics Driver in a File
+  - `/usr/local/etc/X11/xorg.conf.d/20-nvidia.conf`
+  - https://docs.freebsd.org/en/books/handbook/x11/
+
+```
+Section "Device"
+	Identifier "Card0"
+	Driver     "nvidia"
+EndSection
+```
+
+```bash
+sudo pkg install nvidia-driver nvidia-setting
+```
+
 # lan 못 잡는거 세팅
 - https://forums.freebsd.org/threads/freebsd-disables-wake-on-lan.65499/
 - networking 기본 세팅 공식 문서
