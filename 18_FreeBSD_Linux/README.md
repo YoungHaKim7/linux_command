@@ -72,6 +72,8 @@ nvidia-settings
 
 - NVIDIA설치 영상
   - [2022) Getting Started With FreeBSD, Part 2 - Desktop and SDDM | RoboNuggie](https://youtu.be/XjPha2bWvxs?si=J3Tdshb8rPvb_Kaz)
+    - [이전 영상 2022) Getting Started With FreeBSD, Part 1 - A little History, Download & Install | RoboNuggie](https://youtu.be/Ldov4l0n8dk?si=KfVADGytU0Rn5tI-)
+ 
 
 
 # lan 못 잡는거 세팅
