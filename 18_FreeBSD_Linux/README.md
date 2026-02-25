@@ -34,6 +34,13 @@
 passwd username
 ```
 
+# FreeBSD update packages and apply security upgrades using pkg/freebsd-update
+- https://www.cyberciti.biz/faq/freebsd-applying-security-updates-using-pkg-freebsd-update/
+
+```bash
+pkg update && pkg upgrade
+```
+
 # nvidia setting
 - https://docs.freebsd.org/en/books/handbook/x11/
 
