@@ -51,6 +51,16 @@ pkg update && pkg upgrade
   - `/usr/local/etc/X11/xorg.conf.d/20-nvidia.conf`
   - https://docs.freebsd.org/en/books/handbook/x11/
 
+- my settings
+
+```
+Section "Device"
+	Identifier "NVIDIA Card"
+	VendorName "NVIDIA Corporation"
+	Driver     "nvidia"
+EndSection
+```
+
 ```
 Section "Device"
 	Identifier "Card0"
