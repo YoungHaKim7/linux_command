@@ -1,3 +1,6 @@
+# FreeBSD(공식문서 이거 100번은 반복해서 보자)
+- https://docs.freebsd.org/en/books/handbook/parti/
+
 # FreeBSD | Fireship(1분 소개)
 - https://youtu.be/NKHzcXwTdB4?si=6YP5cgNSTWABQi3s
 
