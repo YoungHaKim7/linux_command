@@ -70,6 +70,10 @@ nvidia-settings
 
 - https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/index.html
 
+- NVIDIA설치 영상
+  - [2022) Getting Started With FreeBSD, Part 2 - Desktop and SDDM | RoboNuggie](https://youtu.be/XjPha2bWvxs?si=J3Tdshb8rPvb_Kaz)
+
+
 # lan 못 잡는거 세팅
 - https://forums.freebsd.org/threads/freebsd-disables-wake-on-lan.65499/
 - networking 기본 세팅 공식 문서
