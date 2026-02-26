@@ -10,6 +10,12 @@
   - https://en.opensuse.org/SDB:NVIDIA_drivers
   - [(230921)How to install the Nvidia drivers on openSUSE Tumbleweed - The Easy way and the Hard way](https://youtu.be/j3o_BCTaawY?si=gkeq6mRcO1xgPem-)
 
+
+# 이게 업데이트 같다.penSUSE Tumbleweed:
+```
+sudo zypper dup
+```
+
 # update
 - https://github.com/openSUSE/opensuse-migration-tool
 
