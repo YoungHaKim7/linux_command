@@ -7,10 +7,9 @@ https://github.com/kangtegong/fastcampus-cs
 ```
 $ ps -el
 
-PRI 프로세스 우선순위 : 낮을수록 높은 우선순위
-NI
-
-// ex)
+# PRI 프로세스 우선순위 : 낮을수록 높은 우선순위
+# NI
+# ex)
 
 F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
 0 S     0     1     0  0  80   0 -  2626 ?      ?        00:00:00 init(Ubuntu)
