@@ -11,6 +11,7 @@
   - [(230921)How to install the Nvidia drivers on openSUSE Tumbleweed - The Easy way and the Hard way](https://youtu.be/j3o_BCTaawY?si=gkeq6mRcO1xgPem-)
 
 # update
+- https://github.com/openSUSE/opensuse-migration-tool
 
 - In openSUSE Leap:
 ```bash
@@ -21,3 +22,9 @@ sudo zypper up
 ```bash
 sudo zypper dup
 ```
+
+- System update
+  - https://en.opensuse.org/System_Updates
+
+- Kernel update
+  - https://en.opensuse.org/SDB:InstallNewerKernel
