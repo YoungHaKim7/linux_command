@@ -28,3 +28,76 @@ sudo zypper dup
 
 - Kernel update
   - https://en.opensuse.org/SDB:InstallNewerKernel
+
+# i-bus한글은 구리다고 나온다. 
+- https://gist.github.com/curioustorvald/4db6bb7fe115b61b0eff94d60805a987
+
+**openSUSE Tumbleweed/Leap을 위한 두벌식 및 세벌식 한글 입력 설정**
+
+0.  openSUSE를 영어로 설치, 레이아웃은 일단은 무조건 Qwerty
+1.  빌드에 필요한 패키지들을 설치
+    ```
+    sudo zypper in cmake gtk2-devel gtk3-devel gtk4-devel fcitx fcitx-devel libqt5-qtbase-devel pkg-config libtool intltool
+    ```
+2.  코드를 가져오기. (새로 설치한 시스템에는 git이 없기 때문에 `sudo zypper in git git-lfs`를 먼저 실행해주자)
+    ```
+    git clone https://gitlab.com/3beol/libhangul.git 
+    git clone https://gitlab.com/3beol/fcitx-hangul.git
+    ```
+4.  시스템에 libhangul을 설치
+    ```
+    cd libhangul
+    ./autogen.sh
+    ./configure --prefix=/usr
+    make -j 4
+    sudo make install
+    ```
+5.  libhangul이 골때리게도 `/usr/lib/`에 설치되어있기 때문에 `/usr/lib64/`로의 이전이 필요함.
+    ```
+    sudo cp /usr/lib/libhangul* /usr/lib64/
+    ```
+6.  시스템에 fcitx-hangul을 설치
+    ```
+    cd ../fcitx-hangul
+    mkdir build; cd build
+    cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DHANGUL_MAIN_INCLUDE_DIR=/usr/include/hangul-1.0/
+    (!! cmake에 던져주는 변수가 HANGUL_MAIN_INCLUDE_DIR — include가 단수임에 주의 !!)
+    make
+    sudo make install
+    ```
+5.  로그아웃 혹은 재부팅
+6.  설치 후 메뉴에서 fcitx를 실행
+7.  메뉴에서 fcitx configuration을 실행
+8.  설정 창에서 **+** 버튼으로 "hangul" 이라는 레이아웃 추가 (only show current language 체크 해제)
+9.  Hangul을 두 번 눌러 한글입력기 설정
+10.  Keyboard layout: 원하는 것으로 적용 (두벌식: Dubeolsik, 세벌식: 3-P3 등 본인이 쓰던 것으로 적용)
+11.  **드보락, 콜맥 사용자**: Keyboard layout과 Base Layout을 본인이 쓰는 것으로 설정 (두 개 다 같은 자판으로 설정해야 함)
+12.  Hangul 설정 창을 OK를 눌러 빠져나오기
+13.  본인이 드보락이나 콜맥 자판을 쓰고 있으면 + 버튼을 눌러 추가
+14.  영문 자판을 우선순위 창에서 최상단으로 올릴 것
+15.  **드보락, 콜맥 사용자**: 설정창의 맨 밑 도구모음 중 가장 오른쪽 것(키보드 모양 아이콘)을 눌러 기본 키보드 레이아웃 (입력 창이 없을 때 사용할 배열)을 본인이 사용하는 것으로 설정
+16.  Global Config 탭에서 Trigger Input Method의 빈 곳에 본인이 사용할 한영 전환 키 등록 (예: Hangul 키)
+17.  설정이 끝났으면 설정 창을 종료
+
+이후 Ctrl+Space와 본인이 설정한 키로 한영 전환 가능.
+
+**KDE 사용자를 위한 설정: 입력기를 로그인 시에 자동으로 실행되게 할 필요가 있음**
+
+1.  ~/.profile에 아래의 4줄을 추가:
+    ```
+    export GTK_IM_MODULE=fcitx
+    export SDL_IM_MODULE=fcitx
+    export QT_IM_MODULE=fcitx
+    export XMODIFIERS=@im=fcitx
+    ```
+2.  시스템 설정 → Input Devices → Keyboard → Layouts탭으로 이동
+3.  Configure layouts 체크박스 아래에 나타나는 키보드 배열을 자신이 사용하는 것 하나만 남게 할 것 (콜맥·드보락 사용자는 쿼티를 없애고 자기가 쓰는 것을 추가하라는 뜻)
+4. 재부팅해서 잘 적용됐는지 확인. 작업표시줄에 키보드모양 혹은 [한] 아이콘이 있어야 함
+
+한줄요약: **Ibus는 똥입니다 Fcitx 쓰세요**
+
+Fcitx 자체의 문제 해결에는 다음의 링크를 참고할 수 있습니다:
+* https://wiki.archlinux.org/index.php/fcitx#Troubleshooting
+
+openSUSE가 아닌 다른 리눅스에서의 설정법은 다음의 링크에서 볼 수 있습니다:
+* https://gist.github.com/curioustorvald/ccaf593bee5707b2a929d0d83b930e77
