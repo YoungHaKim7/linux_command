@@ -13,16 +13,16 @@ https://stackoverflow.com/questions/68780116/is-there-any-alternative-for-proc-i
 
 - macOS
 ```bash
-//for all information
+# for all information
 sysctl -a 
 
 or
 
-//for memory
+# for memory
 sysctl hw.memsize 
 
 
-//cpu info
+# cpu info
 sysctl hw.ncpu 
 
 ```
