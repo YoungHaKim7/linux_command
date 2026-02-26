@@ -4,7 +4,7 @@ https://github.com/kangtegong/fastcampus-cs
 
 # ```ps -el``` 프로세스 우선순위
 
-```
+```bash
 $ ps -el
 
 # PRI 프로세스 우선순위 : 낮을수록 높은 우선순위
@@ -74,7 +74,7 @@ https://www.geeksforgeeks.org/top-command-in-linux-with-examples/
 f  설정화면 들어갈 수 있음 거기서 space로 체크함
 ```
 
-```
+```bash
 top - 16:12:34 up 0 min,  0 users,  load average: 0.52, 0.58, 0.59
 Tasks:   9 total,   1 running,   8 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  1.4 sy,  0.0 ni, 98.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
@@ -95,7 +95,7 @@ MiB Swap:  12288.0 total,  11239.9 free,   1048.1 used.    517.5 avail Mem
 
 - space누르면 설정하면으로 들어가짐(Enter누르고 space눌러야 체크 or 해제됨)
 
-```
+```bash
 Fields Management for window 1:Def, whose current sort field is %CPU
    Navigate with Up/Dn, Right selects for move then <Enter> or Left commits,
    'd' or <Space> toggles display, 's' sets sort.  Use 'q' or <Esc> to end!
@@ -134,7 +134,7 @@ Fields Management for window 1:Def, whose current sort field is %CPU
 
 # ```pstree``` 프로세스의 계층적 구조
 
-```
+```bash
 $ pstree
 init(Ubuntu)─┬─SessionLeader───zsh───pstree
              ├─init───{init}
