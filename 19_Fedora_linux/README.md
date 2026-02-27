@@ -5,3 +5,15 @@
 
 # download
 - https://www.fedoraproject.org/kde/download/
+
+# 정식 문서
+- https://docs.fedoraproject.org/en-US/quick-docs/dnf/
+
+# Common DNF Commands
+- https://docs.fedoraproject.org/en-US/quick-docs/dnf/
+
+- Install a package: `sudo dnf install <package_name>`
+- Search for a package: `dnf search <keyword>`
+- Remove a package: `sudo dnf remove <package_name>`
+- Update all packages: `sudo dnf upgrade`
+- Install a local RPM file: `sudo dnf localinstall <path_to_file.rpm>`
