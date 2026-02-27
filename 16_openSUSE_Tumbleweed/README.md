@@ -38,6 +38,25 @@ sudo zypper dup
 # i-bus한글은 구리다고 나온다. 
 - https://gist.github.com/curioustorvald/4db6bb7fe115b61b0eff94d60805a987
 
+```bash
+sudo zypper install fcitx fcitx5-hangul kf5-kcm-fcitx
+```
+
+
+```bash
+sudo zypper install fcitx fcitx-hangul kf5-kcm-fcitx
+```
+- (For modern systems, use `fcitx5-hangul` instead of `fcitx-hangul`.
+
+- Configure Environment Variables: Add the following to your `~/.xprofile file` (create it if it doesn't exist) to enable Fcitx to work across applications:
+
+
+```bash
+export GTK_IM_MODULE="fcitx"
+export QT_IM_MODULE="fcitx"
+export XMODIFIERS="@im=fcitx"
+```
+
 **openSUSE Tumbleweed/Leap을 위한 두벌식 및 세벌식 한글 입력 설정**
 
 0.  openSUSE를 영어로 설치, 레이아웃은 일단은 무조건 Qwerty
