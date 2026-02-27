@@ -50,6 +50,11 @@ sudo zypper dup
     git clone https://gitlab.com/3beol/libhangul.git 
     git clone https://gitlab.com/3beol/fcitx-hangul.git
     ```
+
+- 초기버젼 코드 공부하기 굿(러스트로 바꿔보자)
+  - https://gitlab.com/3beol/libhangul
+- 
+    
 4.  시스템에 libhangul을 설치
     ```
     cd libhangul
