@@ -1,5 +1,8 @@
-# (250111)I'm Coding on Linux Again // My NixOS Dual PC Setup | ForrestKnight
+# (250111) I'm Coding on Linux Again // My NixOS Dual PC Setup | ForrestKnight
 - https://youtu.be/fmFjV3_iIn0?si=Y7ZiVGDyQ2MxnBq9
+
+# (260221) NixOS 리뷰: 2026년 가장 강력한 리눅스 배포판일까? | Learn Linux TV
+- https://youtu.be/GrOmDlM_28Y?si=jdcU3eB3p4hz60kq
 
 
 # 우분투에 nix insatll 깔아서 패키지 관리하는 방법
