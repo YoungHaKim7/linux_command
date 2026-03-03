@@ -1,5 +1,7 @@
 # home-manage
 - https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone
+  - Youtube link
+    - [How to Use NixOS Home Manager (2026 Edition) | NixOS Guide Part 2](https://youtu.be/bFmvnJVd5yQ?si=eXJDM3o6oVD9iM9G)
 
 # default shell(fish)
 - https://wiki.nixos.org/wiki/Fish
