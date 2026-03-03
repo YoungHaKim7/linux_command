@@ -101,6 +101,7 @@
   #  wget
   ];
   
+  ####
   # Enable OpenGL
   #hardware.graphics = {
     #enable = true;
@@ -127,6 +128,7 @@
 
   ## Load the nvidia driver for Xorg and Wayland
   # services.xserver.videoDrivers = [ "modesetting" "nvidia" ];
+  #######
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
