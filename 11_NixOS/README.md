@@ -14,7 +14,9 @@
 
 # Installing NVIDIA Drivers on a Laptop in NixOS Guides
 - https://discourse.nixos.org/t/installing-nvidia-drivers-on-a-laptop-in-nixos/70951
-  
+
+- (Reddit) https://www.reddit.com/r/NixOS/comments/1f67jwl/how_to_install_nvidia_drivers/
+  - https://github.com/Arroquw/nixos-config/blob/main/modules/nixos/nvidia/default.nix
 
 # 우분투에 nix insatll 깔아서 패키지 관리하는 방법
 
