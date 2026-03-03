@@ -3,13 +3,21 @@
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
 { config, pkgs, ... }:
-
+let
+  home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-25.11.tar.gz";
+in
 {
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      (import "${home-manager}/nixos")
     ];
 
+  home-manager.useUserPackages = true;
+  home-manager.useGlobalPkgs = true; 
+  home-manager.backupFileExtension = "backup";
+  home-manager.users.gy = import ./home.nix;
+ 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -86,19 +94,36 @@
     #  thunderbird
     ];
   };
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
+
+  fonts.packages = with pkgs; [
+  nerd-fonts.fira-code
+  nerd-fonts.droid-sans-mono
+  nerd-fonts.hack
+  ];
 
   # Install firefox.
   programs.firefox.enable = true;
-
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
+  #programs.alacritty.enable = true;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     neovim
-  #  wget
+    alacritty
+    rustc
+    cargo
+    gcc
+    clang-tools
+    gnumake
+    llvmPackages_latest.llvm
+    llvmPackages_latest.clang
+    llvmPackages_latest.lld  # Linker
+    wget
+    git
+    curl
   ];  
 
   # Enable OpenGL
