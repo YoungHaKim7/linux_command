@@ -124,7 +124,12 @@ in
     wget
     git
     curl
+    starship
   ];  
+
+  # default shell
+  programs.fish.enable = true;
+  users.defaultUserShell = pkgs.fish;
 
   # Enable OpenGL
   hardware.graphics = {
