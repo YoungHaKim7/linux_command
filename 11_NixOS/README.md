@@ -4,6 +4,14 @@
 # (260221) NixOS 리뷰: 2026년 가장 강력한 리눅스 배포판일까? | Learn Linux TV
 - https://youtu.be/GrOmDlM_28Y?si=jdcU3eB3p4hz60kq
 
+# `vim` & `neovim` setting
+
+- [(250728) NixOS - Install VIM and Neovim Low Orbit Flux](https://youtu.be/wFP9CbaeMe0?si=S2BIWCDdGCeBN2OP)
+
+
+# Installing NVIDIA Drivers on a Laptop in NixOS Guides
+- https://discourse.nixos.org/t/installing-nvidia-drivers-on-a-laptop-in-nixos/70951
+  
 
 # 우분투에 nix insatll 깔아서 패키지 관리하는 방법
 
