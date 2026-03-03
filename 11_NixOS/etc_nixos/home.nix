@@ -5,6 +5,11 @@
   home.homeDirectory = "/home/gy";
   home.stateVersion = "25.11";
 
+  # default shell(fish)
+  #home-manager.users.gy= {
+    #programs.fish.enable = true;
+  #};
+
   programs.bash = {
     enable = true;
     shellAliases = {
@@ -40,5 +45,6 @@
   home.packages = with pkgs; [
     bat
     neofetch
+    starship
   ];
 }
