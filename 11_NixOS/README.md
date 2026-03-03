@@ -10,7 +10,7 @@
 
 - `nvim /etc/nixos/configuration.nix` setting
 
-- `nixos-rebuild- switch`
+- `nixos-rebuild switch`
 - `sudo nixos-rebuild switch --show-trace`
 
 # Installing NVIDIA Drivers on a Laptop in NixOS Guides
