@@ -1,3 +1,6 @@
+# home-manage
+- https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone
+
 # (250111) I'm Coding on Linux Again // My NixOS Dual PC Setup | ForrestKnight
 - https://youtu.be/fmFjV3_iIn0?si=Y7ZiVGDyQ2MxnBq9
 
