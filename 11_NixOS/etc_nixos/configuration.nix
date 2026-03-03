@@ -99,36 +99,34 @@
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     neovim
   #  wget
-  ];
-  
-  ####
-  # Enable OpenGL
-  #hardware.graphics = {
-    #enable = true;
-    #enable32Bit = true;
-  #};
-  #
-  ## Configure the NVIDIA driver
-  #hardware.nvidia = {
-    #modesetting.enable = true;
-    #open = true; # Use the open-source kernel module
-    #nvidiaSettings = true;
-    #package = config.boot.kernelPackages.nvidiaPackages.stable;
-    #
-    #prime = {
-      #offload = {
-        #enable = true;
-        #enableOffloadCmd = true;
-      #};
-      ## Use the Bus IDs you found earlier
-      ##intelBusId = "PCI:0:2:0";
-      #nvidiaBusId = "PCI:1:0:0";
-    #};
-  #};
+  ];  
 
+  # Enable OpenGL
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  };
+  
+  ## Configure the NVIDIA driver
+  hardware.nvidia = {
+    modesetting.enable = true;
+    open = true; # Use the open-source kernel module
+    nvidiaSettings = true;
+    package = config.boot.kernelPackages.nvidiaPackages.stable;
+    
+    prime = {
+      offload = {
+        enable = true;
+        enableOffloadCmd = true;
+      };
+      ## Use the Bus IDs you found earlier
+      intelBusId = "PCI:0:2:0";
+      nvidiaBusId = "PCI:1:0:0";
+    };
+  };
+#
   ## Load the nvidia driver for Xorg and Wayland
-  # services.xserver.videoDrivers = [ "modesetting" "nvidia" ];
-  #######
+  services.xserver.videoDrivers = [ "modesetting" "nvidia" ];
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
