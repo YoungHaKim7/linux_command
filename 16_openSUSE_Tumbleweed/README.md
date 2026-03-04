@@ -39,6 +39,9 @@ sudo zypper dup
 - https://gist.github.com/curioustorvald/4db6bb7fe115b61b0eff94d60805a987
 - https://www.linuxbabe.com/desktop-linux/install-chinese-fcitx-input-method-on-opensuse-leap-42-1-gnome
 
+- 한글로 잘 정리 역시 fcitx5가 젤 좋은듯
+  - https://linuxpia.tistory.com/769
+
 ```bash
 sudo zypper install fcitx fcitx5-hangul kf5-kcm-fcitx
 ```
