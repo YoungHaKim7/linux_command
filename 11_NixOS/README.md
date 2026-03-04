@@ -6,6 +6,10 @@
 # default shell(fish)
 - https://wiki.nixos.org/wiki/Fish
 
+# OBS Studio세팅
+
+- https://wiki.nixos.org/wiki/OBS_Studio
+
 # (250111) I'm Coding on Linux Again // My NixOS Dual PC Setup | ForrestKnight
 - https://youtu.be/fmFjV3_iIn0?si=Y7ZiVGDyQ2MxnBq9
 
