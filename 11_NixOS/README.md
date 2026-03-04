@@ -6,6 +6,9 @@
 # default shell(fish)
 - https://wiki.nixos.org/wiki/Fish
 
+# 한글 설치(fcitx5) 이게 젤 좋다.
+- https://wiki.nixos.org/wiki/Fcitx5
+
 # OBS Studio세팅
 
 - https://wiki.nixos.org/wiki/OBS_Studio
