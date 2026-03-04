@@ -1,3 +1,8 @@
+# 나의 최종 세팅
+- https://github.com/YoungHaKim7/nix-home
+
+<hr />
+
 # home-manage
 - https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone
   - Youtube link
