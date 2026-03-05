@@ -1,5 +1,8 @@
 # 나의 최종 세팅
 - https://github.com/YoungHaKim7/nix-home
+- 내 세팅 최종(home manager버림 ㅋ)260305
+  - https://github.com/YoungHaKim7/nix_os_flake_rust_dev_config_dotfiles
+
 
 <hr />
 
