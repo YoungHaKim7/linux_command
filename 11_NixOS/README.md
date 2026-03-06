@@ -7,9 +7,15 @@
 <hr />
 
 # NixOS Generation management rollback, deletion, housekeeping
-
+- [(250330) NixOS Generation management rollback, deletion, housekeeping | Liv4IT](https://youtu.be/qpSM1MuisNM?si=-66JXmAoifGTCxBY)
 
 ```bash
+# list확인
+nixos-rebuild list-generations
+
+# 필요한것만 골라 지우기
+sudo nix-env -p /nix/var/nix/profiles/system --delete-generations 4 5 # (4 5 여기 숫자는 Generation에 써 있는 숫자임)
+
 # Remove specific generations (by ID number):
 # First, list them:
 sudo nix-env --list-generations --profile /nix/var/nix/profiles/system.
