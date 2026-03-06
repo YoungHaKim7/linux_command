@@ -6,6 +6,23 @@
 
 <hr />
 
+# NixOS Generation management rollback, deletion, housekeeping
+
+
+```bash
+# Remove specific generations (by ID number):
+# First, list them:
+sudo nix-env --list-generations --profile /nix/var/nix/profiles/system.
+# Then delete:
+sudo nix-env --delete-generations <number> --profile /nix/var/nix/profiles/system.
+
+# 30일 안에 것만 남기고 다 지우기Remove generations older than a specific date (e.g., 30 days):
+sudo nix-collect-garbage --delete-older-than 30d
+
+# Remove all older generations (Recommended):
+sudo nix-collect-garbage -d
+```
+
 # home-manage
 - https://nix-community.github.io/home-manager/index.xhtml#sec-install-standalone
   - Youtube link
