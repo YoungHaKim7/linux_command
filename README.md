@@ -73,6 +73,10 @@
 
 <hr />
 
+# 터미널에서 프로그래머용 계산기 설치
+- Terminal calculator made for programmers working with multiple number representations, sizes, and overall close to the bits
+  - https://github.com/alt-romes/programmer-calculator
+
 # (250225조회기준)참고로 레딧의 Subreddit 구독자수는 대략 다음과 같다. 출처
 - https://namu.wiki/w/MX%20Linux
   
