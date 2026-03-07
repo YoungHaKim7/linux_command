@@ -38,10 +38,10 @@ sudo zypper dup
 # NVIDIA Install
 - https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=OpenSUSE&target_version=15&target_type=rpm_network
 
+- https://en.opensuse.org/SDB:NVIDIA_drivers
+
 ```bash
-sudo zypper addrepo https://developer.download.nvidia.com/compute/cuda/repos/opensuse15/x86_64/cuda-opensuse15.repo
-sudo zypper refresh
-sudo zypper install -y cuda-toolkit-13-1
+zypper install openSUSE-repos-Tumbleweed-NVIDIA
 ```
 
 # i-bus한글은 구리다고 나온다. 
