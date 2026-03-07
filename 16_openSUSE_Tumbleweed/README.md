@@ -36,6 +36,10 @@ sudo zypper dup
   - https://en.opensuse.org/SDB:InstallNewerKernel
 
 # NVIDIA Install
+- Nvidia Install
+  - https://en.opensuse.org/SDB:NVIDIA_drivers
+  - [(230921)How to install the Nvidia drivers on openSUSE Tumbleweed - The Easy way and the Hard way](https://youtu.be/j3o_BCTaawY?si=gkeq6mRcO1xgPem-)
+
 - https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=OpenSUSE&target_version=15&target_type=rpm_network
 
 - https://en.opensuse.org/SDB:NVIDIA_drivers
