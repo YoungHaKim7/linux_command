@@ -35,6 +35,17 @@ sudo zypper dup
 - Kernel update
   - https://en.opensuse.org/SDB:InstallNewerKernel
 
+## 강제로 파일로 설치
+
+```
+sudo zypper install [filename].rpm
+
+# Resolve dependencies: If zypper reports any missing dependencies during the installation, use the following command to automatically install them:
+
+sudo zypper install --fix-broken
+
+```
+
 # NVIDIA Install
 - Nvidia Install
   - https://en.opensuse.org/SDB:NVIDIA_drivers
