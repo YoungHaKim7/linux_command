@@ -91,6 +91,24 @@ S  | Name                                              | Summary                
 
 ```
 
+# packagekit(Disable)
+
+```bash
+$ sudo systemctl disable --now packagekit
+The unit files have no installation config (WantedBy=, RequiredBy=, UpheldBy=,
+Also=, or Alias= settings in the [Install] section, and DefaultInstance= for
+template units). This means they are not meant to be enabled or disabled using systemctl.
+ 
+Possible reasons for having these kinds of units are:
+• A unit may be statically enabled by being symlinked from another unit's
+  .wants/, .requires/, or .upholds/ directory.
+• A unit's purpose may be to act as a helper for some other unit which has
+  a requirement dependency on it.
+• A unit may be started when needed via activation (socket, path, timer,
+  D-Bus, udev, scripted systemctl call, ...).
+• In case of template units
+```
+
 # i-bus한글은 구리다고 나온다. 
 - https://gist.github.com/curioustorvald/4db6bb7fe115b61b0eff94d60805a987
 - https://www.linuxbabe.com/desktop-linux/install-chinese-fcitx-input-method-on-opensuse-leap-42-1-gnome
