@@ -41,7 +41,39 @@ sudo zypper dup
 - https://en.opensuse.org/SDB:NVIDIA_drivers
 
 ```bash
-zypper install openSUSE-repos-Tumbleweed-NVIDIA
+# search 
+sudo zypper se nvidia*G06*
+
+S  | Name                                              | Summary                                                                     | Type
+---+---------------------------------------------------+-----------------------------------------------------------------------------+--------
+   | nvidia-common-G06                                 | Common files for the NVIDIA driver packages                                 | package
+   | nvidia-compute-G06                                | NVIDIA driver for computing with GPGPU                                      | package
+   | nvidia-compute-G06-32bit                          | 32bit NVIDIA driver for computing with GPGPU                                | package
+   | nvidia-compute-utils-G06                          | NVIDIA driver tools for computing with GPGPU                                | package
+   | nvidia-driver-G06-kmp-default                     | NVIDIA graphics driver kernel module for GeForce 700 series and newer       | package
+   | nvidia-driver-G06-kmp-longterm                    | NVIDIA graphics driver kernel module for GeForce 700 series and newer       | package
+   | nvidia-driver-G06-kmp-meta                        | Meta package to select proprietary nvidia driver                            | package
+   | nvidia-drivers-G06                                | Meta package for full installations (X, GL, etc.)                           | package
+   | nvidia-drivers-minimal-G06                        | Meta package for compute only installations                                 | package
+   | nvidia-gl-G06                                     | NVIDIA OpenGL libraries for OpenGL acceleration                             | package
+   | nvidia-gl-G06-32bit                               | 32bit NVIDIA OpenGL libraries for OpenGL acceleration                       | package
+   | nvidia-open-driver-G06-signed-check               | Post-build RPM inspection                                                   | package
+   | nvidia-open-driver-G06-signed-cuda-check          | Post-build RPM inspection                                                   | package
+   | nvidia-open-driver-G06-signed-cuda-default-devel  | Devel Package to nvidia-open-driver-G06-signed-cuda                         | package
+   | nvidia-open-driver-G06-signed-cuda-kmp-default    | NVIDIA open kernel module driver for GeForce 16 series (GTX 16xx) and newer | package
+   | nvidia-open-driver-G06-signed-cuda-kmp-longterm   | NVIDIA open kernel module driver for GeForce 16 series (GTX 16xx) and newer | package
+   | nvidia-open-driver-G06-signed-cuda-longterm-devel | Devel Package to nvidia-open-driver-G06-signed-cuda                         | package
+   | nvidia-open-driver-G06-signed-default-devel       | Devel Package to nvidia-open-driver-G06-signed                              | package
+   | nvidia-open-driver-G06-signed-kmp-default         | NVIDIA open kernel module driver for GeForce 16 series (GTX 16xx) and newer | package
+   | nvidia-open-driver-G06-signed-kmp-longterm        | NVIDIA open kernel module driver for GeForce 16 series (GTX 16xx) and newer | package
+   | nvidia-open-driver-G06-signed-kmp-meta            | Meta package to select open nvidia driver in sync                           | package
+   | nvidia-open-driver-G06-signed-longterm-devel      | Devel Package to nvidia-open-driver-G06-signed                              | package
+   | nvidia-userspace-meta-G06                         | Meta package to autoselect NVIDIA userspace packages                        | package
+   | nvidia-utils-G06                                  | NVIDIA driver tools                                                         | package
+   | nvidia-video-G06                                  | NVIDIA graphics driver for GeForce 700 series and newer                     | package
+   | nvidia-video-G06-32bit                            | 32bit NVIDIA graphics driver for GeForce 700 series and newer               | package
+
+
 ```
 
 # i-bus한글은 구리다고 나온다. 
