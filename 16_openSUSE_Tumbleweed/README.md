@@ -116,6 +116,9 @@ watch -d -n 0.5 nvidia-smi
 
 ```
 
+# gix같은거 따로 만든거 실행하는데 문제되는 인증문제 해결하는 단서
+- https://forums.opensuse.org/t/issue-about-ssl-certificates/181333/8
+
 # packagekit(Disable)
 
 ```bash
