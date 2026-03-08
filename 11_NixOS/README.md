@@ -34,6 +34,10 @@ sudo nix-collect-garbage -d
   - Youtube link
     - [How to Use NixOS Home Manager (2026 Edition) | NixOS Guide Part 2](https://youtu.be/bFmvnJVd5yQ?si=eXJDM3o6oVD9iM9G)
 
+# flakes setting
+- [(241101)The simplest guide to nix flakes and home-manager | Friendly Alien](https://youtu.be/QFxMZwfWG7g?si=okAGMmM45rQbWQFU)
+
+
 # default shell(fish)
 - https://wiki.nixos.org/wiki/Fish
 
