@@ -89,6 +89,16 @@ S  | Name                                              | Summary                
    | nvidia-video-G06-32bit                            | 32bit NVIDIA graphics driver for GeForce 700 series and newer               | package
 
 
+# 설치 .. 이중에 필요없는거 있음 아직 못찾음
+sudo zypper in nvidia-driver-G06-kmp-default nvidia-common-G06 nvidia-gl-G06 nvidia-gl-G06-32bit nvidia-video-G06 nvidia-utils-G06 nvidia-video-G06-32bit
+
+# 재부팅하 후
+sudo reboot
+
+# 잘 설치되었나 확인
+watch -d -n 0.5 nvidia-smi
+
+
 ```
 
 # packagekit(Disable)
