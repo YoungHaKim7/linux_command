@@ -35,6 +35,21 @@ sudo zypper dup
 - Kernel update
   - https://en.opensuse.org/SDB:InstallNewerKernel
 
+# remove & install
+
+- neovim같이 지우고 싶은거
+
+```
+# 삭제(remove)
+sudo zypper rm neovim
+
+
+# 인스톨install
+sudo zypper in neovim
+```
+
+-
+
 ## 강제로 파일로 설치
 
 ```
