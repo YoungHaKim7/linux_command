@@ -52,6 +52,8 @@ sudo zypper in neovim
 
 # OBS-Studio install
 
+- https://forums.opensuse.org/t/how-to-install-obs-studio/146213/2
+
 ```
 sudo zypper refresh
 sudo zypper install obs-studio
@@ -256,4 +258,24 @@ sudo zypper in libvulkan1 libvulkan1-32bit \
 libvulkan_intel libvulkan_intel-32bit \
 libvulkan_radeon libvulkan_radeon-32bit \
 vulkan-tools
+```
+# openGL 설치 잘 되어 있나 확인
+
+```
+$ glxinfo | grep OpenGL
+OpenGL vendor string: NVIDIA Corporation
+OpenGL renderer string: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+OpenGL core profile version string: 4.6.0 NVIDIA 580.142
+OpenGL core profile shading language version string: 4.60 NVIDIA
+OpenGL core profile context flags: (none)
+OpenGL core profile profile mask: core profile
+OpenGL core profile extensions:
+OpenGL version string: 4.6.0 NVIDIA 580.142
+OpenGL shading language version string: 4.60 NVIDIA
+OpenGL context flags: (none)
+OpenGL profile mask: (none)
+OpenGL extensions:
+OpenGL ES profile version string: OpenGL ES 3.2 NVIDIA 580.142
+OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.20
+OpenGL ES profile extensions:
 ```
