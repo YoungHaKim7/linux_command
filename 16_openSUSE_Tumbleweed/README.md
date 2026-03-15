@@ -279,3 +279,13 @@ OpenGL ES profile version string: OpenGL ES 3.2 NVIDIA 580.142
 OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.20
 OpenGL ES profile extensions:
 ```
+
+# warp terminal
+
+- 
+
+```bash
+sudo rpm --import https://releases.warp.dev/linux/keys/warp.asc
+  sudo sh -c 'echo -e "[warpdotdev]\nname=warpdotdev\ntype=rpm-md\nbaseurl=https://releases.warp.dev/linux/rpm/stable\nenabled=1\nautorefresh=1\ngpgcheck=1\ngpgkey=https://releases.warp.dev/linux/keys/warp.asc\nkeeppackages=0" > /etc/zypp/repos.d/warpdotdev.repo'
+  sudo zypper install warp-terminal
+```
