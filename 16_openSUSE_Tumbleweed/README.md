@@ -282,7 +282,7 @@ OpenGL ES profile extensions:
 
 # warp terminal
 
-- 
+- https://docs.warp.dev/getting-started/readme-1/installation-and-setup
 
 ```bash
 sudo rpm --import https://releases.warp.dev/linux/keys/warp.asc
