@@ -50,6 +50,13 @@ sudo zypper in neovim
 
 -
 
+# OBS-Studio install
+
+```
+sudo zypper refresh
+sudo zypper install obs-studio
+```
+
 ## 강제로 파일로 설치
 
 ```
