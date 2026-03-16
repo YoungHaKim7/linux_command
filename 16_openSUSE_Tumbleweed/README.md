@@ -15,6 +15,28 @@
 ```
 sudo zypper dup
 ```
+- OpenSUSE Update Commands
+  - Refresh Repositories: Updates the local metadata cache to ensure packages are current.
+  ```bash
+  sudo zypper refresh
+  ```
+  - Update System (Leap): Installs updates for currently installed packages.
+  ```bash
+  sudo zypper update
+  # or
+  sudo zypper up
+  ```
+  - Upgrade System (Tumbleweed/Rolling): Performs a full distribution upgrade, necessary for rolling releases.
+  ```bash
+  sudo zypper dist-upgrade
+  # or
+  sudo zypper dup
+  ```
+  - Refresh and Update Together: Recommended approach for Tumbleweed to sync with the latest snapshot.
+  ```bash
+  sudo zypper refresh && sudo zypper dup
+  ```
+
 
 # update
 - https://github.com/openSUSE/opensuse-migration-tool
