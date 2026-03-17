@@ -1,3 +1,9 @@
+# link
+
+- [openSUSE pakage 검색packagehub.suse.com/packages](https://packagehub.suse.com/packages/)
+
+<hr />
+
 # openSUSE Tumbleweed
 - https://get.opensuse.org/tumbleweed/
 - State-of-the-art desktop and server operating system
