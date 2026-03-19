@@ -178,7 +178,7 @@ Possible reasons for having these kinds of units are:
 - `NotoSerifKR-VariableFont_wght.ttf`
   - https://fonts.google.com/noto/specimen/Noto+Serif+KR
 
-# i-bus한글은 구리다고 나온다. 
+# 역시 fcitx5가 젤 좋은듯 / i-bus한글은 구리다고 나온다. (i-bus삭제)
 - https://gist.github.com/curioustorvald/4db6bb7fe115b61b0eff94d60805a987
 - https://www.linuxbabe.com/desktop-linux/install-chinese-fcitx-input-method-on-opensuse-leap-42-1-gnome
 
