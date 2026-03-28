@@ -4,6 +4,14 @@
 
 <hr />
 
+# helix
+
+```bash
+# editor 그냥 설치하면 된다.이상한거 하지말자
+zypper in helix
+```
+
+
 # openSUSE Tumbleweed
 - https://get.opensuse.org/tumbleweed/
 - State-of-the-art desktop and server operating system
