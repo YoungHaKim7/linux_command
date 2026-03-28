@@ -144,6 +144,9 @@ S  | Name                                              | Summary                
 # 설치 .. 이중에 필요없는거 있음 아직 못찾음
 sudo zypper in nvidia-driver-G06-kmp-default nvidia-common-G06 nvidia-gl-G06 nvidia-gl-G06-32bit nvidia-video-G06 nvidia-utils-G06 nvidia-video-G06-32bit
 
+# final?
+sudo zypper in nvidia-common-G06 nvidia-gl-G06 nvidia-gl-G06-32bit nvidia-video-G06 nvidia-utils-G06 
+
 # 재부팅하 후
 sudo reboot
 
