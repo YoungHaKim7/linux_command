@@ -95,6 +95,14 @@ sudo zypper refresh
 sudo zypper install obs-studio
 ```
 
+## hvenc & hevc codec최신 코덱 설치
+
+```
+sudo zypper in opi
+
+opi codecs
+```
+
 ## 강제로 파일로 설치
 
 ```
