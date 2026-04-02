@@ -1,3 +1,9 @@
+# link
+- [flake파일을 통해 하는 기초_( 초보자를 위한 완벽한 NixOS 설정 | 자동 더빙 | Vimjoyer](https://youtu.be/mw4KM_xP5No?si=XEEBMSGAaNKeeoDU)
+
+<hr />
+
+
 # 나의 최종 세팅
 - https://github.com/YoungHaKim7/nix-home
 - 내 세팅 최종(home manager버림 ㅋ)260305
