@@ -1,5 +1,5 @@
 # link
-- [flake파일을 통해 하는 기초_( 초보자를 위한 완벽한 NixOS 설정 | 자동 더빙 | Vimjoyer](https://youtu.be/mw4KM_xP5No?si=XEEBMSGAaNKeeoDU)
+- [(260401)flake파일을 통해 하는 기초_( 초보자를 위한 완벽한 NixOS 설정 | 자동 더빙 | Vimjoyer](https://youtu.be/mw4KM_xP5No?si=XEEBMSGAaNKeeoDU)
 
 <hr />
 
