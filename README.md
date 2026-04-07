@@ -647,7 +647,12 @@ find . -type f -perm +111 -print
 find . -type f -perm +111 -print -exec rm -rf {} \;
 
 ```
-https://stackoverflow.com/questions/4458120/search-for-executable-files-using-find-command
+- https://stackoverflow.com/questions/4458120/search-for-executable-files-using-find-command
+
+- 원하는 파일 찾기(libmpfr로 시작하거 전부다)
+```
+find . -name "libmpfr*" -o -name "*.a" 2>/dev/null | head -10
+```
 
 # find 용량 순으로 정렬해서 골라서 지우기[[🔝]](#link)
 
