@@ -484,7 +484,11 @@ Compile C Objects [175/406] wcstoumax.c... 3 warnings generated.
 
 - https://github.com/eza-community/eza
 
-- `eza -la -TL2` 트리랑 용량 체크
+- `eza -la -TL2` 트리랑 용량 체크(260418명령어가 바뀐듯)
+  - https://github.com/eza-community/eza/blob/main/man/eza.1.md
+```
+eza --tree --level=3
+```
 
 ```
 $ eza -la -TL2
