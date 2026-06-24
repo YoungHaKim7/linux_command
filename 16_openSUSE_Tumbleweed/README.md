@@ -4,6 +4,11 @@
 
 <hr />
 
+```bash
+ sudo systemctl restart NetworkManager
+
+```
+
 # helix
 
 ```bash
