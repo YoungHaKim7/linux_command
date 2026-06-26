@@ -124,6 +124,26 @@ sudo zypper install --fix-broken
   - https://en.opensuse.org/SDB:NVIDIA_drivers
   - [(230921)How to install the Nvidia drivers on openSUSE Tumbleweed - The Easy way and the Hard way](https://youtu.be/j3o_BCTaawY?si=gkeq6mRcO1xgPem-)
 
+
+```
+# zypper install openSUSE-repos-Leap-NVIDIA
+# zypper install openSUSE-repos-Tumbleweed-NVIDIA
+# zypper install openSUSE-repos-Slowroll-NVIDIA
+
+#
+ # lspci | grep VGA
+ # lscpu | grep Arch
+
+
+sudo zypper in nvidia-open-driver-G06-signed-cuda-kmp-default
+```
+
+- G03 = driver v340 = legacy driver
+- G04 = driver v390 = legacy driver
+- G05 = driver v470 = legacy driver
+- G06 = driver v550/v580 = legacy driver
+- G07 = driver v595
+
 - https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=OpenSUSE&target_version=15&target_type=rpm_network
 
 - https://en.opensuse.org/SDB:NVIDIA_drivers
