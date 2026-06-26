@@ -272,6 +272,12 @@ export XMODIFIERS=@im=fcitx5
 export QT_IM_MODULE=fcitx5
 ```
 
+- settings
+```bash
+fcitx5-configtool 
+```
+
+
 **openSUSE Tumbleweed/Leap을 위한 두벌식 및 세벌식 한글 입력 설정**
 
 0.  openSUSE를 영어로 설치, 레이아웃은 일단은 무조건 Qwerty
