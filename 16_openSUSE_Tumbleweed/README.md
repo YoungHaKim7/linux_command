@@ -248,6 +248,30 @@ export QT_IM_MODULE="fcitx"
 export XMODIFIERS="@im=fcitx"
 ```
 
+### Method 2: Using Fcitx5 (Alternative)
+- For broader compatibility with older applications or to use the dedicated right Alt (한/영) key directly:
+
+- 1. Install `fcitx5-hangul` via terminal:
+
+```bash
+sudo zypper install fcitx5-hangul
+```
+
+- 2. Edit your language settings to set Fcitx5 as the default method:\
+
+- `sudo nano /etc/sysconfig/language`
+- Change `INPUT_METHOD=""` to `INPUT_METHOD="fcitx5"`
+
+- 3. Add Fcitx5 to your shell environment by editing 
+
+- `~/.bashrc`
+
+```bash
+export GTK_IM_MODULE=fcitx5
+export XMODIFIERS=@im=fcitx5
+export QT_IM_MODULE=fcitx5
+```
+
 **openSUSE Tumbleweed/Leap을 위한 두벌식 및 세벌식 한글 입력 설정**
 
 0.  openSUSE를 영어로 설치, 레이아웃은 일단은 무조건 Qwerty
