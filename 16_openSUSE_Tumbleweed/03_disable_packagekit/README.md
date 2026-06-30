@@ -13,3 +13,8 @@ sudo systemctl mask packagekit
 ```
 
 This will stop the updater applet from automatically running PackageKit in the background. If you prefer using the GUI updater, you may want to keep it enabled and just stop it manually when needed.
+
+
+```bash
+systemctl stop packagekit
+```
