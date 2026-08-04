@@ -10,6 +10,8 @@ sudo zypper install emacs
 - https://github.com/doomemacs/core
 
 
+- https://github.com/doomemacs/core/blob/master/docs/getting_started.org#install-doom-alongside-other-configs-with-chemacs2
+
 ```
 doom doctor
 
