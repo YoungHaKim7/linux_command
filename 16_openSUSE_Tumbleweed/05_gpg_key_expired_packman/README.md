@@ -5,5 +5,5 @@
     - `sudo zypper --gpg-auto-import-keys refresh`
   - Clean local metadata caches if the error persists:
     - `sudo zypper clean -a` followed by `sudo zypper refresh`
-      - https://www.reddit.com/r/openSUSE/comments/1f4vw0p/repomdxml_will_expire/\
-      - https://www.reddit.com/r/openSUSE/comments/1f806y4/packman_keys_expiring_soon_is_that_a_problem_for/
+  - https://www.reddit.com/r/openSUSE/comments/1f4vw0p/repomdxml_will_expire/
+  - https://www.reddit.com/r/openSUSE/comments/1f806y4/packman_keys_expiring_soon_is_that_a_problem_for/
