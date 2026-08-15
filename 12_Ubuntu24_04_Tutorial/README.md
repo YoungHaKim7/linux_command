@@ -11,6 +11,7 @@
       - https://youtu.be/BUnb1PKKMBA
 
 # hangle
+- https://cmaven.github.io/linux/ubuntu-2404-korean-input-setup/
 - https://devpro.kr/posts/Ubuntu-24.04-LTS-%ED%95%9C%EA%B8%80-%EC%9E%85%EB%A0%A5-%EC%84%A4%EC%A0%95/
 - Ubuntu25.10 hangle install
   - https://basiclike.tistory.com/169
