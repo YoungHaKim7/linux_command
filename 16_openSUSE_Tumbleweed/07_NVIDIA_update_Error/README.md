@@ -52,3 +52,34 @@ No Steam/Wine — only `steam-devices` (udev controller rules, no 32-bit GPU nee
 zypper will show a summary before confirming — it should list **only** those four packages plus the three `libnvidia-egl-*-32bit` libs. If it proposes anything else (especially anything 64-bit or the `cuda-kmp`), answer **no** and paste the summary here.
 
 If you later install Steam or Wine, just reinstall with `sudo zypper in nvidia-gl-G06-32bit nvidia-video-G06-32bit`.
+
+
+<hr />
+
+## What's wrong
+
+Your repo config is fine — **NVIDIA's server is broken right now**. Here's the evidence:
+
+- The repo's `repomd.xml` (the metadata index) was republished **today at 08:21 UTC** and now points to four new files (`1d11ab2c…-primary.xml.gz`, etc. — exactly the file zypper complained about).
+- Those four files return **HTTP 404** — they were never uploaded/synced to the CDN. The `repodata/` directory listing confirms they're absent while hundreds of older files are still there.
+
+So NVIDIA pushed the index but not the data behind it. This happens periodically with `developer.download.nvidia.com` and affects everyone using the repo, not just you. It typically resolves within hours once their sync catches up.
+
+## What to do
+
+**Just retry in a few hours:**
+```bash
+sudo zypper ref cuda-opensuse15-x86_64
+```
+
+**Meanwhile, your other updates aren't blocked** — zypper skips the failing repo (as your output showed) and falls back to the cached CUDA metadata from Sep 26. A plain `sudo zypper dup` will work; it just won't see any CUDA updates until the repo recovers.
+
+If the recurring error message annoys you in the meantime, you can temporarily disable it:
+```bash
+sudo zypper mr -d cuda-opensuse15-x86_64   # disable
+sudo zypper mr -e cuda-opensuse15-x86_64   # re-enable once fixed
+```
+
+Nothing else in your setup needs changing — URL, GPG key (`D42D0685.pub`), and repo definition are all correct.
+
+If you keep this session open, I can schedule a re-check in a couple of hours and tell you when it's back — just say so.
